@@ -1,6 +1,8 @@
 # Chrono Tide
 
 > 一款基于 Flutter 的 Windows 桌面端 Galgame / 视觉小说游戏库管理器
+<img width="888" height="648" alt="gempix2-1791190372745" src="https://github.com/user-attachments/assets/2d03114d-5a5f-4b2e-a149-ea286079a114" />
+
 
 ![Version](https://img.shields.io/badge/Version-v3.5.0-brightgreen)
 ![Flutter](https://img.shields.io/badge/Flutter-3.24.3-02569B?logo=flutter)
