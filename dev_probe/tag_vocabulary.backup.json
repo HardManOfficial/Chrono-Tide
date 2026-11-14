@@ -1,0 +1,1297 @@
+{
+  "format_version": 1,
+  "_comment": "分类匣·受控词表：每个概念归属唯一维度（边界互斥），aliases 为同义别名（多对一归并）。库内未命中的标签进「其他」分区。规范名 name 即写穿时写入游戏的标签值。",
+  "concepts": [
+    {
+      "id": "age.all",
+      "name": "全年龄",
+      "dim": "age",
+      "aliases": [
+        "全年齢",
+        "全年龄向",
+        "全年齢向け",
+        "非18禁",
+        "非R18",
+        "一般向",
+        "一般向け",
+        "非成人向",
+        "无成人内容",
+        "No Sexual Content"
+      ]
+    },
+    {
+      "id": "age.r18",
+      "name": "R18",
+      "dim": "age",
+      "aliases": [
+        "18禁",
+        "18+",
+        "成人向",
+        "成人向け",
+        "成人内容",
+        "18禁ゲーム",
+        "Sexual Content"
+      ]
+    },
+    {
+      "id": "ps.adv",
+      "name": "ADV冒险",
+      "dim": "playstyle",
+      "aliases": [
+        "ADV",
+        "冒险",
+        "アドベンチャー",
+        "冒险游戏",
+        "アドベンチャーゲーム"
+      ]
+    },
+    {
+      "id": "ps.nvl",
+      "name": "视觉小说",
+      "dim": "playstyle",
+      "aliases": [
+        "ビジュアルノベル",
+        "ノベル",
+        "小说",
+        "数字小说",
+        "デジタルノベル",
+        "声音小说",
+        "サウンドノベル",
+        "ノベルゲーム",
+        "小说游戏"
+      ]
+    },
+    {
+      "id": "ps.slg",
+      "name": "SLG策略模拟",
+      "dim": "playstyle",
+      "aliases": [
+        "SLG",
+        "策略",
+        "模拟",
+        "シミュレーション",
+        "经营模拟",
+        "养成模拟",
+        "Management Simulation",
+        "Raising Simulation",
+        "塔防",
+        "Tower Defense",
+        "回合制",
+        "Turn-based",
+        "即时制",
+        "Real-time"
+      ]
+    },
+    {
+      "id": "ps.rpg",
+      "name": "RPG",
+      "dim": "playstyle",
+      "aliases": [
+        "角色扮演",
+        "ロールプレイ",
+        "Roguelike"
+      ]
+    },
+    {
+      "id": "ps.linear",
+      "name": "单线",
+      "dim": "playstyle",
+      "aliases": [
+        "线性剧情",
+        "Linear Plot",
+        "Linear Story",
+        "单路线",
+        "一本道"
+      ]
+    },
+    {
+      "id": "ps.branch",
+      "name": "多线分支",
+      "dim": "playstyle",
+      "aliases": [
+        "多线",
+        "多路线",
+        "分支剧情",
+        "分岐",
+        "Branching Plot",
+        "Branching Story",
+        "路线分支",
+        "ルート分岐",
+        "分支"
+      ]
+    },
+    {
+      "id": "ps.endings",
+      "name": "多结局",
+      "dim": "playstyle",
+      "aliases": [
+        "マルチエンディング",
+        "Multiple Endings",
+        "可解锁结局",
+        "Unlockable Endings"
+      ]
+    },
+    {
+      "id": "ps.choices",
+      "name": "选项驱动",
+      "dim": "playstyle",
+      "aliases": [
+        "选项分支",
+        "選択肢分岐",
+        "Choice-based",
+        "选择影响剧情",
+        "Choices Matter",
+        "选项"
+      ]
+    },
+    {
+      "id": "ps.minigame",
+      "name": "小游戏玩法",
+      "dim": "playstyle",
+      "aliases": [
+        "小游戏",
+        "ミニゲーム",
+        "Mini-game",
+        "解谜",
+        "パズル",
+        "Puzzle",
+        "逃脱游戏",
+        "Escape Game",
+        "节奏游戏",
+        "リズムゲーム"
+      ]
+    },
+    {
+      "id": "set.school",
+      "name": "校园",
+      "dim": "setting",
+      "aliases": [
+        "学園",
+        "学园",
+        "学校",
+        "校园生活",
+        "School Life",
+        "高中",
+        "初中",
+        "大学",
+        "教室",
+        "文化祭",
+        "社团"
+      ]
+    },
+    {
+      "id": "set.city",
+      "name": "都市现代",
+      "dim": "setting",
+      "aliases": [
+        "现代",
+        "現代",
+        "都市",
+        "现代日本",
+        "职场",
+        "Work Life",
+        "Modern Day",
+        "城市",
+        "街头"
+      ]
+    },
+    {
+      "id": "set.fantasy",
+      "name": "奇幻",
+      "dim": "setting",
+      "aliases": [
+        "ファンタジー",
+        "Fantasy",
+        "魔法",
+        "Magic",
+        "高奇幻",
+        "低奇幻",
+        "黑暗奇幻",
+        "魔法学校"
+      ]
+    },
+    {
+      "id": "set.isekai",
+      "name": "异世界",
+      "dim": "setting",
+      "aliases": [
+        "異世界",
+        "Isekai"
+      ]
+    },
+    {
+      "id": "set.apocalypse",
+      "name": "末世",
+      "dim": "setting",
+      "aliases": [
+        "末日",
+        "ポストアポカリプス",
+        "Post-apocalyptic",
+        "反乌托邦",
+        "ディストピア",
+        "Dystopia",
+        "废土"
+      ]
+    },
+    {
+      "id": "set.scifi",
+      "name": "科幻近未来",
+      "dim": "setting",
+      "aliases": [
+        "科幻",
+        "SF",
+        "Sci-Fi",
+        "未来",
+        "近未来",
+        "サイバーパンク",
+        "赛博朋克",
+        "Cyberpunk",
+        "机器人",
+        "ロボット",
+        "机甲",
+        "メカ",
+        "宇宙",
+        "太空",
+        "虚拟现实",
+        "VR",
+        "机器人主人公",
+        "机器人女主",
+        "机器人女主角",
+        "机器人男主角"
+      ]
+    },
+    {
+      "id": "set.island",
+      "name": "孤岛",
+      "dim": "setting",
+      "aliases": [
+        "孤島",
+        "无人岛",
+        "离岛",
+        "岛上"
+      ]
+    },
+    {
+      "id": "set.japan",
+      "name": "和风历史",
+      "dim": "setting",
+      "aliases": [
+        "和风",
+        "和風",
+        "幕府时代",
+        "幕末",
+        "江戸時代",
+        "江户时代",
+        "戦国時代",
+        "战国时代",
+        "古代",
+        "历史",
+        "歴史",
+        "中世纪",
+        "和服",
+        "和服主人公",
+        "和服女主角",
+        "和服男主角"
+      ]
+    },
+    {
+      "id": "set.countryside",
+      "name": "田园乡村",
+      "dim": "setting",
+      "aliases": [
+        "乡村",
+        "田园",
+        "田舎",
+        "乡下",
+        "海边",
+        "温泉"
+      ]
+    },
+    {
+      "id": "set.supernatural",
+      "name": "神话超自然",
+      "dim": "setting",
+      "aliases": [
+        "超自然",
+        "Supernatural",
+        "妖怪",
+        "幽灵",
+        "幽霊",
+        "Ghost",
+        "恶魔",
+        "悪魔",
+        "Demon",
+        "天使",
+        "Angel",
+        "吸血鬼",
+        "Vampire",
+        "人鱼",
+        "人魚",
+        "精灵",
+        "エルフ",
+        "Elf",
+        "龙",
+        "ドラゴン",
+        "Dragon",
+        "不死系",
+        "魔物娘",
+        "Monster Girl",
+        "丧尸"
+      ]
+    },
+    {
+      "id": "tone.drama",
+      "name": "剧情作",
+      "dim": "tone",
+      "aliases": [
+        "剧情向",
+        "剧情",
+        "ドラマ",
+        "Drama",
+        "严肃",
+        "シリアス",
+        "群像剧",
+        "群像劇"
+      ]
+    },
+    {
+      "id": "tone.nukige",
+      "name": "拔作",
+      "dim": "tone",
+      "aliases": [
+        "抜きゲー",
+        "高成人度",
+        "高H度"
+      ]
+    },
+    {
+      "id": "tone.moe",
+      "name": "萌系废萌",
+      "dim": "tone",
+      "aliases": [
+        "萌系",
+        "萌え",
+        "Moe",
+        "超萌",
+        "萌え萌え",
+        "日常",
+        "Slice of Life",
+        "日常系",
+        "轻松",
+        "ほのぼの",
+        "温馨"
+      ]
+    },
+    {
+      "id": "tone.nakige",
+      "name": "泣系",
+      "dim": "tone",
+      "aliases": [
+        "泣きゲー",
+        "Nakige",
+        "催泪",
+        "泣ける",
+        "感动",
+        "感動",
+        "感人"
+      ]
+    },
+    {
+      "id": "tone.utsu",
+      "name": "郁系致郁",
+      "dim": "tone",
+      "aliases": [
+        "郁系",
+        "鬱ゲー",
+        "Utsuge",
+        "致郁",
+        "抑郁",
+        "绝望"
+      ]
+    },
+    {
+      "id": "tone.healing",
+      "name": "治愈",
+      "dim": "tone",
+      "aliases": [
+        "癒し",
+        "Iyashikei",
+        "治愈系",
+        "ほっこり",
+        "暖人心"
+      ]
+    },
+    {
+      "id": "tone.comedy",
+      "name": "搞笑",
+      "dim": "tone",
+      "aliases": [
+        "コメディ",
+        "Comedy",
+        "ギャグ",
+        "喜剧",
+        "闹剧",
+        "ドタバタ",
+        "恶搞",
+        "Parody",
+        "搞笑角色"
+      ]
+    },
+    {
+      "id": "tone.mystery",
+      "name": "悬疑推理",
+      "dim": "tone",
+      "aliases": [
+        "悬疑",
+        "ミステリー",
+        "Mystery",
+        "推理",
+        "Whodunit",
+        "侦探",
+        "探偵",
+        "悬念",
+        "サスペンス",
+        "Suspense"
+      ]
+    },
+    {
+      "id": "tone.horror",
+      "name": "恐怖惊悚",
+      "dim": "tone",
+      "aliases": [
+        "恐怖",
+        "ホラー",
+        "Horror",
+        "惊悚",
+        "Thriller",
+        "鬼故事",
+        "Ghost Story",
+        "猎奇",
+        "グロ",
+        "Guro"
+      ]
+    },
+    {
+      "id": "tone.dark",
+      "name": "黑暗向",
+      "dim": "tone",
+      "aliases": [
+        "黑暗",
+        "心理",
+        "Psychological",
+        "黑深残",
+        "存在主义",
+        "哲学"
+      ]
+    },
+    {
+      "id": "th.vanilla",
+      "name": "纯爱",
+      "dim": "theme",
+      "aliases": [
+        "純愛",
+        "纯爱路线",
+        "纯爱向",
+        "Vanilla",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "th.harem",
+      "name": "后宫",
+      "dim": "theme",
+      "aliases": [
+        "ハーレム",
+        "Harem",
+        "妹妹后宫",
+        "姐姐后宫",
+        "后宫路线"
+      ]
+    },
+    {
+      "id": "th.reverse_harem",
+      "name": "逆后宫",
+      "dim": "theme",
+      "aliases": [
+        "逆ハーレム",
+        "Reverse Harem"
+      ]
+    },
+    {
+      "id": "th.triangle",
+      "name": "三角恋",
+      "dim": "theme",
+      "aliases": [
+        "三角関係",
+        "Love Triangle"
+      ]
+    },
+    {
+      "id": "th.ntr",
+      "name": "NTR",
+      "dim": "theme",
+      "aliases": [
+        "寝取られ",
+        "寝取",
+        "Netorare",
+        "寝取り",
+        "NTR注意",
+        "NTR路线",
+        "寝取られ注意"
+      ]
+    },
+    {
+      "id": "th.yuri",
+      "name": "百合",
+      "dim": "theme",
+      "aliases": [
+        "GL",
+        "ガールズラブ",
+        "Yuri",
+        "百合向",
+        "百合结局",
+        "女同",
+        "女同女主角"
+      ]
+    },
+    {
+      "id": "th.bl",
+      "name": "BL",
+      "dim": "theme",
+      "aliases": [
+        "Boys Love",
+        "BL游戏",
+        "耽美",
+        "男同"
+      ]
+    },
+    {
+      "id": "th.otome",
+      "name": "乙女",
+      "dim": "theme",
+      "aliases": [
+        "Otome",
+        "乙女游戏",
+        "乙女向"
+      ]
+    },
+    {
+      "id": "th.romance",
+      "name": "恋爱",
+      "dim": "theme",
+      "aliases": [
+        "恋愛",
+        "Romance",
+        "恋爱喜剧",
+        "Romantic Comedy",
+        "ラブコメ"
+      ]
+    },
+    {
+      "id": "th.single_heroine",
+      "name": "单女主单线",
+      "dim": "theme",
+      "aliases": [
+        "单女主",
+        "单线女主",
+        "单女主角"
+      ]
+    },
+    {
+      "id": "th.multiple_heroine",
+      "name": "多女主",
+      "dim": "theme",
+      "aliases": [
+        "Multiple Heroines",
+        "多主角"
+      ]
+    },
+    {
+      "id": "th.family",
+      "name": "亲情家族",
+      "dim": "theme",
+      "aliases": [
+        "家族",
+        "家族爱",
+        "亲情",
+        "亲子",
+        "家庭"
+      ]
+    },
+    {
+      "id": "th.friendship",
+      "name": "友情",
+      "dim": "theme",
+      "aliases": [
+        "朋友",
+        "Friendship"
+      ]
+    },
+    {
+      "id": "th.incest",
+      "name": "近亲",
+      "dim": "theme",
+      "aliases": [
+        "近親相姦",
+        "兄妹恋",
+        "兄妹",
+        "Incest"
+      ]
+    },
+    {
+      "id": "el.kuudere",
+      "name": "无口",
+      "dim": "element",
+      "aliases": [
+        "三无",
+        "クーデレ",
+        "Kuudere",
+        "无口系",
+        "三无女主"
+      ]
+    },
+    {
+      "id": "el.deredere",
+      "name": "天然",
+      "dim": "element",
+      "aliases": [
+        "天然呆",
+        "デレデレ",
+        "Deredere",
+        "天然呆女主",
+        "天然系",
+        "天然呆主人公"
+      ]
+    },
+    {
+      "id": "el.loop",
+      "name": "轮回",
+      "dim": "element",
+      "aliases": [
+        "ループ",
+        "Loop",
+        "时间循环",
+        "无限循环"
+      ]
+    },
+    {
+      "id": "el.timetravel",
+      "name": "穿越时空",
+      "dim": "element",
+      "aliases": [
+        "穿越",
+        "时间旅行",
+        "タイムトラベル",
+        "Time Travel",
+        "时间跳跃",
+        "Time Skip",
+        "时光"
+      ]
+    },
+    {
+      "id": "el.reincarnation",
+      "name": "转生",
+      "dim": "element",
+      "aliases": [
+        "転生",
+        "Reincarnation",
+        "转世"
+      ]
+    },
+    {
+      "id": "el.amnesia",
+      "name": "失忆",
+      "dim": "element",
+      "aliases": [
+        "Amnesia",
+        "Memory Loss",
+        "失忆女主",
+        "记忆丧失",
+        "失忆主人公",
+        "失忆女主角",
+        "失忆男主角"
+      ]
+    },
+    {
+      "id": "el.parallel",
+      "name": "平行世界",
+      "dim": "element",
+      "aliases": [
+        "平行宇宙",
+        "Parallel Universe",
+        "パラレルワールド"
+      ]
+    },
+    {
+      "id": "el.genderbender",
+      "name": "性别转换",
+      "dim": "element",
+      "aliases": [
+        "女装",
+        "性转",
+        "Gender Bender",
+        "Cross-dressing",
+        "男装",
+        "身体交换",
+        "身份互换",
+        "Body Swap",
+        "男装女主人公"
+      ]
+    },
+    {
+      "id": "el.secret",
+      "name": "秘密真相",
+      "dim": "element",
+      "aliases": [
+        "有秘密的主角",
+        "有秘密的女主",
+        "秘密",
+        "真相",
+        "阴谋",
+        "Conspiracy"
+      ]
+    },
+    {
+      "id": "el.revenge",
+      "name": "复仇",
+      "dim": "element",
+      "aliases": [
+        "復讐",
+        "Revenge",
+        "报复"
+      ]
+    },
+    {
+      "id": "ch.tsundere",
+      "name": "傲娇",
+      "dim": "character",
+      "aliases": [
+        "ツンデレ",
+        "Tsundere",
+        "傲娇女主",
+        "傲娇主人公",
+        "傲娇女主角",
+        "傲娇男主角"
+      ]
+    },
+    {
+      "id": "ch.yandere",
+      "name": "病娇",
+      "dim": "character",
+      "aliases": [
+        "ヤンデレ",
+        "Yandere",
+        "病娇女主",
+        "病娇主人公",
+        "病娇女主角",
+        "病娇男主角"
+      ]
+    },
+    {
+      "id": "ch.genki",
+      "name": "元气",
+      "dim": "character",
+      "aliases": [
+        "元気",
+        "Genki",
+        "元气娘",
+        "元气女主",
+        "活泼"
+      ]
+    },
+    {
+      "id": "ch.yamato",
+      "name": "大和抚子",
+      "dim": "character",
+      "aliases": [
+        "ヤマトナデシコ",
+        "Yamato Nadeshiko",
+        "大和抚子主人公",
+        "大和抚子女主角"
+      ]
+    },
+    {
+      "id": "ch.maid",
+      "name": "女仆",
+      "dim": "character",
+      "aliases": [
+        "メイド",
+        "Maids",
+        "女仆女主",
+        "女仆装",
+        "女仆主人公",
+        "女仆女主角",
+        "女仆配角"
+      ]
+    },
+    {
+      "id": "ch.miko",
+      "name": "巫女",
+      "dim": "character",
+      "aliases": [
+        "Miko",
+        "巫女女主",
+        "巫女服",
+        "巫女主人公",
+        "巫女女主角"
+      ]
+    },
+    {
+      "id": "ch.idol",
+      "name": "偶像",
+      "dim": "character",
+      "aliases": [
+        "アイドル",
+        "Idol",
+        "偶像女主",
+        "偶像主人公",
+        "偶像女主角",
+        "偶像男主角"
+      ]
+    },
+    {
+      "id": "ch.student",
+      "name": "学生",
+      "dim": "character",
+      "aliases": [
+        "生徒",
+        "Student",
+        "学生女主",
+        "女学生",
+        "高中生",
+        "女高中生",
+        "学生主人公",
+        "学生女主角",
+        "学生男主角",
+        "高中生主人公",
+        "高中生女主角",
+        "高中生男主角"
+      ]
+    },
+    {
+      "id": "ch.teacher",
+      "name": "教师",
+      "dim": "character",
+      "aliases": [
+        "教師",
+        "Teacher",
+        "老师女主",
+        "老师",
+        "教师主人公",
+        "教师女主角",
+        "教师男主角",
+        "教师配角"
+      ]
+    },
+    {
+      "id": "ch.nurse",
+      "name": "护士",
+      "dim": "character",
+      "aliases": [
+        "看護師",
+        "Nurse",
+        "护士女主",
+        "ナース",
+        "护士主人公",
+        "护士女主角",
+        "护士男主角",
+        "护士配角"
+      ]
+    },
+    {
+      "id": "ch.ojou",
+      "name": "大小姐",
+      "dim": "character",
+      "aliases": [
+        "お嬢様",
+        "Ojou-sama",
+        "千金",
+        "令嬢",
+        "大小姐主人公",
+        "大小姐女主",
+        "大小姐女主角"
+      ]
+    },
+    {
+      "id": "ch.princess",
+      "name": "公主",
+      "dim": "character",
+      "aliases": [
+        "王女",
+        "Princess",
+        "女王",
+        "Queen",
+        "公主女主",
+        "公主女主角",
+        "女王主人公",
+        "女王女主"
+      ]
+    },
+    {
+      "id": "ch.knight",
+      "name": "骑士",
+      "dim": "character",
+      "aliases": [
+        "騎士",
+        "Knight",
+        "骑士女主",
+        "骑士主人公",
+        "骑士女主角",
+        "骑士男主角"
+      ]
+    },
+    {
+      "id": "ch.magicalgirl",
+      "name": "魔法少女",
+      "dim": "character",
+      "aliases": [
+        "Magical Girl",
+        "魔法少女女主",
+        "魔法少女主人公",
+        "魔法少女女主角"
+      ]
+    },
+    {
+      "id": "ch.nun",
+      "name": "修女",
+      "dim": "character",
+      "aliases": [
+        "シスター",
+        "Nun",
+        "修女女主",
+        "修女主人公",
+        "修女女主角",
+        "修女配角"
+      ]
+    },
+    {
+      "id": "ch.oppai",
+      "name": "巨乳",
+      "dim": "character",
+      "aliases": [
+        "爆乳",
+        "超乳",
+        "美乳",
+        "丰满",
+        "丰满女主角",
+        "巨乳主人公",
+        "巨乳女主角",
+        "爆乳主人公",
+        "超乳主人公",
+        "超乳女主角"
+      ]
+    },
+    {
+      "id": "ch.petite",
+      "name": "贫乳",
+      "dim": "character",
+      "aliases": [
+        "微乳",
+        "平胸",
+        "平胸主人公"
+      ]
+    },
+    {
+      "id": "ch.silverhair",
+      "name": "银发",
+      "dim": "character",
+      "aliases": [
+        "銀髪",
+        "白发",
+        "白髪",
+        "银发女主",
+        "白发主人公",
+        "白发男主角"
+      ]
+    },
+    {
+      "id": "ch.blondhair",
+      "name": "金发",
+      "dim": "character",
+      "aliases": [
+        "金髪",
+        "金发女主"
+      ]
+    },
+    {
+      "id": "ch.twintail",
+      "name": "双马尾",
+      "dim": "character",
+      "aliases": [
+        "ツインテール",
+        "马尾",
+        "ポニーテール",
+        "长发",
+        "短发",
+        "双马尾主人公",
+        "双马尾女主角",
+        "双马尾男主角",
+        "马尾女主角",
+        "马尾男主角"
+      ]
+    },
+    {
+      "id": "ch.meganekko",
+      "name": "眼镜娘",
+      "dim": "character",
+      "aliases": [
+        "眼鏡っ娘",
+        "Meganekko",
+        "眼镜",
+        "眼镜女主",
+        "眼鏡",
+        "眼镜娘女主角"
+      ]
+    },
+    {
+      "id": "ch.kemonomimi",
+      "name": "兽耳",
+      "dim": "character",
+      "aliases": [
+        "猫耳",
+        "犬耳",
+        "狐耳",
+        "兔耳",
+        "猫耳娘",
+        "兽耳娘",
+        "兔耳女主角",
+        "兔耳男主角",
+        "兽耳主人公",
+        "兽耳女主",
+        "兽耳女主角",
+        "兽耳男主角",
+        "犬耳女主角",
+        "犬耳男主角",
+        "猫耳女主角",
+        "猫耳男主角"
+      ]
+    },
+    {
+      "id": "ch.loli",
+      "name": "萝莉",
+      "dim": "character",
+      "aliases": [
+        "ロリ",
+        "Loli",
+        "萝莉女主",
+        "萝莉系",
+        "萝莉主人公",
+        "萝莉女主角",
+        "萝莉配角"
+      ]
+    },
+    {
+      "id": "ch.shota",
+      "name": "正太",
+      "dim": "character",
+      "aliases": [
+        "ショタ",
+        "Shota",
+        "正太男主",
+        "正太主人公",
+        "正太男主角",
+        "正太系",
+        "正太配角"
+      ]
+    },
+    {
+      "id": "ch.oneesan",
+      "name": "御姐",
+      "dim": "character",
+      "aliases": [
+        "お姉さん",
+        "Oneesan",
+        "姐姐",
+        "姐系",
+        "熟女",
+        "人妻",
+        "阿姨女主",
+        "人妻女主",
+        "姐姐女主",
+        "姐姐系",
+        "姐系女主"
+      ]
+    },
+    {
+      "id": "ch.imouto",
+      "name": "妹系",
+      "dim": "character",
+      "aliases": [
+        "妹妹",
+        "妹",
+        "妹妹女主",
+        "妹妹系女主",
+        "妹系女主"
+      ]
+    },
+    {
+      "id": "ch.childhood",
+      "name": "青梅竹马",
+      "dim": "character",
+      "aliases": [
+        "幼馴染",
+        "Childhood Friend",
+        "青梅竹马女主",
+        "幼驯染",
+        "青梅竹马系",
+        "青梅竹马配角"
+      ]
+    },
+    {
+      "id": "ch.twins",
+      "name": "双胞胎",
+      "dim": "character",
+      "aliases": [
+        "双子",
+        "Twins",
+        "双胞胎妹妹女主",
+        "双胞胎女主角"
+      ]
+    },
+    {
+      "id": "art.animated",
+      "name": "动态CG",
+      "dim": "art",
+      "aliases": [
+        "アニメーションCG",
+        "Animated CG",
+        "动画CG",
+        "Animated Scenes",
+        "动态场景"
+      ]
+    },
+    {
+      "id": "art.live2d",
+      "name": "Live2D",
+      "dim": "art",
+      "aliases": [
+        "Live2Dアニメ",
+        "Live2D动画"
+      ]
+    },
+    {
+      "id": "art.3d",
+      "name": "3D画面",
+      "dim": "art",
+      "aliases": [
+        "3D Graphics",
+        "3D动画",
+        "3D Animation"
+      ]
+    },
+    {
+      "id": "art.pixel",
+      "name": "像素艺术",
+      "dim": "art",
+      "aliases": [
+        "Pixel Art",
+        "像素"
+      ]
+    },
+    {
+      "id": "art.highcg",
+      "name": "高质量CG",
+      "dim": "art",
+      "aliases": [
+        "高品質CG",
+        "High Quality CG",
+        "精美CG"
+      ]
+    },
+    {
+      "id": "art.anime",
+      "name": "动漫风格",
+      "dim": "art",
+      "aliases": [
+        "Anime Art Style",
+        "Anime Style",
+        "二次元"
+      ]
+    },
+    {
+      "id": "art.realistic",
+      "name": "写实风格",
+      "dim": "art",
+      "aliases": [
+        "Realistic Art Style",
+        "Photorealistic",
+        "写实"
+      ]
+    },
+    {
+      "id": "art.tachie",
+      "name": "立绘差分",
+      "dim": "art",
+      "aliases": [
+        "立绘",
+        "立ち絵",
+        "差分",
+        "表情",
+        "立ちキャラ"
+      ]
+    },
+    {
+      "id": "art.fullvoice",
+      "name": "全语音",
+      "dim": "art",
+      "aliases": [
+        "フルボイス",
+        "Full Voice Acting",
+        "Voice Acting Full",
+        "配音"
+      ]
+    },
+    {
+      "id": "art.partvoice",
+      "name": "部分语音",
+      "dim": "art",
+      "aliases": [
+        "部分ボイス",
+        "Partial Voice Acting"
+      ]
+    },
+    {
+      "id": "art.novoice",
+      "name": "无语音",
+      "dim": "art",
+      "aliases": [
+        "ボイスなし",
+        "No Voice Acting",
+        "No Voices"
+      ]
+    },
+    {
+      "id": "art.ost",
+      "name": "原创音乐",
+      "dim": "art",
+      "aliases": [
+        "Original Soundtrack",
+        "BGM",
+        "音效"
+      ]
+    },
+    {
+      "id": "art.themesong",
+      "name": "主题曲",
+      "dim": "art",
+      "aliases": [
+        "主題歌",
+        "Theme Song",
+        "OP",
+        "ED",
+        "OP曲"
+      ]
+    },
+    {
+      "id": "art.asmr",
+      "name": "ASMR音声",
+      "dim": "art",
+      "aliases": [
+        "ASMR",
+        "双声道",
+        "バイノーラル",
+        "音声作品"
+      ]
+    }
+  ]
+}

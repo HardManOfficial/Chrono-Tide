@@ -1,0 +1,74 @@
+{
+  "W1_动图在widget路径逐帧推进": {
+    "图像已加载": true,
+    "首帧尺寸": "200x150",
+    "2 秒内帧回调次数（10cs 延迟 = 预期 ~20）": 19,
+    "结论": "✅ 会动"
+  },
+  "W2_cacheWidth对动图": {
+    "请求 100，原图 200x150": true,
+    "实际": "200x150",
+    "cacheWidth 生效": false
+  },
+  "W3_cacheWidth对静态图": {
+    "素材": "assets\\images\\themes\\blue_sky.png",
+    "PNG 原图 + cacheWidth=100 → 实际": "100x54",
+    "PNG 原尺寸 → 实际": "1920x1053",
+    "静态 cacheWidth 生效": true,
+    "探针有效": true
+  },
+  "W4_ImageCache计费": {
+    "静态 PNG 加载后": 8087040,
+    "GIF 500x500x20 加载后（理论单帧 1000000）": 1000000,
+    "GIF 相对单帧倍数": "1.00",
+    "GIF 实际解码尺寸": "500x500",
+    "静态实际解码尺寸": "1920x1053",
+    "GIF 20 帧却只计首帧 → 64MB 预算低估多帧内存": true
+  },
+  "W6_precacheImage对动图": {
+    "PNG(1920x1053)": {
+      "耗时ms": 15,
+      "是否超时(20s)": false
+    },
+    "GIF(200x150x6)": {
+      "耗时ms": 4,
+      "是否超时(20s)": false
+    },
+    "GIF(1920x1053x6)": {
+      "耗时ms": 27,
+      "是否超时(20s)": false
+    },
+    "结论": "✅ 动图 precache 正常返回，现有 await 流程可用"
+  },
+  "W7_模糊帧耗时": {
+    "A_静态PNG_无模糊(基线)": {
+      "帧数": 119,
+      "raster 平均us": 466,
+      "raster p95us": 695,
+      "raster 超16.7ms帧数（掉帧）": 0,
+      "build 平均us": 1213
+    },
+    "B_动图_无模糊": {
+      "帧数": 143,
+      "raster 平均us": 765,
+      "raster p95us": 1362,
+      "raster 超16.7ms帧数（掉帧）": 0,
+      "build 平均us": 1072
+    },
+    "C_动图_sigma8": {
+      "帧数": 140,
+      "raster 平均us": 1626,
+      "raster p95us": 6266,
+      "raster 超16.7ms帧数（掉帧）": 0,
+      "build 平均us": 1031
+    },
+    "D_动图_sigma20": {
+      "帧数": 141,
+      "raster 平均us": 1380,
+      "raster p95us": 4665,
+      "raster 超16.7ms帧数（掉帧）": 0,
+      "build 平均us": 908
+    },
+    "说明": "debug(JIT) 模式真机数据，仅相对量级"
+  }
+}

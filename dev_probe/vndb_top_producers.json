@@ -1,0 +1,2540 @@
+{
+ "total_vn": 500,
+ "producers": [
+  {
+   "id": "p589",
+   "name": "Otomate",
+   "count": 19,
+   "samples": [
+    "OVER REQUIEMZ(82.9)",
+    "Shuuen no Virche -ErroR:salvation-(82.1)",
+    "Collar x Malice(81.9)"
+   ]
+  },
+  {
+   "id": "p2361",
+   "name": "Design Factory Co., Ltd.",
+   "count": 12,
+   "samples": [
+    "Collar x Malice(81.9)",
+    "Clock Zero ~Shuuen no Ichibyou~(81.7)",
+    "Code: Realize ~Sousei no Himegimi~(80.9)"
+   ]
+  },
+  {
+   "id": "p120",
+   "name": "Alice Soft",
+   "count": 11,
+   "samples": [
+    "Rance X -Kessen-(90.6)",
+    "Rance 03 - Leazas Kanraku(85.2)",
+    "Kichikuou Rance(83.9)"
+   ]
+  },
+  {
+   "id": "p42",
+   "name": "NITRO PLUS",
+   "count": 9,
+   "samples": [
+    "Soukou Akki Muramasa(90.2)",
+    "STEINS;GATE(90.2)",
+    "Kishin Hishou Demonbane(80.8)"
+   ]
+  },
+  {
+   "id": "p24",
+   "name": "Key",
+   "count": 8,
+   "samples": [
+    "CLANNAD(87.3)",
+    "Little Busters!(86.4)",
+    "Rewrite(85.3)"
+   ]
+  },
+  {
+   "id": "p301",
+   "name": "Minato Soft",
+   "count": 8,
+   "samples": [
+    "Maji de Watashi ni Koi Shinasai!(83.4)",
+    "Maji de Watashi ni Koishinasai! S(82)",
+    "Maji de Watashi ni Koishinasai! A-5(81.8)"
+   ]
+  },
+  {
+   "id": "p341",
+   "name": "Waffle",
+   "count": 8,
+   "samples": [
+    "Kyonyuu Fantasy Gaiden 2(83.2)",
+    "Kyonyuu Fantasy 4 -Shuudoushi Astor-(82.7)",
+    "Kyonyuu Fantasy 2 if(81.3)"
+   ]
+  },
+  {
+   "id": "p1588",
+   "name": "Koei Tecmo Holdings Co., Ltd.",
+   "count": 8,
+   "samples": [
+    "Harukanaru Toki no Naka de 3(81.8)",
+    "Harukanaru Toki no Naka de 3: Izayoiki(81.7)",
+    "Kin'iro no Corda 3 AnotherSky(81.5)"
+   ]
+  },
+  {
+   "id": "p146",
+   "name": "MAGES.",
+   "count": 7,
+   "samples": [
+    "STEINS;GATE(90.2)",
+    "CHAOS;CHILD(83.6)",
+    "STEINS;GATE 0(80.7)"
+   ]
+  },
+  {
+   "id": "p4542",
+   "name": "Azarashi Soft",
+   "count": 7,
+   "samples": [
+    "Amakano 2+(86.6)",
+    "Amakano ~Second Season~+(84.5)",
+    "Amakano 3(81.9)"
+   ]
+  },
+  {
+   "id": "p242",
+   "name": "light",
+   "count": 7,
+   "samples": [
+    "Kajiri Kamui Kagura(83.8)",
+    "Soushuu Senshinkan Gakuen: Hachimyoujin(82.7)",
+    "Silverio Trinity(81.9)"
+   ]
+  },
+  {
+   "id": "p4",
+   "name": "age",
+   "count": 6,
+   "samples": [
+    "Muv-Luv Alternative(89.9)",
+    "Schwarzesmarken(84)",
+    "Muv-Luv Unlimited: The Day After(82.1)"
+   ]
+  },
+  {
+   "id": "p6",
+   "name": "TYPE-MOON",
+   "count": 6,
+   "samples": [
+    "Tsukihime -A piece of blue glass moon-(88.2)",
+    "Fate/stay night(86.3)",
+    "Mahoutsukai no Yoru(86.2)"
+   ]
+  },
+  {
+   "id": "p612",
+   "name": "FAVORITE",
+   "count": 6,
+   "samples": [
+    "Sakura, Moyu. -as the Night's, Reincarnation-(85.4)",
+    "Irotoridori no Hikari(84.3)",
+    "AstralAir no Shiroki Towa(81)"
+   ]
+  },
+  {
+   "id": "p277",
+   "name": "Innocent Grey",
+   "count": 6,
+   "samples": [
+    "Kara no Shoujo - The Second Episode(85)",
+    "Kara no Shoujo - The Last Episode(84.4)",
+    "FLOWERS -Le volume sur été-(83.2)"
+   ]
+  },
+  {
+   "id": "p268",
+   "name": "Eushully",
+   "count": 6,
+   "samples": [
+    "Ikusa Megami Zero(83.4)",
+    "Ikusa Megami VERITA(82.3)",
+    "Kamidori Alchemy Meister(81.1)"
+   ]
+  },
+  {
+   "id": "p21",
+   "name": "Leaf",
+   "count": 5,
+   "samples": [
+    "WHITE ALBUM2(90.2)",
+    "Utawarerumono: Futari no Hakuoro(89.1)",
+    "Utawarerumono: Itsuwari no Kamen(83.2)"
+   ]
+  },
+  {
+   "id": "p87",
+   "name": "AQUAPLUS",
+   "count": 5,
+   "samples": [
+    "WHITE ALBUM2(90.2)",
+    "Utawarerumono: Futari no Hakuoro(89.1)",
+    "Utawarerumono: Itsuwari no Kamen(83.2)"
+   ]
+  },
+  {
+   "id": "p4153",
+   "name": "STING CO., LTD.",
+   "count": 5,
+   "samples": [
+    "WHITE ALBUM2(90.2)",
+    "Utawarerumono: Futari no Hakuoro(89.1)",
+    "Utawarerumono: Itsuwari no Kamen(83.2)"
+   ]
+  },
+  {
+   "id": "p82",
+   "name": "07th Expansion",
+   "count": 5,
+   "samples": [
+    "Umineko no Naku Koro ni Chiru(89.8)",
+    "Umineko no Naku Koro ni(88.7)",
+    "Higurashi no Naku Koro ni Kai(88.4)"
+   ]
+  },
+  {
+   "id": "p1741",
+   "name": "Torotoro Resistance",
+   "count": 5,
+   "samples": [
+    "Monmusu Quest! Paradox RPG Shuushou(89.2)",
+    "Monmusu Quest! Paradox RPG Chuushou(86)",
+    "Monmusu Quest! Paradox RPG Zenshou(82.8)"
+   ]
+  },
+  {
+   "id": "p350",
+   "name": "CAPCOM Co., Ltd.",
+   "count": 5,
+   "samples": [
+    "Dai Gyakuten Saiban 2 -Naruhodou Ryuunosuke no Kakugo-(87.3)",
+    "Gyakuten Saiban 3(85.6)",
+    "Gyakuten Kenji 2(85)"
+   ]
+  },
+  {
+   "id": "p226",
+   "name": "BaseSon",
+   "count": 5,
+   "samples": [
+    "Sengoku † Koihime ~Otome Kenran ☆ Sengoku Emaki~(85.5)",
+    "Shin Koihime † Musou -Kakumei- Son Go no Ketsumyaku(82.9)",
+    "Shin Koihime † Musou -Kakumei- Souten no Haou(82)"
+   ]
+  },
+  {
+   "id": "p8",
+   "name": "KID",
+   "count": 5,
+   "samples": [
+    "My Merry Maybe(84.6)",
+    "Ever17 -the out of infinity-(84.5)",
+    "Remember11 -the age of infinity-(82.5)"
+   ]
+  },
+  {
+   "id": "p3903",
+   "name": "Atelier Kaguya BARE & BUNNY",
+   "count": 5,
+   "samples": [
+    "Mamatomo(84.6)",
+    "Mama×Holic ~Miwaku no Mama to Ama Ama Kankei~(84.2)",
+    "Mamagoto ~Mama to Naisho no Ecchi Shimasho~(81.1)"
+   ]
+  },
+  {
+   "id": "p29",
+   "name": "Liar-soft",
+   "count": 5,
+   "samples": [
+    "Shiei no Sona-Nyl ~What a beautiful memories~(81.3)",
+    "Okujou no Yurirei-san(79.3)",
+    "Kusarihime ~Euthanasia~(79.2)"
+   ]
+  },
+  {
+   "id": "p215",
+   "name": "BISHOP",
+   "count": 5,
+   "samples": [
+    "Mesu Kyoushi 4 ~Kegasareta Kyoudan~(79.6)",
+    "Shihai no Kyoudan 2(79.5)",
+    "Kazoku ~Haha to Shimai no Kyousei~(79.5)"
+   ]
+  },
+  {
+   "id": "p13",
+   "name": "Navel",
+   "count": 4,
+   "samples": [
+    "Ore-tachi ni Tsubasa wa Nai(86.5)",
+    "Otome Riron to Sono Shuuhen -Ecole de Paris-(81.5)",
+    "Tsuki ni Yorisou Otome no Sahou(79.5)"
+   ]
+  },
+  {
+   "id": "p404",
+   "name": "raiL-soft",
+   "count": 4,
+   "samples": [
+    "Kagerou Touryuuki(84.8)",
+    "Bengarachou Hakubutsushi(84.1)",
+    "Albatross Koukairoku(82.7)"
+   ]
+  },
+  {
+   "id": "p5769",
+   "name": "Holicworks Co., Ltd.",
+   "count": 4,
+   "samples": [
+    "Taishou Mebiusline Teito Bibouroku(84.6)",
+    "Taishou Mebiusline(84.1)",
+    "Tokyo Satsujinki Gakkou no Kaidan(82.9)"
+   ]
+  },
+  {
+   "id": "p19579",
+   "name": "SDR Project",
+   "count": 4,
+   "samples": [
+    "Ever17 -the out of infinity-(84.5)",
+    "Remember11 -the age of infinity-(82.5)",
+    "Memories Off 2nd ~yukihotaru~(79.5)"
+   ]
+  },
+  {
+   "id": "p1499",
+   "name": "Rejet Co., Ltd.",
+   "count": 4,
+   "samples": [
+    "Ken ga Kimi(84)",
+    "Black Wolves Saga -Bloody Nightmare-(81)",
+    "Black Wolves Saga -Last Hope-(80.7)"
+   ]
+  },
+  {
+   "id": "p331",
+   "name": "Chunsoft",
+   "count": 4,
+   "samples": [
+    "428 ~Fuusa Sareta Shibuya de~(83.7)",
+    "Kyokugen Dasshutsu - 9-Jikan 9-Nin 9 no Tobira(82.8)",
+    "Kyokugen Dasshutsu ADV - Zennin Shibou Desu(82)"
+   ]
+  },
+  {
+   "id": "p6745",
+   "name": "Milk Factory",
+   "count": 4,
+   "samples": [
+    "Motto! Haramase! Honoo no Oppai Isekai Oppai Spy Gakuen!(83.4)",
+    "Motto! Haramase! Honoo no Oppai Isekai Oppai Maid Gakuen!(83.2)",
+    "Motto! Haramase! Honoo no Oppai Isekai Oppai Bunny Gakuen!(81.8)"
+   ]
+  },
+  {
+   "id": "p65",
+   "name": "CIRCUS",
+   "count": 4,
+   "samples": [
+    "D.C.5 ~Da Capo 5~ Future Link(83)",
+    "D.C.5 ~Da Capo 5~(83)",
+    "D.C. II ~Da Capo II~ Dearest Marriage(81.6)"
+   ]
+  },
+  {
+   "id": "p2446",
+   "name": "tone work's",
+   "count": 4,
+   "samples": [
+    "Tsuki no Kanata de Aimashou: SweetSummerRainbow(82.9)",
+    "Gin'iro, Haruka(81.6)",
+    "Tsuki no Kanata de Aimashou(80.9)"
+   ]
+  },
+  {
+   "id": "p3293",
+   "name": "inre",
+   "count": 4,
+   "samples": [
+    "Bakumatsu Jinchuu Houkoku Resshiden Miburo(82.8)",
+    "ChuSinGura 46+1(82.3)",
+    "ChuSinGura 46+1 Edo Kyuushin-ha Hen(80.6)"
+   ]
+  },
+  {
+   "id": "p2807",
+   "name": "Spike Chunsoft",
+   "count": 4,
+   "samples": [
+    "Kyokugen Dasshutsu - 9-Jikan 9-Nin 9 no Tobira(82.8)",
+    "Kyokugen Dasshutsu ADV - Zennin Shibou Desu(82)",
+    "Super Dangan Ronpa 2 Sayonara Zetsubou Gakuen(80.8)"
+   ]
+  },
+  {
+   "id": "p77",
+   "name": "KONAMI",
+   "count": 4,
+   "samples": [
+    "Tokimeki Memorial Girl's Side: 3rd Story(81.9)",
+    "Tokimeki Memorial 2(81.7)",
+    "Tokimeki Memorial Girl's Side: 4th Heart(79.6)"
+   ]
+  },
+  {
+   "id": "p378",
+   "name": "SAGA PLANETS",
+   "count": 4,
+   "samples": [
+    "Kin'iro Loveriche(81.5)",
+    "Kin'iro Loveriche -Golden Time-(80.6)",
+    "Hatsuyuki Sakura(80.1)"
+   ]
+  },
+  {
+   "id": "p10241",
+   "name": "aNCHOR Inc.",
+   "count": 3,
+   "samples": [
+    "Muv-Luv Alternative(89.9)",
+    "Muv-Luv Alternative - Total Eclipse(78.5)",
+    "Kimi ga Nozomu Eien(78.4)"
+   ]
+  },
+  {
+   "id": "p4543",
+   "name": "ADELTA",
+   "count": 3,
+   "samples": [
+    "Ooe(88.4)",
+    "Koshotengai no Hashihime(84.4)",
+    "Uuultra C(80.6)"
+   ]
+  },
+  {
+   "id": "p259",
+   "name": "Makura",
+   "count": 3,
+   "samples": [
+    "Sakura no Uta -Sakura no Mori no Ue o Mau-(87.4)",
+    "Sakura no Toki -Sakura no Mori no Shita o Ayumu-(87.1)",
+    "Himawari no Kyoukai to Nagai Natsuyasumi(78.8)"
+   ]
+  },
+  {
+   "id": "p990",
+   "name": "Team Baldrhead",
+   "count": 3,
+   "samples": [
+    "BALDR SKY Dive2 \"RECORDARE\"(86.8)",
+    "BALDR SKY Dive1 \"Lost Memory\"(81.5)",
+    "BALDR HEART(78.7)"
+   ]
+  },
+  {
+   "id": "p7659",
+   "name": "Qruppo",
+   "count": 3,
+   "samples": [
+    "Hentai Prison(86.7)",
+    "Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii Desu ka? 2(83.8)",
+    "Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii Desu ka?(78.4)"
+   ]
+  },
+  {
+   "id": "p10",
+   "name": "Palette",
+   "count": 3,
+   "samples": [
+    "9-nine- Yukiiro Yukihana Yukinoato(85.3)",
+    "Mashiro-iro Symphony: Sana Edition(82.6)",
+    "9-nine- Sorairo Sorauta Soranooto(78.5)"
+   ]
+  },
+  {
+   "id": "p95",
+   "name": "AUGUST",
+   "count": 3,
+   "samples": [
+    "Aiyoku no Eustia(84.6)",
+    "Daitoshokan no Hitsujikai(79.2)",
+    "Sen no Hatou, Tsukisome no Kouki(78.5)"
+   ]
+  },
+  {
+   "id": "p751",
+   "name": "LoveDelivery",
+   "count": 3,
+   "samples": [
+    "Taishou Mebiusline Teito Bibouroku(84.6)",
+    "Taishou Mebiusline(84.1)",
+    "Tokyo 24-ku(80.9)"
+   ]
+  },
+  {
+   "id": "p1279",
+   "name": "Lose",
+   "count": 3,
+   "samples": [
+    "Maitetsu - Last Run!!(84.5)",
+    "Monobeno -Happy End-(84)",
+    "Monobeno(79)"
+   ]
+  },
+  {
+   "id": "p336",
+   "name": "Frontwing",
+   "count": 3,
+   "samples": [
+    "Grisaia no Kajitsu -LE FRUIT DE LA GRISAIA-(83.5)",
+    "Grisaia no Rakuen -LE EDEN DE LA GRISAIA-(80.5)",
+    "Grisaia no Meikyuu -LE LABYRINTHE DE LA GRISAIA-(80.4)"
+   ]
+  },
+  {
+   "id": "p352",
+   "name": "Idea Factory Co., Ltd.",
+   "count": 3,
+   "samples": [
+    "OVER REQUIEMZ(82.9)",
+    "Haitaka no Psychedelica(79.1)",
+    "Yuukyuu no Tierblade -Lost Chronicle-(78.5)"
+   ]
+  },
+  {
+   "id": "p3723",
+   "name": "Rascou",
+   "count": 3,
+   "samples": [
+    "Toaru Hitozuma no Netorare Jijou 2(82.1)",
+    "Toaru Hahaoya no Ayamachi ~Yukari Sono Kouhen~(81.4)",
+    "Toaru Fuufu no Hensai Keikaku(78.4)"
+   ]
+  },
+  {
+   "id": "p56",
+   "name": "AKABEiSOFT2",
+   "count": 3,
+   "samples": [
+    "G-senjou no Maou(82.1)",
+    "Sharin no Kuni, Himawari no Shoujo(81.4)",
+    "Role player: Okayu Shimai no Nenmaku Portrait - Gurigucha LIVE!(80.3)"
+   ]
+  },
+  {
+   "id": "p473",
+   "name": "KOEI Co., Ltd.",
+   "count": 3,
+   "samples": [
+    "Harukanaru Toki no Naka de 3(81.8)",
+    "Harukanaru Toki no Naka de 3: Izayoiki(81.7)",
+    "Harukanaru Toki no Naka de 4(80.5)"
+   ]
+  },
+  {
+   "id": "p131",
+   "name": "elf",
+   "count": 3,
+   "samples": [
+    "Kisaku(81.4)",
+    "Kono Yo no Hate de Koi o Utau Shoujo YU-NO(80.7)",
+    "Biniku no Kaori ~Netori Netorare Yari Yarare~(79.3)"
+   ]
+  },
+  {
+   "id": "p3891",
+   "name": "ichicolumn inc.",
+   "count": 3,
+   "samples": [
+    "Bara ni Kakusareshi Verite(81)",
+    "Hanayaka Nari, Waga Ichizoku Kinema Mosaic(80.2)",
+    "Hanayaka Nari, Waga Ichizoku(79.3)"
+   ]
+  },
+  {
+   "id": "p6193",
+   "name": "Cabbage Soft",
+   "count": 3,
+   "samples": [
+    "Jewelry Hearts Academia -We will wing wonder world-(80.8)",
+    "Sakura no Kumo * Scarlet no Koi(80.8)",
+    "Jewelry Nights Arcadia -The ends of the world-(78.3)"
+   ]
+  },
+  {
+   "id": "p776",
+   "name": "honeybee",
+   "count": 3,
+   "samples": [
+    "Ayakashi Gohan(80.5)",
+    "Ayakashi Gohan ~Okawari!~(80.1)",
+    "Starry☆Sky ~After Summer~(78.8)"
+   ]
+  },
+  {
+   "id": "p3354",
+   "name": "NOVECT",
+   "count": 2,
+   "samples": [
+    "Fata Morgana no Yakata(87.9)",
+    "Fata Morgana no Yakata -Another Episodes-(85.6)"
+   ]
+  },
+  {
+   "id": "p1326",
+   "name": "sprite",
+   "count": 2,
+   "samples": [
+    "Ao no Kanata no Four Rhythm - EXTRA2(87.2)",
+    "Ao no Kanata no Four Rhythm(82.6)"
+   ]
+  },
+  {
+   "id": "p12276",
+   "name": "Caribdis",
+   "count": 2,
+   "samples": [
+    "Eternum(87.2)",
+    "Once in a Lifetime(78.3)"
+   ]
+  },
+  {
+   "id": "p6815",
+   "name": "BA-KU",
+   "count": 2,
+   "samples": [
+    "BLACK SHEEP TOWN(86.4)",
+    "Hirahira Hihiru(79.4)"
+   ]
+  },
+  {
+   "id": "p619",
+   "name": "NITRO CHiRAL",
+   "count": 2,
+   "samples": [
+    "Slow Damage(85.6)",
+    "Lamento -BEYOND THE VOID-(83)"
+   ]
+  },
+  {
+   "id": "p6387",
+   "name": "Grasshopper Manufacture",
+   "count": 2,
+   "samples": [
+    "Silver Jiken 25 Ku(85.3)",
+    "Silver Jiken(81.3)"
+   ]
+  },
+  {
+   "id": "p564",
+   "name": "SEGA",
+   "count": 2,
+   "samples": [
+    "Sakura Taisen 3 ~Paris wa Moeteiru ka~(84.6)",
+    "Sakura Taisen 2 ~Kimi, Shinitamou koto Nakare~(84.2)"
+   ]
+  },
+  {
+   "id": "p593",
+   "name": "Tennenouji",
+   "count": 2,
+   "samples": [
+    "Luckydog1+bad egg(83.6)",
+    "Luckydog1(81.8)"
+   ]
+  },
+  {
+   "id": "p253",
+   "name": "propeller",
+   "count": 2,
+   "samples": [
+    "Kitto, Sumiwataru Asairo Yori mo,(83.5)",
+    "Evolimit(79.3)"
+   ]
+  },
+  {
+   "id": "p88",
+   "name": "Nippon Ichi Software, Inc.",
+   "count": 2,
+   "samples": [
+    "Galleria no Chika Meikyuu to Majo no Ryodan(83.4)",
+    "Refrain no Chika Meikyuu to Majo no Ryodan(78.5)"
+   ]
+  },
+  {
+   "id": "p567",
+   "name": "Takuyo Co., Ltd.",
+   "count": 2,
+   "samples": [
+    "Shinigami to Shoujo(83.1)",
+    "Sweet Clown ~Gozen San-ji no Okashi na Doukeshi~(79)"
+   ]
+  },
+  {
+   "id": "p6271",
+   "name": "GB Patch Games",
+   "count": 2,
+   "samples": [
+    "Our Life: Now & Forever(82.9)",
+    "Our Life: Beginnings & Always(82.2)"
+   ]
+  },
+  {
+   "id": "p906",
+   "name": "Kemco Corporation",
+   "count": 2,
+   "samples": [
+    "Saiaku Naru Saiyaku Ningen ni Sasagu(82.7)",
+    "Rei-Jin-G-Lu-P(79.3)"
+   ]
+  },
+  {
+   "id": "p5927",
+   "name": "Water Phoenix",
+   "count": 2,
+   "samples": [
+    "Saiaku Naru Saiyaku Ningen ni Sasagu(82.7)",
+    "Kekkon Shugi Kokka(79.9)"
+   ]
+  },
+  {
+   "id": "p26",
+   "name": "PROTOTYPE",
+   "count": 2,
+   "samples": [
+    "Taishou x Alice(82.7)",
+    "Sangoku Rensenki ~Otome no Heihou!~(78.6)"
+   ]
+  },
+  {
+   "id": "p7001",
+   "name": "CRYSTALiA",
+   "count": 2,
+   "samples": [
+    "Dimension Totsu Lovers!!(82.6)",
+    "Akatsuki Yureru Koi Akari(78.4)"
+   ]
+  },
+  {
+   "id": "p22808",
+   "name": "AmuLit",
+   "count": 2,
+   "samples": [
+    "sins of KALEIDO: Tou Megurishi Inga no Majo(82.3)",
+    "even if TEMPEST: Yoiyami ni Kaku Katariki Majo(81.3)"
+   ]
+  },
+  {
+   "id": "p10784",
+   "name": "Echo Project",
+   "count": 2,
+   "samples": [
+    "Echo(82.3)",
+    "Arches(80.8)"
+   ]
+  },
+  {
+   "id": "p180",
+   "name": "Akatsuki WORKS",
+   "count": 2,
+   "samples": [
+    "Rui wa Tomo o Yobu Fan Disc -Asu no Mukou ni Mieru Kaze-(82.1)",
+    "Rui wa Tomo o Yobu(81.8)"
+   ]
+  },
+  {
+   "id": "p507",
+   "name": "dualtail",
+   "count": 2,
+   "samples": [
+    "VenusBlood:Lagoon(82.1)",
+    "VenusBlood -HYPNO-(78.6)"
+   ]
+  },
+  {
+   "id": "p12213",
+   "name": "XEECEE",
+   "count": 2,
+   "samples": [
+    "Misericorde: Volume One(82)",
+    "Misericorde Volume Two: White Wool & Snow(81.7)"
+   ]
+  },
+  {
+   "id": "p4671",
+   "name": "Uguisu Kagura",
+   "count": 2,
+   "samples": [
+    "Kami no Ue no Mahoutsukai(82)",
+    "Meikei no Lupercalia(81.5)"
+   ]
+  },
+  {
+   "id": "p10519",
+   "name": "Liber Entertainment Inc.",
+   "count": 2,
+   "samples": [
+    "18TRIP(81.9)",
+    "A3!(78.5)"
+   ]
+  },
+  {
+   "id": "p1986",
+   "name": "KCET",
+   "count": 2,
+   "samples": [
+    "Tokimeki Memorial 2(81.7)",
+    "SNATCHER(78.3)"
+   ]
+  },
+  {
+   "id": "p1386",
+   "name": "Unison Shift: Blossom",
+   "count": 2,
+   "samples": [
+    "Tokeijikake no Ley Line -Asagiri ni Chiru Hana-(81.6)",
+    "Tokeijikake no Ley Line -Zan'ei no Yoru ga Akeru Toki-(79.6)"
+   ]
+  },
+  {
+   "id": "p2748",
+   "name": "Studio Pork",
+   "count": 2,
+   "samples": [
+    "Oba-san Janai, Onna Datta. ~Tonari no Yaoya no Oku-san to Koete wa Ikenai Natsu~(81.6)",
+    "Hirusagari no Boro Apart to Hitozuma-tachi ~Heisa Kuukan de Kurui Ochiteiku~(78.3)"
+   ]
+  },
+  {
+   "id": "p793",
+   "name": "Daisy2",
+   "count": 2,
+   "samples": [
+    "Zettai Kaikyuu Gakuen ~Eden with Roses and Phantasm~(81.6)",
+    "Sangoku Rensenki ~Otome no Heihou!~(78.6)"
+   ]
+  },
+  {
+   "id": "p2226",
+   "name": "Voltage Inc.",
+   "count": 2,
+   "samples": [
+    "even if TEMPEST: Yoiyami ni Kaku Katariki Majo(81.3)",
+    "even if TEMPEST: Tsuranaru Toki no Akatsuki(81)"
+   ]
+  },
+  {
+   "id": "p388",
+   "name": "QuinRose",
+   "count": 2,
+   "samples": [
+    "Joker no Kuni no Alice ~Wonderful Wonder World~(81.3)",
+    "Clover no Kuni no Alice ~Wonderful Wonder World~(79.3)"
+   ]
+  },
+  {
+   "id": "p3894",
+   "name": "VENUS",
+   "count": 2,
+   "samples": [
+    "Summer☆Salt ~Doutei to Shojo no Fuufu~(81.1)",
+    "Natsugami-ke ni Okita Koto Plus(78.8)"
+   ]
+  },
+  {
+   "id": "p98",
+   "name": "Yuzusoft",
+   "count": 2,
+   "samples": [
+    "LimeLight Lemonade Jam(80.9)",
+    "Sanoba Witch(78.3)"
+   ]
+  },
+  {
+   "id": "p520",
+   "name": "Enterbrain!",
+   "count": 2,
+   "samples": [
+    "Amagami(80.8)",
+    "Hana Awase(79)"
+   ]
+  },
+  {
+   "id": "p2184",
+   "name": "Karin Chatnoir Ω",
+   "count": 2,
+   "samples": [
+    "Omertà Code:Tycoon(80.7)",
+    "Omertà ~Chinmoku no Okite~(79.6)"
+   ]
+  },
+  {
+   "id": "p302",
+   "name": "ninetail",
+   "count": 2,
+   "samples": [
+    "Kikaijikake no Eve ~Dea Ex Machina~(80.6)",
+    "Amatsukaze ~Kugutsu Jinpuu-chou~(80.3)"
+   ]
+  },
+  {
+   "id": "p699",
+   "name": "Aromarie",
+   "count": 2,
+   "samples": [
+    "Chou no Doku Hana no Kusari ~Gensou Yawa~(80.3)",
+    "Chou no Doku Hana no Kusari(79.8)"
+   ]
+  },
+  {
+   "id": "p379",
+   "name": "Lillian",
+   "count": 2,
+   "samples": [
+    "Twinkle ☆ Crusaders(80.3)",
+    "Twinkle ☆ Crusaders -Passion Star Stream-(80.1)"
+   ]
+  },
+  {
+   "id": "p1424",
+   "name": "Vingt-et-un. Systems Corporation",
+   "count": 2,
+   "samples": [
+    "Hanayaka Nari, Waga Ichizoku Kinema Mosaic(80.2)",
+    "Hanayaka Nari, Waga Ichizoku(79.3)"
+   ]
+  },
+  {
+   "id": "p490",
+   "name": "Lune",
+   "count": 2,
+   "samples": [
+    "Youkoso! Sukebe Elf no Mori e(80)",
+    "Aku no Onna Kanbu \"Kono Watashi ni Oshioki da to!? Fuzakeruna!\"(79.5)"
+   ]
+  },
+  {
+   "id": "p622",
+   "name": "Hadashi Shoujo",
+   "count": 2,
+   "samples": [
+    "Niizuma Tamaki ~Tamaki no Aisai Nikki + Harem End no Sorekara~(79.7)",
+    "Princess Heart Link ~Kenki-tachi no Enbu~(78.7)"
+   ]
+  },
+  {
+   "id": "p1078",
+   "name": "Red Entertainment Corporation",
+   "count": 2,
+   "samples": [
+    "Juuzaengi ~Engetsu Sangokuden~(79.6)",
+    "Kenka Banchou Otome(79)"
+   ]
+  },
+  {
+   "id": "p6282",
+   "name": "Kenkou Land",
+   "count": 2,
+   "samples": [
+    "Sekai Metsubou Kyouyuu Gensou Mamiya(79.1)",
+    "Lemures Blue no Gozen 2 Ji(78.5)"
+   ]
+  },
+  {
+   "id": "p2892",
+   "name": "LOVE&DESTROY",
+   "count": 2,
+   "samples": [
+    "CAGE -OPEN-(79)",
+    "CAGE -CLOSE-(78.2)"
+   ]
+  },
+  {
+   "id": "p434",
+   "name": "SQUEEZ",
+   "count": 2,
+   "samples": [
+    "Honoo no Haramase Oppai Nyuu Doukyuusei(78.8)",
+    "Honoo no Haramase Oppai ★ Ero Appli Gakuen(78.7)"
+   ]
+  },
+  {
+   "id": "p6307",
+   "name": "MAGES. Inc.",
+   "count": 1,
+   "samples": [
+    "STEINS;GATE(90.2)"
+   ]
+  },
+  {
+   "id": "p10244",
+   "name": "New++",
+   "count": 1,
+   "samples": [
+    "Shigatsu Youka(88.4)"
+   ]
+  },
+  {
+   "id": "p583",
+   "name": "PIL/SLASH",
+   "count": 1,
+   "samples": [
+    "Shingakkou -Noli me tangere-(87.9)"
+   ]
+  },
+  {
+   "id": "p412",
+   "name": "BROCCOLI Co., Ltd.",
+   "count": 1,
+   "samples": [
+    "Jack Jeanne(86.9)"
+   ]
+  },
+  {
+   "id": "p1040",
+   "name": "KeroQ",
+   "count": 1,
+   "samples": [
+    "Subarashiki Hibi ~Furenzoku Sonzai~(86.8)"
+   ]
+  },
+  {
+   "id": "p763",
+   "name": "HuneX",
+   "count": 1,
+   "samples": [
+    "Mahoutsukai no Yoru(86.2)"
+   ]
+  },
+  {
+   "id": "p19754",
+   "name": "Lasengle Inc.",
+   "count": 1,
+   "samples": [
+    "Mahoutsukai no Yoru(86.2)"
+   ]
+  },
+  {
+   "id": "p18950",
+   "name": "nth Circle Studios",
+   "count": 1,
+   "samples": [
+    "of the Devil(85.9)"
+   ]
+  },
+  {
+   "id": "p3316",
+   "name": "Xuse [Junmai]",
+   "count": 1,
+   "samples": [
+    "Saihate no Ima(85.7)"
+   ]
+  },
+  {
+   "id": "p5670",
+   "name": "Active Gaming Media Inc.",
+   "count": 1,
+   "samples": [
+    "Silver Jiken 25 Ku(85.3)"
+   ]
+  },
+  {
+   "id": "p5871",
+   "name": "Laplacian",
+   "count": 1,
+   "samples": [
+    "Hakuchuumu no Aojashin(84.8)"
+   ]
+  },
+  {
+   "id": "p7759",
+   "name": "Door",
+   "count": 1,
+   "samples": [
+    "Tobira no Densetsu ~Kaze no Tsubasa~(84.6)"
+   ]
+  },
+  {
+   "id": "p15200",
+   "name": "fantasia",
+   "count": 1,
+   "samples": [
+    "Qianfu: Chi Tu(84.6)"
+   ]
+  },
+  {
+   "id": "p2383",
+   "name": "parade",
+   "count": 1,
+   "samples": [
+    "lesson(84.6)"
+   ]
+  },
+  {
+   "id": "p19722",
+   "name": "RaRo",
+   "count": 1,
+   "samples": [
+    "Maitetsu - Last Run!!(84.5)"
+   ]
+  },
+  {
+   "id": "p11026",
+   "name": "Yi Mei Gongzuoshi",
+   "count": 1,
+   "samples": [
+    "Meng Deng Hua(84.2)"
+   ]
+  },
+  {
+   "id": "p4726",
+   "name": "honeybee black",
+   "count": 1,
+   "samples": [
+    "Blackish House(83.4)"
+   ]
+  },
+  {
+   "id": "p8552",
+   "name": "Ocean",
+   "count": 1,
+   "samples": [
+    "Summer's Gone: Season 1(83.1)"
+   ]
+  },
+  {
+   "id": "p10098",
+   "name": "Regium",
+   "count": 1,
+   "samples": [
+    "Summer's Gone: Season 1(83.1)"
+   ]
+  },
+  {
+   "id": "p30",
+   "name": "Kogado Studio",
+   "count": 1,
+   "samples": [
+    "OVER REQUIEMZ(82.9)"
+   ]
+  },
+  {
+   "id": "p7564",
+   "name": "Kogado Girls Project",
+   "count": 1,
+   "samples": [
+    "OVER REQUIEMZ(82.9)"
+   ]
+  },
+  {
+   "id": "p14551",
+   "name": "Chamango0",
+   "count": 1,
+   "samples": [
+    "Umineko no Naku Koro ni Musu(82.7)"
+   ]
+  },
+  {
+   "id": "p4743",
+   "name": "Primula",
+   "count": 1,
+   "samples": [
+    "Taishou x Alice(82.7)"
+   ]
+  },
+  {
+   "id": "p3875",
+   "name": "imageepoch",
+   "count": 1,
+   "samples": [
+    "Fate/EXTRA CCC(82.7)"
+   ]
+  },
+  {
+   "id": "p10954",
+   "name": "Black Tabby Games",
+   "count": 1,
+   "samples": [
+    "Scarlet Hollow(82.7)"
+   ]
+  },
+  {
+   "id": "p359",
+   "name": "Bandai Namco Entertainment Inc.",
+   "count": 1,
+   "samples": [
+    "IDOLiSH7(82.5)"
+   ]
+  },
+  {
+   "id": "p5960",
+   "name": "Shinjita Baka ga Ore Datta",
+   "count": 1,
+   "samples": [
+    "Mahou Shoujo(82.3)"
+   ]
+  },
+  {
+   "id": "p12683",
+   "name": "HYDE, Inc.",
+   "count": 1,
+   "samples": [
+    "Shuuen no Virche -ErroR:salvation-(82.1)"
+   ]
+  },
+  {
+   "id": "p8640",
+   "name": "DrPinkCake",
+   "count": 1,
+   "samples": [
+    "Being a DIK(82)"
+   ]
+  },
+  {
+   "id": "p9649",
+   "name": "Nankidai",
+   "count": 1,
+   "samples": [
+    "Kimi ga Shine -Tasuuketsu Death Game-(82)"
+   ]
+  },
+  {
+   "id": "p3923",
+   "name": "MariaCrown",
+   "count": 1,
+   "samples": [
+    "Yoshiwara Higanbana(81.8)"
+   ]
+  },
+  {
+   "id": "p3609",
+   "name": "GRISEDGE",
+   "count": 1,
+   "samples": [
+    "Kintouka(81.8)"
+   ]
+  },
+  {
+   "id": "p30191",
+   "name": "spar0w",
+   "count": 1,
+   "samples": [
+    "Big Bad Dogs(81.7)"
+   ]
+  },
+  {
+   "id": "p6720",
+   "name": "Steamberry Studio",
+   "count": 1,
+   "samples": [
+    "Gilded Shadows(81.7)"
+   ]
+  },
+  {
+   "id": "p12123",
+   "name": "team★CPU",
+   "count": 1,
+   "samples": [
+    "ARCHANGEL:NEMESIS(81.7)"
+   ]
+  },
+  {
+   "id": "p14884",
+   "name": "Mogura Soft",
+   "count": 1,
+   "samples": [
+    "Seikishi Ricca no Monogatari: Hakuyoku to In'yoku no Shimai(81.6)"
+   ]
+  },
+  {
+   "id": "p10474",
+   "name": "Mutt & Jeff",
+   "count": 1,
+   "samples": [
+    "Pale Carnations(81.6)"
+   ]
+  },
+  {
+   "id": "p10590",
+   "name": "DojinOtome",
+   "count": 1,
+   "samples": [
+    "Amaenbo Fuyu(81.5)"
+   ]
+  },
+  {
+   "id": "p12174",
+   "name": "ZetanDS",
+   "count": 1,
+   "samples": [
+    "Desert Stalker(81.5)"
+   ]
+  },
+  {
+   "id": "p8789",
+   "name": "iMel Inc.",
+   "count": 1,
+   "samples": [
+    "Tanetsumi no Uta(81.5)"
+   ]
+  },
+  {
+   "id": "p988",
+   "name": "Kuroneko-san Team",
+   "count": 1,
+   "samples": [
+    "Symphonic Rain(81.4)"
+   ]
+  },
+  {
+   "id": "p14768",
+   "name": "DONUTS Co. Ltd.",
+   "count": 1,
+   "samples": [
+    "Tokyo 7th Sisters(81.4)"
+   ]
+  },
+  {
+   "id": "p23372",
+   "name": "Porpentine Charity Heartscape",
+   "count": 1,
+   "samples": [
+    "Money for Girls: Amortized(81.3)"
+   ]
+  },
+  {
+   "id": "p11568",
+   "name": "Sister Position",
+   "count": 1,
+   "samples": [
+    "Ecchi de Ichizu na Doinaka Nii-sama to, Koshikiyukashii Byoujaku Imouto(81.3)"
+   ]
+  },
+  {
+   "id": "p23835",
+   "name": "The Sisterhood Project",
+   "count": 1,
+   "samples": [
+    "Sisterhood(81.3)"
+   ]
+  },
+  {
+   "id": "p365",
+   "name": "Black Cyc",
+   "count": 1,
+   "samples": [
+    "EXTRAVAGANZA ~Mushi Mederu Shoujo~(81.3)"
+   ]
+  },
+  {
+   "id": "p6598",
+   "name": "Greenwood Co., Ltd.",
+   "count": 1,
+   "samples": [
+    "Dies irae ~Acta est Fabula~(81.2)"
+   ]
+  },
+  {
+   "id": "p910",
+   "name": "GUST",
+   "count": 1,
+   "samples": [
+    "Ar tonelico II ~Sekai ni Hibiku Shoujo-tachi no Metafalica~(81.2)"
+   ]
+  },
+  {
+   "id": "p6950",
+   "name": "SEEC Inc.",
+   "count": 1,
+   "samples": [
+    "Tasokare Hotel(81.2)"
+   ]
+  },
+  {
+   "id": "p11816",
+   "name": "Weird World",
+   "count": 1,
+   "samples": [
+    "Superhuman(81.1)"
+   ]
+  },
+  {
+   "id": "p6048",
+   "name": "paleontology",
+   "count": 1,
+   "samples": [
+    "SeaBed(81.1)"
+   ]
+  },
+  {
+   "id": "p19523",
+   "name": "¿Acid Rain?",
+   "count": 1,
+   "samples": [
+    "The Torrential Turnabout(81)"
+   ]
+  },
+  {
+   "id": "p13056",
+   "name": "Carrot Patch Games",
+   "count": 1,
+   "samples": [
+    "Our Wonderland(80.9)"
+   ]
+  },
+  {
+   "id": "p13666",
+   "name": "Torpor Games",
+   "count": 1,
+   "samples": [
+    "Suzerain(80.8)"
+   ]
+  },
+  {
+   "id": "p1761",
+   "name": "Spike",
+   "count": 1,
+   "samples": [
+    "Super Dangan Ronpa 2 Sayonara Zetsubou Gakuen(80.8)"
+   ]
+  },
+  {
+   "id": "p26181",
+   "name": "Gemdrops, Inc",
+   "count": 1,
+   "samples": [
+    "Super Dangan Ronpa 2 Sayonara Zetsubou Gakuen(80.8)"
+   ]
+  },
+  {
+   "id": "p5008",
+   "name": "M2 Co., Ltd.",
+   "count": 1,
+   "samples": [
+    "STEINS;GATE 0(80.7)"
+   ]
+  },
+  {
+   "id": "p27",
+   "name": "minori",
+   "count": 1,
+   "samples": [
+    "ef - a fairy tale of the two.(80.7)"
+   ]
+  },
+  {
+   "id": "p6010",
+   "name": "Nippon Cultural Broadcasting Extend Inc.",
+   "count": 1,
+   "samples": [
+    "BUSTAFELLOWS Season 2(80.7)"
+   ]
+  },
+  {
+   "id": "p1236",
+   "name": "raindog",
+   "count": 1,
+   "samples": [
+    "ChuSinGura 46+1 Edo Kyuushin-ha Hen(80.6)"
+   ]
+  },
+  {
+   "id": "p25701",
+   "name": "Rem99",
+   "count": 1,
+   "samples": [
+    "Better Be Kid(80.6)"
+   ]
+  },
+  {
+   "id": "p16318",
+   "name": "coly Inc.",
+   "count": 1,
+   "samples": [
+    "Mahoutsukai no Yakusoku(80.6)"
+   ]
+  },
+  {
+   "id": "p6066",
+   "name": "ENTERGRAM",
+   "count": 1,
+   "samples": [
+    "Yuuki Yuuna wa Yuusha de Aru - Hanayui no Kirameki(80.6)"
+   ]
+  },
+  {
+   "id": "p6851",
+   "name": "Eva Kiss",
+   "count": 1,
+   "samples": [
+    "Our Red String(80.6)"
+   ]
+  },
+  {
+   "id": "p21752",
+   "name": "Team Tetrapod",
+   "count": 1,
+   "samples": [
+    "Staffer Case: Choneungnyeok Churi Adventure(80.6)"
+   ]
+  },
+  {
+   "id": "p240",
+   "name": "OVERDRIVE",
+   "count": 1,
+   "samples": [
+    "MUSICUS!(80.5)"
+   ]
+  },
+  {
+   "id": "p7604",
+   "name": "TomoToro",
+   "count": 1,
+   "samples": [
+    "Amneja28: dve vechnosti(80.5)"
+   ]
+  },
+  {
+   "id": "p6591",
+   "name": "Quince Soft",
+   "count": 1,
+   "samples": [
+    "Mono no Aware wa Sai no Koro.(80.4)"
+   ]
+  },
+  {
+   "id": "p10436",
+   "name": "Shiratamaco",
+   "count": 1,
+   "samples": [
+    "Hoshizora Tetsudou to Shiro no Tabi(80.3)"
+   ]
+  },
+  {
+   "id": "p927",
+   "name": "Lusterise",
+   "count": 1,
+   "samples": [
+    "Kouyoku Senki ExS-Tia 3(80.3)"
+   ]
+  },
+  {
+   "id": "p20519",
+   "name": "gigidigi",
+   "count": 1,
+   "samples": [
+    "Soul of Sovereignty(80.3)"
+   ]
+  },
+  {
+   "id": "p13230",
+   "name": "Linuj",
+   "count": 1,
+   "samples": [
+    "Super Danganronpa Another 2 ~Huimangui Dalgwa Jeolmangui Taeyang~(80.3)"
+   ]
+  },
+  {
+   "id": "p497",
+   "name": "Gesen 18",
+   "count": 1,
+   "samples": [
+    "Sangoku Hime 2 ~Tenchi Tairan Ransei ni Kirameku Arata na Haryuu~(80.3)"
+   ]
+  },
+  {
+   "id": "p21517",
+   "name": "Re,AER LLC.",
+   "count": 1,
+   "samples": [
+    "Mahou Shoujo no Majo Saiban(80.3)"
+   ]
+  },
+  {
+   "id": "p21619",
+   "name": "Acacia",
+   "count": 1,
+   "samples": [
+    "Mahou Shoujo no Majo Saiban(80.3)"
+   ]
+  },
+  {
+   "id": "p221",
+   "name": "Windmill",
+   "count": 1,
+   "samples": [
+    "HHG Megami no Shuuen(80.3)"
+   ]
+  },
+  {
+   "id": "p25501",
+   "name": "Acrobatic Chirimenjako",
+   "count": 1,
+   "samples": [
+    "Schrödinger's Call(80.2)"
+   ]
+  },
+  {
+   "id": "p6719",
+   "name": "SILKY'S PLUS DOLCE",
+   "count": 1,
+   "samples": [
+    "Hikari no Umi no Apeiria(80.2)"
+   ]
+  },
+  {
+   "id": "p6028",
+   "name": "K2Cee",
+   "count": 1,
+   "samples": [
+    "Kyojin-tachi(80.1)"
+   ]
+  },
+  {
+   "id": "p13490",
+   "name": "RABBITMAIDENSOFTWORKS",
+   "count": 1,
+   "samples": [
+    "HEARTLOVEPOWERTEMPLE(80.1)"
+   ]
+  },
+  {
+   "id": "p11658",
+   "name": "Cavemanon",
+   "count": 1,
+   "samples": [
+    "I Wani Hug that Gator!(80.1)"
+   ]
+  },
+  {
+   "id": "p5",
+   "name": "SUCCESS",
+   "count": 1,
+   "samples": [
+    "Akai Ito(80)"
+   ]
+  },
+  {
+   "id": "p11244",
+   "name": "Dark One!",
+   "count": 1,
+   "samples": [
+    "Saimin Seishidou -Secret Lesson-(80)"
+   ]
+  },
+  {
+   "id": "p22161",
+   "name": "Ferry",
+   "count": 1,
+   "samples": [
+    "Z.A.T.O. // I Love the World and Everything In It(80)"
+   ]
+  },
+  {
+   "id": "p109",
+   "name": "Langmaor",
+   "count": 1,
+   "samples": [
+    "Laughter Land(80)"
+   ]
+  },
+  {
+   "id": "p11217",
+   "name": "Nathan O. Marsh",
+   "count": 1,
+   "samples": [
+    "South Scrimshaw(80)"
+   ]
+  },
+  {
+   "id": "p22011",
+   "name": "kolulu",
+   "count": 1,
+   "samples": [
+    "Operation Eventide(80)"
+   ]
+  },
+  {
+   "id": "p23992",
+   "name": "Kaixin Chafang",
+   "count": 1,
+   "samples": [
+    "Zhifangzi(79.9)"
+   ]
+  },
+  {
+   "id": "p10499",
+   "name": "MORPATH",
+   "count": 1,
+   "samples": [
+    "Club Suicide(79.9)"
+   ]
+  },
+  {
+   "id": "p12585",
+   "name": "Burrows VN",
+   "count": 1,
+   "samples": [
+    "Burrows(79.9)"
+   ]
+  },
+  {
+   "id": "p96",
+   "name": "CandySoft",
+   "count": 1,
+   "samples": [
+    "Tsuyokiss FESTIVAL(79.9)"
+   ]
+  },
+  {
+   "id": "p22920",
+   "name": "Yatsunagi",
+   "count": 1,
+   "samples": [
+    "Mojibake(79.9)"
+   ]
+  },
+  {
+   "id": "p14882",
+   "name": "Lazy Monkey",
+   "count": 1,
+   "samples": [
+    "Imperskie Hroniki(79.9)"
+   ]
+  },
+  {
+   "id": "p316",
+   "name": "Syangrila",
+   "count": 1,
+   "samples": [
+    "Akatsuki no Goei ~Tsumibukaki Shuumatsuron~(79.8)"
+   ]
+  },
+  {
+   "id": "p4768",
+   "name": "SILKY'S PLUS WASABI",
+   "count": 1,
+   "samples": [
+    "Akeiro Kaikitan(79.8)"
+   ]
+  },
+  {
+   "id": "p97",
+   "name": "Littlewitch",
+   "count": 1,
+   "samples": [
+    "Rondo Leaflet(79.7)"
+   ]
+  },
+  {
+   "id": "p12425",
+   "name": "Chou Suidou",
+   "count": 1,
+   "samples": [
+    "ghostpia(79.7)"
+   ]
+  },
+  {
+   "id": "p2975",
+   "name": "HARUKAZE",
+   "count": 1,
+   "samples": [
+    "Nora to Oujo to Noraneko Heart 2(79.7)"
+   ]
+  },
+  {
+   "id": "p14888",
+   "name": "Ivy May",
+   "count": 1,
+   "samples": [
+    "Coquette Dragoon: Volume One(79.7)"
+   ]
+  },
+  {
+   "id": "p19560",
+   "name": "Morrigan Rae",
+   "count": 1,
+   "samples": [
+    "Eruption Imminent(79.7)"
+   ]
+  },
+  {
+   "id": "p3240",
+   "name": "Jinsei Tsuukoudome",
+   "count": 1,
+   "samples": [
+    "Kotoneiro(79.7)"
+   ]
+  },
+  {
+   "id": "p20682",
+   "name": "Totometori",
+   "count": 1,
+   "samples": [
+    "Putrika 2nd.cut:For the Exquisite Attire(79.7)"
+   ]
+  },
+  {
+   "id": "p3432",
+   "name": "Sukeban Games",
+   "count": 1,
+   "samples": [
+    "VA-11 HALL-A(79.7)"
+   ]
+  },
+  {
+   "id": "p232",
+   "name": "Applique",
+   "count": 1,
+   "samples": [
+    "Tasogare no Sinsemilla(79.6)"
+   ]
+  },
+  {
+   "id": "p13780",
+   "name": "ketzal",
+   "count": 1,
+   "samples": [
+    "Such a Sharp Pain(79.6)"
+   ]
+  },
+  {
+   "id": "p9648",
+   "name": "Selebus",
+   "count": 1,
+   "samples": [
+    "Lessons in Love(79.6)"
+   ]
+  },
+  {
+   "id": "p20054",
+   "name": "Archive",
+   "count": 1,
+   "samples": [
+    "Unravel trigger(79.6)"
+   ]
+  },
+  {
+   "id": "p31272",
+   "name": "lowiro limited",
+   "count": 1,
+   "samples": [
+    "In Falsus(79.6)"
+   ]
+  },
+  {
+   "id": "p5581",
+   "name": "Netchubiyori Ltd.",
+   "count": 1,
+   "samples": [
+    "Iriya no Sora, UFO no Natsu II(79.5)"
+   ]
+  },
+  {
+   "id": "p13661",
+   "name": "ThePenSword",
+   "count": 1,
+   "samples": [
+    "Siren's Call(79.5)"
+   ]
+  },
+  {
+   "id": "p3793",
+   "name": "Amiralo",
+   "count": 1,
+   "samples": [
+    "ITYH: A Horror Otome(79.5)"
+   ]
+  },
+  {
+   "id": "p491",
+   "name": "TinkerBell",
+   "count": 1,
+   "samples": [
+    "Tsumamitsu Neburi ~Mureta Yawahada ni Koishite…~(79.5)"
+   ]
+  },
+  {
+   "id": "p409",
+   "name": "Spray",
+   "count": 1,
+   "samples": [
+    "Kichiku Megane R Kichiku Megane Fan Disc(79.4)"
+   ]
+  },
+  {
+   "id": "p346",
+   "name": "Cing",
+   "count": 1,
+   "samples": [
+    "Last Window: Mayonaka no Yakusoku(79.4)"
+   ]
+  },
+  {
+   "id": "p12368",
+   "name": "NITRO ORIGIN",
+   "count": 1,
+   "samples": [
+    "Kimi to Kanojo to Kanojo no Koi.(79.4)"
+   ]
+  },
+  {
+   "id": "p7226",
+   "name": "Studio Élan",
+   "count": 1,
+   "samples": [
+    "Please Be Happy(79.4)"
+   ]
+  },
+  {
+   "id": "p2339",
+   "name": "Clip☆Craft",
+   "count": 1,
+   "samples": [
+    "Unionism Quartet A3-Days(79.4)"
+   ]
+  },
+  {
+   "id": "p132",
+   "name": "Purple software",
+   "count": 1,
+   "samples": [
+    "Nandome ka no Hajimemashite(79.4)"
+   ]
+  },
+  {
+   "id": "p3130",
+   "name": "Cheritz Co., Ltd",
+   "count": 1,
+   "samples": [
+    "Susanghan Messenger(79.4)"
+   ]
+  },
+  {
+   "id": "p8566",
+   "name": "Two and a Half Studios",
+   "count": 1,
+   "samples": [
+    "A Date with Death 2: REMNANTS(79.4)"
+   ]
+  },
+  {
+   "id": "p14741",
+   "name": "Rotten Raccoons",
+   "count": 1,
+   "samples": [
+    "OBSCURA(79.4)"
+   ]
+  },
+  {
+   "id": "p13144",
+   "name": "digi.B",
+   "count": 1,
+   "samples": [
+    "Artemis(79.3)"
+   ]
+  },
+  {
+   "id": "p328",
+   "name": "SMEE",
+   "count": 1,
+   "samples": [
+    "PURE×CONNECT(79.3)"
+   ]
+  },
+  {
+   "id": "p148",
+   "name": "Blank Note",
+   "count": 1,
+   "samples": [
+    "Himawari Aqua After - The Day the Moon Stood Still(79.3)"
+   ]
+  },
+  {
+   "id": "p1008",
+   "name": "ωstar",
+   "count": 1,
+   "samples": [
+    "Bishoujo Mangekyou -Kotowari to Meikyuu no Shoujo-(79.3)"
+   ]
+  },
+  {
+   "id": "p12973",
+   "name": "Gatobob",
+   "count": 1,
+   "samples": [
+    "YKMET: Strade(79.2)"
+   ]
+  },
+  {
+   "id": "p2273",
+   "name": "Heiantei",
+   "count": 1,
+   "samples": [
+    "Tsuma no Haha ~Gouman Onna Shachou to Doukyo no Hibi~(79.2)"
+   ]
+  },
+  {
+   "id": "p11001",
+   "name": "RedGryph",
+   "count": 1,
+   "samples": [
+    "Wind & Flame(79.2)"
+   ]
+  },
+  {
+   "id": "p19",
+   "name": "D.O.",
+   "count": 1,
+   "samples": [
+    "Kazoku Keikaku ~Soshite Mata Kazoku Keikaku o~(79.2)"
+   ]
+  },
+  {
+   "id": "p829",
+   "name": "Takayashiki Kaihatsu",
+   "count": 1,
+   "samples": [
+    "Kazoku Keikaku ~Soshite Mata Kazoku Keikaku o~(79.2)"
+   ]
+  },
+  {
+   "id": "p628",
+   "name": "ensemble",
+   "count": 1,
+   "samples": [
+    "Kyokkou no Marriage(79.1)"
+   ]
+  },
+  {
+   "id": "p21561",
+   "name": "ensemble#",
+   "count": 1,
+   "samples": [
+    "Kyokkou no Marriage(79.1)"
+   ]
+  },
+  {
+   "id": "p9710",
+   "name": "Parthia Kyoudan",
+   "count": 1,
+   "samples": [
+    "Fallen / Brand New World(79.1)"
+   ]
+  },
+  {
+   "id": "p10984",
+   "name": "metalogiq",
+   "count": 1,
+   "samples": [
+    "Mahou Shoujo Shoumou Sensen another record -Chiisaki Mono-tachi no Yume-(79.1)"
+   ]
+  },
+  {
+   "id": "p18867",
+   "name": "Diamondhenge Entertainment",
+   "count": 1,
+   "samples": [
+    "Tyrion Cuthbert: Attorney of the Arcane(79)"
+   ]
+  },
+  {
+   "id": "p499",
+   "name": "KISS",
+   "count": 1,
+   "samples": [
+    "Custom Order Maid 3D 2(79)"
+   ]
+  },
+  {
+   "id": "p5525",
+   "name": "WoGa Co., Ltd.",
+   "count": 1,
+   "samples": [
+    "Hana Awase(79)"
+   ]
+  },
+  {
+   "id": "p23456",
+   "name": "DSG",
+   "count": 1,
+   "samples": [
+    "Dai Sengoku Rance(79)"
+   ]
+  },
+  {
+   "id": "p8786",
+   "name": "NetEase Games",
+   "count": 1,
+   "samples": [
+    "Shi Kong Zhong de Hui Luren(79)"
+   ]
+  },
+  {
+   "id": "p1915",
+   "name": "Underground Campaign",
+   "count": 1,
+   "samples": [
+    "Ie, Tatemasu!(79)"
+   ]
+  },
+  {
+   "id": "p22991",
+   "name": "LopaPhi",
+   "count": 1,
+   "samples": [
+    "Wild Cats(78.9)"
+   ]
+  },
+  {
+   "id": "p29146",
+   "name": "MAGI Inc.",
+   "count": 1,
+   "samples": [
+    "Magical Princess(78.9)"
+   ]
+  },
+  {
+   "id": "p29147",
+   "name": "Neotro Inc.",
+   "count": 1,
+   "samples": [
+    "Magical Princess(78.9)"
+   ]
+  },
+  {
+   "id": "p85",
+   "name": "FlyingShine",
+   "count": 1,
+   "samples": [
+    "CROSS†CHANNEL(78.9)"
+   ]
+  },
+  {
+   "id": "p2015",
+   "name": "hibiki works",
+   "count": 1,
+   "samples": [
+    "Niizuma LOVELY×CATION(78.9)"
+   ]
+  },
+  {
+   "id": "p3880",
+   "name": "BerndSoft",
+   "count": 1,
+   "samples": [
+    "Bernd und das Rätsel um Unteralterbach(78.9)"
+   ]
+  },
+  {
+   "id": "p7627",
+   "name": "Hangover Cat Purrroduction",
+   "count": 1,
+   "samples": [
+    "A Promise Best Left Unkept(78.9)"
+   ]
+  },
+  {
+   "id": "p10964",
+   "name": "Stone Fox Studios",
+   "count": 1,
+   "samples": [
+    "Chasing Sunsets(78.9)"
+   ]
+  },
+  {
+   "id": "p454",
+   "name": "Four Leaf Studios",
+   "count": 1,
+   "samples": [
+    "Katawa Shoujo(78.8)"
+   ]
+  },
+  {
+   "id": "p10398",
+   "name": "DriftyGames",
+   "count": 1,
+   "samples": [
+    "Leap of Faith(78.8)"
+   ]
+  },
+  {
+   "id": "p12239",
+   "name": "Robobarbie",
+   "count": 1,
+   "samples": [
+    "Blooming Panic(78.8)"
+   ]
+  },
+  {
+   "id": "p7151",
+   "name": "Media.Vision",
+   "count": 1,
+   "samples": [
+    "HUNDRED LINE -Saishuu Bouei Gakuen-(78.8)"
+   ]
+  },
+  {
+   "id": "p10648",
+   "name": "Too Kyo Games, Inc.",
+   "count": 1,
+   "samples": [
+    "HUNDRED LINE -Saishuu Bouei Gakuen-(78.8)"
+   ]
+  },
+  {
+   "id": "p2929",
+   "name": "Jan-Poo",
+   "count": 1,
+   "samples": [
+    "Witches & Woodlands(78.8)"
+   ]
+  },
+  {
+   "id": "p3772",
+   "name": "sonnet009",
+   "count": 1,
+   "samples": [
+    "Aloners(78.8)"
+   ]
+  },
+  {
+   "id": "p21929",
+   "name": "Cosy Creator",
+   "count": 1,
+   "samples": [
+    "Cosy Cafe(78.8)"
+   ]
+  },
+  {
+   "id": "p2182",
+   "name": "Mahou Gengo Lyrical ☆ Lisp Team",
+   "count": 1,
+   "samples": [
+    "Mahou Gengo Lyrical ☆ Lisp(78.8)"
+   ]
+  },
+  {
+   "id": "p119",
+   "name": "GIGA",
+   "count": 1,
+   "samples": [
+    "Kono Aozora ni Yakusoku o(78.8)"
+   ]
+  },
+  {
+   "id": "p164",
+   "name": "ROOT",
+   "count": 1,
+   "samples": [
+    "Touka Gettan(78.7)"
+   ]
+  },
+  {
+   "id": "p1368",
+   "name": "TerraLunar",
+   "count": 1,
+   "samples": [
+    "Rakuen ~Ai Kawarazu na Boku. no Baai~(78.7)"
+   ]
+  },
+  {
+   "id": "p15456",
+   "name": "Chainsaw Team",
+   "count": 1,
+   "samples": [
+    "Letters to Venus(78.7)"
+   ]
+  },
+  {
+   "id": "p6131",
+   "name": "Underbliss",
+   "count": 1,
+   "samples": [
+    "Reverie: Ebon Light(78.7)"
+   ]
+  },
+  {
+   "id": "p17642",
+   "name": "Red Spring Studio",
+   "count": 1,
+   "samples": [
+    "TOUCHSTARVED(78.7)"
+   ]
+  },
+  {
+   "id": "p12631",
+   "name": "BreadMan",
+   "count": 1,
+   "samples": [
+    "Demon Deals(78.7)"
+   ]
+  },
+  {
+   "id": "p13373",
+   "name": "Westy",
+   "count": 1,
+   "samples": [
+    "Proud Father(78.7)"
+   ]
+  },
+  {
+   "id": "p16377",
+   "name": "LicoBiTs",
+   "count": 1,
+   "samples": [
+    "UN:LOGICAL(78.6)"
+   ]
+  },
+  {
+   "id": "p10907",
+   "name": "Azienda",
+   "count": 1,
+   "samples": [
+    "Falling Undercover: Nox Syndicate(78.6)"
+   ]
+  },
+  {
+   "id": "p526",
+   "name": "CRAFTWORK",
+   "count": 1,
+   "samples": [
+    "Sayonara o Oshiete ~Comment te Dire Adieu~(78.6)"
+   ]
+  },
+  {
+   "id": "p2427",
+   "name": "Asoberu! BD-GAME",
+   "count": 1,
+   "samples": [
+    "Saya no Uta(78.6)"
+   ]
+  },
+  {
+   "id": "p548",
+   "name": "ApRicoT",
+   "count": 1,
+   "samples": [
+    "Maple Colors 2(78.6)"
+   ]
+  },
+  {
+   "id": "p114",
+   "name": "Karin Entertainment",
+   "count": 1,
+   "samples": [
+    "Danzai no Maria -The Exorcism of Maria-(78.5)"
+   ]
+  },
+  {
+   "id": "p15371",
+   "name": "Northway Games",
+   "count": 1,
+   "samples": [
+    "I Was a Teenage Exocolonist(78.5)"
+   ]
+  },
+  {
+   "id": "p8374",
+   "name": "Sad Panda Studios",
+   "count": 1,
+   "samples": [
+    "Hush Hush: Only Your Love Can Save Them(78.5)"
+   ]
+  },
+  {
+   "id": "p24430",
+   "name": "MisterMaya",
+   "count": 1,
+   "samples": [
+    "Law School(78.5)"
+   ]
+  },
+  {
+   "id": "p11661",
+   "name": "LarkyLabs",
+   "count": 1,
+   "samples": [
+    "Oathbreaker: Season 2(78.5)"
+   ]
+  },
+  {
+   "id": "p7413",
+   "name": "Brianna Lei",
+   "count": 1,
+   "samples": [
+    "Butterfly Soup 2(78.5)"
+   ]
+  },
+  {
+   "id": "p430",
+   "name": "Liquid",
+   "count": 1,
+   "samples": [
+    "Saint Dorei Gakuen 2(78.5)"
+   ]
+  },
+  {
+   "id": "p1455",
+   "name": "SQUARE ENIX",
+   "count": 1,
+   "samples": [
+    "PARANORMASIGHT FILE38: Ise Ningyo Monogatari(78.4)"
+   ]
+  },
+  {
+   "id": "p5429",
+   "name": "Red Flagship Co.,Ltd.",
+   "count": 1,
+   "samples": [
+    "CHAOS;HEAD NOAH(78.4)"
+   ]
+  },
+  {
+   "id": "p76",
+   "name": "PULLTOP",
+   "count": 1,
+   "samples": [
+    "Miagete Goran, Yozora no Hoshi o(78.4)"
+   ]
+  },
+  {
+   "id": "p11889",
+   "name": "nolsoft",
+   "count": 1,
+   "samples": [
+    "Tamjeongjeon(78.4)"
+   ]
+  },
+  {
+   "id": "p2734",
+   "name": "4H",
+   "count": 1,
+   "samples": [
+    "Zengaku! Sana Append(78.4)"
+   ]
+  },
+  {
+   "id": "p175",
+   "name": "BLACKRAINBOW",
+   "count": 1,
+   "samples": [
+    "Saiminjutsu 2(78.4)"
+   ]
+  },
+  {
+   "id": "p987",
+   "name": "Atelier Kaguya TEAM HEARTBEAT",
+   "count": 1,
+   "samples": [
+    "Saishuu Chikan Densha 3(78.4)"
+   ]
+  },
+  {
+   "id": "p509",
+   "name": "ETERNAL",
+   "count": 1,
+   "samples": [
+    "Kikouyoku Senki Gin no Toki no Corona(78.4)"
+   ]
+  },
+  {
+   "id": "p1298",
+   "name": "HaccaWorks*",
+   "count": 1,
+   "samples": [
+    "Hanakisou(78.4)"
+   ]
+  },
+  {
+   "id": "p370",
+   "name": "Ricotta",
+   "count": 1,
+   "samples": [
+    "Walkure Romanze Re:tell(78.4)"
+   ]
+  },
+  {
+   "id": "p568",
+   "name": "TinkleBell",
+   "count": 1,
+   "samples": [
+    "Rondo Duo -Yoake no Fortissimo- Punyu Puri ff(78.4)"
+   ]
+  },
+  {
+   "id": "p1174",
+   "name": "Kyoushuu Hanaya",
+   "count": 1,
+   "samples": [
+    "Horobi Kuchiru Sekai ni Tsuioku no Hanataba o(78.4)"
+   ]
+  },
+  {
+   "id": "p8302",
+   "name": "Heliodor",
+   "count": 1,
+   "samples": [
+    "Ryuusei World Actor: Gaslight Bullet(78.4)"
+   ]
+  },
+  {
+   "id": "p6246",
+   "name": "Studio Pieplus",
+   "count": 1,
+   "samples": [
+    "Eden-ui Neomeo(78.4)"
+   ]
+  },
+  {
+   "id": "p1735",
+   "name": "Cardiovore",
+   "count": 1,
+   "samples": [
+    "Phoenix Wright: Ace Attorney - The Contempt of Court(78.3)"
+   ]
+  },
+  {
+   "id": "p13505",
+   "name": "Marutoku Kichi",
+   "count": 1,
+   "samples": [
+    "NO SALVATION(78.3)"
+   ]
+  },
+  {
+   "id": "p3489",
+   "name": "ANIM.teamMM",
+   "count": 1,
+   "samples": [
+    "Tsuma no Biniku o Masaguru Chichi no Futoi Yubi ~Shiranu Ma ni Chichi no Mono ni Natteita Tsuma wa, Yorokobi no Aegi to Tomoni Koshi o Uneraseteita~(78.2)"
+   ]
+  },
+  {
+   "id": "p104",
+   "name": "Regista Co.,Ltd.",
+   "count": 1,
+   "samples": [
+    "Root Double -Before Crime * After Days-(78.2)"
+   ]
+  },
+  {
+   "id": "p3921",
+   "name": "Neko Hige Radio",
+   "count": 1,
+   "samples": [
+    "Princess Sacrifice ~Kugi Hime Feena no Bouken~(78.2)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+﻿### 2026-10-03 图标换新（f64a971）
+- BMP 帧多尺寸 ICO（372526B）已换 exe/托盘/安装器三处；PNG 帧 LoadImage 不支持（窗口类/托盘会加载失败）；🔴 ICO BMP 帧=bottom-up 行序，top-down 写入全帧颠倒；512 帧无法进 ICO（bWidth 1 字节封顶 256）。生成器 dev_probe/make_app_icon_ico.py、校验 verify_orientation.py。
+- 🔴 docs/DEV/DEV_LOG.md（560KB/7871 行）与 SESSION_HANDOFF.md 遭系统级写保护：python PermissionError（目录内新建也被拒）、PowerShell Set-Content/WriteAllLines/Move-Item -Force 全部报成功但静默不落盘。图标条目更新文本备好：dev_probe/_new_devlog_entry.txt、_new_handoff_block.txt，待锁释放后落地。
+- 🔴 C 盘 0 剩余（P0）：Bash ENOSPC 瘫、PowerShell 原生输出捕获全丢、Edit/Write ModifyBackup 失败（os error 112）、managed venv python 静默失败 → 用 system Python313+PIL12.2.0，输出一律落盘。⏳ 图标生效待重建 exe+打包+真机走查。

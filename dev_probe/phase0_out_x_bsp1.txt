@@ -1,0 +1,9 @@
+### CMD: 7z x D:\CTLIB\.workbuddy\tmp\phase0\out\v1.7z -oD:\CTLIB\.workbuddy\tmp\phase0\roundtrip\from_v1 -y -bsp1
+exit=0 elapsed=0.82s
+### stdout bytes=792 stderr bytes=0
+
+===== STDOUT (repr) =====
+b'\r\n7-Zip (a) 23.01 (x86) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20\r\n\r\nScanning the drive for archives:\r\n  0M Scan D:\\CTLIB\\.workbuddy\\tmp\\phase0\\out\\\r                                             \r1 file, 135716363 bytes (130 MiB)\r\n\r\nExtracting archive: D:\\CTLIB\\.workbuddy\\tmp\\phase0\\out\\v1.7z\r\n--\r\nPath = D:\\CTLIB\\.workbuddy\\tmp\\phase0\\out\\v1.7z\r\nType = 7z\r\nPhysical Size = 135716363\r\nHeaders Size = 5585\r\nMethod = LZMA2:26\r\nSolid = +\r\nBlocks = 1\r\n\r\n  0%\r    \r 94% 31 - src\\big_incompressible\\rand_1.bin\r                                           \r 99% 292 - src\\many_small\\f0258.txt\r                                   \r 99% 578 - src\\many_small\\f0544.txt\r                                   \rEverything is Ok\r\n\r\nFolders: 26\r\nFiles: 815\r\nSize:       185969828\r\nCompressed: 135716363\r\n'
+
+===== STDERR (repr) =====
+b''

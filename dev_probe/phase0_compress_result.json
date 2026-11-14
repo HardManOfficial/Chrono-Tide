@@ -1,0 +1,53 @@
+{
+ "v1_bsp1": {
+  "stdout_bytes": 6756,
+  "segments_by_lf": 15,
+  "segments_by_cr": 164,
+  "parsed_by_lf": 0,
+  "parsed_by_cr": 1,
+  "pct_samples": [
+   "  0%",
+   "  5% 1 + src\\big_compressible.dat",
+   " 12% 1 + src\\big_compressible.dat",
+   " 20% 1 + src\\big_compressible.dat",
+   " 28% 2 + src\\big_incompressible\\rand_0.bin"
+  ],
+  "tag": "v1_bsp1",
+  "exit": 0,
+  "elapsed_s": 33.92,
+  "archive_bytes": 135716363,
+  "dump": "D:\\CTLIB\\dev_probe\\phase0_out_v1_bsp1.txt"
+ },
+ "v2_bsp1_bb1": {
+  "stdout_bytes": 38950,
+  "segments_by_lf": 828,
+  "segments_by_cr": 2589,
+  "parsed_by_lf": 0,
+  "parsed_by_cr": 1,
+  "pct_samples": [
+   "  0%",
+   "  0%",
+   "  0% 1",
+   "  9% 1",
+   " 21% 1"
+  ],
+  "tag": "v2_bsp1_bb1",
+  "exit": 0,
+  "elapsed_s": 31.27,
+  "archive_bytes": 135716363,
+  "dump": "D:\\CTLIB\\dev_probe\\phase0_out_v2_bsp1_bb1.txt"
+ },
+ "v3_nobsp": {
+  "stdout_bytes": 378,
+  "segments_by_lf": 15,
+  "segments_by_cr": 10,
+  "parsed_by_lf": 1,
+  "parsed_by_cr": 1,
+  "pct_samples": [],
+  "tag": "v3_nobsp",
+  "exit": 0,
+  "elapsed_s": 31.09,
+  "archive_bytes": 135716363,
+  "dump": "D:\\CTLIB\\dev_probe\\phase0_out_v3_nobsp.txt"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "interrupt": {
+  "was_running_when_killed": true,
+  "process_returncode": 1,
+  "src_files_before": 815,
+  "src_files_after": 815,
+  "src_bytes_before": 185969247,
+  "src_bytes_after": 185969247,
+  "source_intact": true,
+  "new_artifacts": [
+   "interrupted.7z"
+  ],
+  "partial_size": 34970870,
+  "partial_test_exit": 2,
+  "partial_test_tail": [
+   "Files: 0",
+   "Size:       0",
+   "Compressed: 0"
+  ]
+ }
+}

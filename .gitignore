@@ -1,0 +1,154 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter
+.flutter_tool_state
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Runtime-generated (Chrono Tide)
+_temp_tools/
+openlist/data/
+logs/
+Games/
+downloads/
+data.zip
+dist/
+scraper_service.exe
+
+# ============================================================
+# Chrono Tide 仓库管理增强规则
+# 建立于 2026-09-01，目的：让 Git 成为 AI 误改后的回滚兜底。
+# 原则：只跟踪「源码 + 文档 + 配置」，排除第三方工具、构建产物、
+#       SDK、安装包与巨型二进制，保持 git 轻量、快、可回滚。
+# 注意：gitignore 不支持行尾注释，所有说明必须单独成行。
+# ============================================================
+
+# 第三方工具 / 依赖运行时（自备，不入仓）
+/flutter/
+/openlist/
+/Magpie-dev/
+/Magpie-v0.12.1-x64/
+/Sunshine-Windows-AMD64-portable/
+/Locale.Emulator.2.5.0.1/
+/upx-4.2.4-win64/
+/ludusavi-master/
+/Mali/
+/Service/
+/SteamEmu/
+/Microsoft.UI.Xaml.dll
+/Magpie.exe
+/TouchHelper.exe
+/Updater.exe
+/Mali-Regular.ttf
+
+# 开源镜像仓库（自带 git，独立管理，不嵌套进主仓）
+/chrono-tide-opensource/
+
+# 构建 / 打包产物
+# ENV-REBUILD 2026-11-09：Dev\（操作面板）本身纳入版本控制（流水线资产），只忽略中间产物
+/Dev/build_work/
+/Dev/logs/
+/Dev/dist/
+/鎵撳寘鑴氭湰/
+/windows/flutter/ephemeral/
+/windows/runner/magpie/Microsoft.UI.Xaml.dll
+*.zip
+*.7z
+*.exe
+*.msix
+*.appx
+*.dill
+*.so
+*.pdb
+
+# 历史备份目录（人工备份，不作为源码历史）
+lib_backup_*/
+
+# 他人项目参考（版权与体积原因，不入仓）
+/其他开发者的项目用于本项目参考/
+
+# FontHook / CTFontHook：独立项目，自带 Git，独立管理，不嵌套进主仓
+/FontHook/
+
+# 官网静态站（独立维护，暂不入主仓）
+/官网/
+
+# 运行时数据 / 缓存
+/le_temp/
+/font_7spfmbvhav8/
+debug.log
+
+# 工作记忆：过程性内容，不纳入版本控制
+# 这样 git status 只反映「代码有没有被改」，自查越界才有效
+# 注意 .workbuddy/skills/ 是持久资产，仍需跟踪
+/.workbuddy/memory/
+
+# Git 仓库损坏救援保留的旧仓库目录（勿删但永不跟踪）
+.git_backup_20260904/
+.git_corrupted_20260904_2nd/
+.figma/
+
+# PocketBase 本地开发实例（二进制 + SQLite 数据 + 下载 zip，永不跟踪）
+/.workbuddy/pb_dev/
+
+# NSFW M4 探针的大体积可再生成中间件（.rgba 预处理输入 / 拷贝的 dll 副本）；
+# 保留 probs.jsonl / montage.png / *.py / *.dart / manifest.json（结果与脚本）
+/dev_probe/nsfw_m4/*.rgba
+/dev_probe/nsfw_m4/onnxruntime.dll
+
+# ============================================================
+# ENV-REBUILD 2026-11-09：项目迁入 D:\CTLIB\apps\chrono-tide
+# .workbuddy 改为「工作区级」目录，留在 D:\CTLIB 根，由工作区仓管理，
+# 本仓不再跟踪。项目真正需要的后端资产已迁到 ./pb/。
+# ============================================================
+/.workbuddy/
+
+# Local credentials - NEVER commit
+.env
+.env.*
+*.local.dart
+api_keys.local.json
+**/secrets/
+**/*_secret.dart
+
+# Local snapshot marker (not part of the project)
+.ct_oss_snapshot

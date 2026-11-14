@@ -1,0 +1,102 @@
+========================================================================
+样本构造  (lz4 lib: True)
+  造 plain.zip              rc=0 OK
+  造 plain.7z               rc=0 OK
+  造 enc_name.7z            rc=0 OK
+  造 enc_zipcrypto.zip      rc=0 OK
+  造 enc_zip_aes.zip        rc=0 OK
+  造 game.zip.lz4 / data.lz4 OK
+========================================================================
+T1-T9  7z.exe 行为矩阵
+[T1] 基线：列明文 zip
+      cmd = 7z.exe l -sccUTF-8 plain.zip
+      rc=0
+      | Type = zip
+      => PASS (期望 rc=True)
+[T2] 列「加密文件名 7z」无密码（期望失败→探测断链点）
+      cmd = 7z.exe l -sccUTF-8 -p enc_name.7z
+      rc=2
+      | Errors: 1
+      | ERROR: D:\CTLIB\.workbuddy\tmp_unpack_probe\enc_name.7z : Cannot open encrypted archive. Wrong password?
+      => PASS (期望 rc=False)
+[T3] 列「加密文件名 7z」正确密码（期望成功）
+      cmd = 7z.exe l -sccUTF-8 -pBilibili_Slpeey enc_name.7z
+      rc=0
+      | Type = 7z
+      => PASS (期望 rc=True)
+[T4] 列「ZipCrypto zip」无密码（文件名不加密→期望能列）
+      cmd = 7z.exe l -sccUTF-8 -p enc_zipcrypto.zip
+      rc=0
+      | Type = zip
+[T5] 列「AES zip」无密码（期望能列文件名）
+      cmd = 7z.exe l -sccUTF-8 -p enc_zip_aes.zip
+      rc=0
+      | Type = zip
+[T6] 测试「ZipCrypto zip」错密码（观察 CRC vs Wrong password）
+      cmd = 7z.exe t -sccUTF-8 -pdefinitely_wrong_pw enc_zipcrypto.zip
+      rc=2
+      | Type = zip
+      | Sub items Errors: 2
+      | Archives with Errors: 1
+      | Sub items Errors: 2
+      | ERROR: Wrong password : fake_game\game.exe
+      | ERROR: Wrong password : fake_game\说明.txt
+[T7] 测试「加密文件名 7z」错密码（期望 Wrong password）
+      cmd = 7z.exe t -sccUTF-8 -pdefinitely_wrong_pw enc_name.7z
+      rc=2
+      | ERROR: D:\CTLIB\.workbuddy\tmp_unpack_probe\enc_name.7z
+      | Cannot open encrypted archive. Wrong password?
+[T8] 解压「ZipCrypto zip」错密码（观察是否解出垃圾/CRC fail）
+      cmd = 7z.exe x -y -sccUTF-8 -pdefinitely_wrong_pw -oD:\CTLIB\.workbuddy\tmp_unpack_probe\out\t8 enc_zipcrypto.zip
+      rc=2
+      | Type = zip
+      | Sub items Errors: 2
+      | Archives with Errors: 1
+      | Sub items Errors: 2
+      | ERROR: Wrong password : fake_game\game.exe
+      | ERROR: Wrong password : fake_game\说明.txt
+[T9] 完整性测试明文 zip（7z t 基线）
+      cmd = 7z.exe t -sccUTF-8 plain.zip
+      rc=0
+      | Type = zip
+      => PASS (期望 rc=True)
+========================================================================
+T10-T15 bz.exe / 改后缀 / 7z-lz4
+[T10] bz.exe 解独立 .lz4（G5 修复前提）
+      cmd = bz.exe x -y -o:D:\CTLIB\.workbuddy\tmp_unpack_probe\out\t10 data.lz4
+      rc=0
+      => PASS (期望 rc=True)
+[T11] bz.exe 解 .zip.lz4（期望解出 zip 文件）
+      cmd = bz.exe x -y -o:D:\CTLIB\.workbuddy\tmp_unpack_probe\out\t11 game.zip.lz4
+      rc=0
+      => PASS (期望 rc=True)
+      | 产物确认: ❌ 未找到 plain.zip，实际: ['game.zip']
+[T12] bz.exe 解「伪装 .mp4」(=zip)——Bandizip 是否按内容识别
+      cmd = bz.exe x -y -o:D:\CTLIB\.workbuddy\tmp_unpack_probe\out\t12 disguise.mp4
+      rc=0
+[T14] 7z l「伪装 .mp4」——7z 是否按内容识别（后缀免疫性）
+      cmd = 7z.exe l -sccUTF-8 disguise.mp4
+      rc=0
+      | Type = zip
+      => PASS (期望 rc=True)
+[T15] 7z l .lz4——7z 23.01 是否原生支持 lz4（预期不支持→必须用 bz.exe）
+      cmd = 7z.exe l -sccUTF-8 data.lz4
+      rc=2
+      | Errors: 1
+      | ERROR: D:\CTLIB\.workbuddy\tmp_unpack_probe\data.lz4 : Cannot open the file as archive
+========================================================================
+T13 魔数嗅探表验证（前 16 字节）
+  plain.zip              -> zip        head=50 4b 03 04 14 00 00 00 00 00 6e 64 44 5d 00 00
+  plain.7z               -> 7z         head=37 7a bc af 27 1c 00 04 ec e8 9c e6 c0 00 00 00
+  enc_name.7z            -> 7z         head=37 7a bc af 27 1c 00 04 27 a3 06 2c f0 00 00 00
+  enc_zipcrypto.zip      -> zip        head=50 4b 03 04 14 00 00 00 00 00 6e 64 44 5d 00 00
+  enc_zip_aes.zip        -> zip        head=50 4b 03 04 14 00 00 00 00 00 6e 64 44 5d 00 00
+  disguise.mp4           -> zip        head=50 4b 03 04 14 00 00 00 00 00 6e 64 44 5d 00 00
+  game.zip.lz4           -> lz4-frame  head=04 22 4d 18 68 40 46 02 00 00 00 00 00 00 00 3c
+  data.lz4               -> lz4-frame  head=04 22 4d 18 68 40 d0 07 00 00 00 00 00 00 38 26
+========================================================================
+T10/T11/T12 产物目录清点
+  t10/: ['data']
+  t11/: ['game.zip']
+  t12/: ['fake_game']
+  t8/: ['fake_game']

@@ -1,0 +1,147 @@
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+import '../services/global_task_manager.dart';
+import '../theme/app_colors.dart';
+
+class FloatingTaskButton extends StatefulWidget {
+  const FloatingTaskButton({super.key});
+
+  @override
+  State<FloatingTaskButton> createState() => _FloatingTaskButtonState();
+}
+
+class _FloatingTaskButtonState extends State<FloatingTaskButton>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _animationController;
+  Timer? _pulseTimer;
+  bool _isHovering = false;
+  bool _hasActiveTask = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _animationController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1500),
+    );
+
+    GlobalTaskManager.instance.addTaskListener(_onTasksChanged);
+    _updateTaskState();
+    _startPulseAnimation();
+  }
+
+  @override
+  void dispose() {
+    _animationController.dispose();
+    _pulseTimer?.cancel();
+    GlobalTaskManager.instance.removeTaskListener(_onTasksChanged);
+    super.dispose();
+  }
+
+  void _updateTaskState() {
+    setState(() {
+      _hasActiveTask = GlobalTaskManager.instance.hasActiveTask;
+    });
+  }
+
+  void _startPulseAnimation() {
+    if (_hasActiveTask) {
+      _pulseTimer?.cancel();
+      _pulseTimer = Timer.periodic(const Duration(milliseconds: 3000), (timer) {
+        if (mounted && _hasActiveTask) {
+          _animationController.forward(from: 0.0);
+        }
+      });
+      _animationController.repeat(reverse: true);
+    } else {
+      _pulseTimer?.cancel();
+      _animationController.stop();
+      _animationController.reset();
+    }
+  }
+
+  void _onTasksChanged(GlobalTaskInfo info) {
+    if (mounted) {
+      setState(() {
+        _hasActiveTask = info.isActive;
+        _startPulseAnimation();
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Positioned(
+      right: 40,
+      bottom: 120,
+      child: MouseRegion(
+        onEnter: (_) => setState(() => _isHovering = true),
+        onExit: (_) => setState(() => _isHovering = false),
+        child: GestureDetector(
+          onTap: () {},
+          child: AnimatedBuilder(
+            animation: _animationController,
+            builder: (context, child) {
+              double scale = 1.0;
+              if (_hasActiveTask) {
+                scale = 1.0 + (_animationController.value * 0.08);
+              }
+
+              return Transform.scale(
+                scale: scale,
+                child: Container(
+                  width: 56,
+                  height: 56,
+                  decoration: BoxDecoration(
+                    color: _hasActiveTask
+                        ? AppColors.dangerRed
+                        : (_isHovering
+                            ? AppColors.selectedAccent
+                            : AppColors.buttonBackground),
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: _hasActiveTask
+                          ? AppColors.dangerRed.withOpacity(0.6)
+                          : AppColors.border,
+                      width: 2,
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: _hasActiveTask
+                            ? AppColors.dangerRed.withOpacity(0.4)
+                            : AppColors.border,
+                        offset: const Offset(3, 4),
+                        blurRadius: 0,
+                      ),
+                    ],
+                  ),
+                  alignment: Alignment.center,
+                  child: Stack(
+                    clipBehavior: Clip.none,
+                    children: [
+                      SvgPicture.asset(
+                        'assets/images/download_icon.svg',
+                        width: 26,
+                        height: 26,
+                        colorFilter: ColorFilter.mode(
+                          _hasActiveTask
+                              ? Colors.white
+                              : AppColors.primaryText,
+                          BlendMode.srcIn,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
+}

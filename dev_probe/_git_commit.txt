@@ -1,0 +1,5 @@
+[master fb10255] docs: 图标换新收尾——DEV_LOG/HANDOFF 落地 BMP 帧最终态
+ 5 files changed, 280 insertions(+), 18 deletions(-)
+ create mode 100644 dev_probe/make_app_icon_ico.py
+ create mode 100644 dev_probe/verify_and_visual.py
+ create mode 100644 dev_probe/verify_orientation.py

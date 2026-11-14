@@ -1,0 +1,471 @@
+{
+ "concepts_before": 688,
+ "concepts_after": 715,
+ "aliases_total": 5457,
+ "dim_dist": {
+  "age": 3,
+  "playstyle": 52,
+  "setting": 87,
+  "tone": 34,
+  "theme": 48,
+  "element": 107,
+  "character": 275,
+  "art": 26,
+  "adult": 83
+ },
+ "merged": [
+  [
+   "回合战",
+   "ps.turn_based"
+  ],
+  [
+   "夏日",
+   "el.summer"
+  ],
+  [
+   "爱恋",
+   "th.romance"
+  ],
+  [
+   "幸福",
+   "tone.heartwarming"
+  ],
+  [
+   "争霸",
+   "el.war"
+  ],
+  [
+   "权谋",
+   "el.politics"
+  ],
+  [
+   "推理剧",
+   "tone.mystery"
+  ],
+  [
+   "学院",
+   "set.school"
+  ],
+  [
+   "相伴",
+   "th.bond"
+  ],
+  [
+   "心动",
+   "th.romance"
+  ],
+  [
+   "寄宿",
+   "set.dorm"
+  ],
+  [
+   "乡土",
+   "set.countryside"
+  ],
+  [
+   "伤痛",
+   "tone.utsu"
+  ],
+  [
+   "归途",
+   "th.reunion"
+  ],
+  [
+   "澄空学园",
+   "set.school"
+  ],
+  [
+   "约会",
+   "th.romance"
+  ],
+  [
+   "相守",
+   "th.bond"
+  ],
+  [
+   "温存",
+   "tone.heartwarming"
+  ],
+  [
+   "相恋",
+   "th.romance"
+  ],
+  [
+   "恋曲",
+   "th.romance"
+  ],
+  [
+   "音乐",
+   "el.music"
+  ],
+  [
+   "运动",
+   "ps.sports"
+  ],
+  [
+   "冬日",
+   "el.winter"
+  ],
+  [
+   "惜别",
+   "th.parting"
+  ],
+  [
+   "时空",
+   "el.timetravel"
+  ],
+  [
+   "热恋",
+   "th.romance"
+  ],
+  [
+   "青涩",
+   "tone.youth"
+  ],
+  [
+   "追梦",
+   "th.self_discovery"
+  ],
+  [
+   "秘闻",
+   "el.secret"
+  ],
+  [
+   "公寓互动",
+   "el.cohabitation"
+  ],
+  [
+   "重制",
+   "el.remake"
+  ],
+  [
+   "小镇",
+   "set.countryside"
+  ],
+  [
+   "咖啡店物语",
+   "set.cafe"
+  ],
+  [
+   "西幻",
+   "set.fantasy"
+  ],
+  [
+   "异能战斗",
+   "el.superpower"
+  ],
+  [
+   "人鱼诅咒",
+   "el.curse"
+  ],
+  [
+   "婚后",
+   "th.marriage"
+  ],
+  [
+   "抉择",
+   "ps.choices"
+  ],
+  [
+   "思念",
+   "th.one_sided"
+  ],
+  [
+   "追寻",
+   "th.self_discovery"
+  ],
+  [
+   "探寻",
+   "th.self_discovery"
+  ],
+  [
+   "寻我",
+   "th.self_discovery"
+  ],
+  [
+   "使命追寻",
+   "th.self_discovery"
+  ],
+  [
+   "和解",
+   "th.redemption"
+  ],
+  [
+   "理解",
+   "th.bond"
+  ],
+  [
+   "沟通",
+   "th.bond"
+  ],
+  [
+   "寻真",
+   "el.secret"
+  ],
+  [
+   "谎言",
+   "el.secret"
+  ],
+  [
+   "求生",
+   "ps.survival"
+  ],
+  [
+   "异界",
+   "set.isekai"
+  ],
+  [
+   "沉沦",
+   "tone.dark"
+  ],
+  [
+   "挣扎",
+   "tone.dark"
+  ],
+  [
+   "怪谈",
+   "el.urban_legend"
+  ],
+  [
+   "禁恋",
+   "th.ethics"
+  ],
+  [
+   "虚妄",
+   "tone.nihilism"
+  ],
+  [
+   "博弈",
+   "el.battle_of_wits"
+  ],
+  [
+   "斗智",
+   "el.battle_of_wits"
+  ],
+  [
+   "悸动",
+   "th.romance"
+  ],
+  [
+   "温情",
+   "tone.heartwarming"
+  ],
+  [
+   "情感向",
+   "th.romance"
+  ],
+  [
+   "多男主",
+   "th.reverse_harem"
+  ],
+  [
+   "雪镇",
+   "set.countryside"
+  ],
+  [
+   "雪山",
+   "set.countryside"
+  ],
+  [
+   "乡间",
+   "set.countryside"
+  ],
+  [
+   "圣诞",
+   "el.christmas"
+  ],
+  [
+   "海岛",
+   "set.island"
+  ],
+  [
+   "多线叙事",
+   "ps.branch"
+  ],
+  [
+   "文学感",
+   "art.literary"
+  ],
+  [
+   "梦世界",
+   "el.dream"
+  ],
+  [
+   "特摄",
+   "el.hero_team"
+  ],
+  [
+   "部活",
+   "el.school_club"
+  ],
+  [
+   "氛围向",
+   "tone.atmosphere"
+  ],
+  [
+   "悲恋",
+   "tone.tragedy"
+  ],
+  [
+   "STG",
+   "ps.shooting"
+  ],
+  [
+   "别离",
+   "th.parting"
+  ],
+  [
+   "轮回宿命",
+   "el.loop"
+  ],
+  [
+   "暗杀",
+   "el.murder"
+  ],
+  [
+   "枪战",
+   "el.battle"
+  ],
+  [
+   "奇幻战斗",
+   "el.battle"
+  ],
+  [
+   "古风",
+   "set.ancient_china"
+  ],
+  [
+   "大观园",
+   "set.ancient_china"
+  ],
+  [
+   "时间回溯",
+   "el.timetravel"
+  ],
+  [
+   "种田",
+   "ps.business"
+  ],
+  [
+   "谍战",
+   "el.stealth"
+  ],
+  [
+   "青涩初恋",
+   "th.first_love"
+  ],
+  [
+   "初中往事",
+   "set.school"
+  ],
+  [
+   "追加短篇",
+   "ps.short_form"
+  ],
+  [
+   "悬疑猎奇",
+   "tone.grotesque"
+  ],
+  [
+   "暗夜罪案",
+   "el.crime"
+  ],
+  [
+   "平行校园",
+   "el.parallel"
+  ],
+  [
+   "放学",
+   "set.school"
+  ]
+ ],
+ "merged_skipped": [],
+ "new": [
+  "ps.afterstory",
+  "ps.sequel",
+  "ps.prequel",
+  "ps.spinoff",
+  "ps.collection",
+  "th.emotional_tangle",
+  "th.life_death",
+  "th.human_nature",
+  "th.long_distance",
+  "th.encounter",
+  "el.legend",
+  "el.folklore",
+  "el.conquest",
+  "el.rebellion",
+  "el.disguise",
+  "el.prophecy",
+  "el.body_swap",
+  "el.autumn",
+  "tone.nostalgia",
+  "tone.loneliness",
+  "tone.hope",
+  "tone.realism",
+  "art.good_art",
+  "ch.quintuplets",
+  "ad.medical_exam",
+  "age.teen",
+  "set.starry_night"
+ ],
+ "new_skipped": [],
+ "drop": {
+  "魔法秘录": "作品特化",
+  "时钟": "作品特化",
+  "地月": "作品特化",
+  "蜜色任务": "作品特化",
+  "水城": "作品特化",
+  "七日": "作品特化",
+  "东方": "作品特化",
+  "向日葵": "作品特化",
+  "宝石意志": "作品特化",
+  "宝石誓约": "作品特化",
+  "匣中余响": "作品特化",
+  "白河萤视角": "作品特化",
+  "萤光初遇": "作品特化",
+  "盛夏心结": "作品特化",
+  "秋忆救赎": "作品特化",
+  "雪下残梦": "作品特化",
+  "孽缘缠劫": "作品特化",
+  "悲愿流转": "作品特化",
+  "生死哀歌": "作品特化",
+  "浮生幻梦": "作品特化",
+  "空寂恋念": "作品特化",
+  "时间恋曲": "作品特化",
+  "夏日甜梦": "作品特化",
+  "夏日相伴": "作品特化",
+  "夏日归乡": "作品特化",
+  "命运悲歌": "作品特化",
+  "平行校园": "作品特化",
+  "双篇忆曲": "作品特化",
+  "三篇章": "作品特化",
+  "雨后余思": "作品特化",
+  "记忆幻梦": "作品特化",
+  "时空宿命": "作品特化",
+  "恋之奇迹": "作品特化",
+  "恋之救赎": "作品特化",
+  "爱之抉择": "作品特化",
+  "执念": "作品特化",
+  "约定": "作品特化",
+  "异象": "作品特化",
+  "灾难": "作品特化",
+  "死生观": "作品特化",
+  "任务": "作品特化",
+  "使命追寻": "作品特化",
+  "完结": "无效值",
+  "收束": "无效值",
+  "整合": "无效值",
+  "IF 线": "无效值",
+  "if": "无效值",
+  "同居全年龄": "无效值",
+  "实验性": "无效值",
+  "杂学": "无效值",
+  "晦涩": "无效值",
+  "神作": "无效值",
+  "多时代": "无效值",
+  "直播": "无效值",
+  "同级": "无效值",
+  "救世": "无效值"
+ }
+}

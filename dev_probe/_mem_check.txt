@@ -1,0 +1,1 @@
+True tail='ronoTide.ico 未动。\n- 环境注意：C 盘 123G 已满（0 可用），沙箱命令间歇 ENOSPC，重试或换通道即可；D 盘剩 11G 贴铁律线。\n'

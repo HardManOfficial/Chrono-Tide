@@ -1,0 +1,108 @@
+{
+  "V0": {
+    "png 自读尺寸": "[800, 600]",
+    "gifSmall 文件大小": 101817
+  },
+  "V7c": {
+    "fixture small": {
+      "体积KB": 99,
+      "扫描器": "GifScan(200x150, frames=6, delay=60cs, fps=10.0, truncated=false, ok=true)",
+      "引擎 frameCount": 6,
+      "引擎 repetitionCount": -1,
+      "帧数一致": true
+    },
+    "fixture mid": {
+      "体积KB": 2758,
+      "扫描器": "GifScan(500x500, frames=20, delay=200cs, fps=10.0, truncated=false, ok=true)",
+      "引擎 frameCount": 20,
+      "引擎 repetitionCount": -1,
+      "帧数一致": true
+    },
+    "真实 demo-cli.gif": {
+      "体积KB": 130,
+      "扫描器": "GifScan(581x370, frames=286, delay=1907cs, fps=15.0, truncated=false, ok=true)",
+      "引擎 frameCount": 286,
+      "引擎 repetitionCount": -1,
+      "帧数一致": true
+    },
+    "真实 demo-gui.gif": {
+      "体积KB": 1292,
+      "扫描器": "GifScan(1026x800, frames=214, delay=1427cs, fps=15.0, truncated=false, ok=true)",
+      "引擎 frameCount": 214,
+      "引擎 repetitionCount": -1,
+      "帧数一致": true
+    }
+  },
+  "V1w": {
+    "图像已加载": false,
+    "首帧尺寸": null,
+    "首帧回调": null,
+    "2 秒内帧回调次数": 0,
+    "结论": "加载失败（探针 invalid）"
+  },
+  "V2b": {
+    "请求 cacheWidth=100，原图 200x150": true,
+    "实际解码尺寸": "null(未加载)",
+    "cacheWidth 生效": false,
+    "探针有效": false
+  },
+  "V2c": {
+    "PNG 800x600 + cacheWidth=100 → 实际": "null(未加载)",
+    "PNG 800x600 原尺寸 → 实际": "null(未加载)",
+    "静态 cacheWidth 生效": false,
+    "探针有效": false
+  },
+  "V3": {
+    "precache PNG(800x600) 耗时ms": 13,
+    "precache GIF(200x150x6) 耗时ms": 15002,
+    "仅挂监听（无 widget）时 1s 内帧回调": 1,
+    "解读": "回调>1 → 挂上监听即继续推进（多帧 completer 存活）；=1 → 只留首帧静帧"
+  },
+  "V6": {
+    "静态 800x600 加载后 currentSizeBytes": 0,
+    "静态理论单帧": 1920000,
+    "静态探针有效": false,
+    "GIF 500x500x20 加载后 currentSizeBytes": 0,
+    "GIF 理论单帧": 1000000,
+    "倍数（相对单帧）": "0.00",
+    "GIF 实际解码尺寸": null,
+    "GIF 探针有效": false,
+    "解读": "倍数≈1 → 只按首帧计费（64MB 预算低估多帧内存）；倍数≈帧数(20) → 按全部帧计费"
+  },
+  "V5": {
+    "none": {
+      "图像已加载": false,
+      "平均微秒(去首次)": 160,
+      "样本": [
+        260,
+        223,
+        143,
+        88,
+        84
+      ]
+    },
+    "sigma8": {
+      "图像已加载": false,
+      "平均微秒(去首次)": 166,
+      "样本": [
+        234,
+        150,
+        138,
+        125,
+        184
+      ]
+    },
+    "sigma20": {
+      "图像已加载": false,
+      "平均微秒(去首次)": 207,
+      "样本": [
+        270,
+        193,
+        176,
+        162,
+        233
+      ]
+    },
+    "说明": "flutter_tester 软件光栅化，仅相对量级；真机 GPU 需另行走查"
+  }
+}

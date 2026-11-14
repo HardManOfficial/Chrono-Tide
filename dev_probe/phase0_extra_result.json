@@ -1,0 +1,44 @@
+{
+ "partial_naming": {
+  "exit": 0,
+  "created": true,
+  "test_exit": 0,
+  "size": 5605
+ },
+ "throughput": {
+  "可压-48MB-mx5": {
+   "src_bytes": 50331648,
+   "archive_bytes": 73320,
+   "seconds": 0.79,
+   "src_mb_s": 61.1,
+   "ratio": 0.001
+  },
+  "可压-48MB-mx1": {
+   "src_bytes": 50331648,
+   "archive_bytes": 73354,
+   "seconds": 2.11,
+   "src_mb_s": 22.76,
+   "ratio": 0.001
+  },
+  "随机-64MB-mx5": {
+   "src_bytes": 67108864,
+   "archive_bytes": 67113190,
+   "seconds": 12.99,
+   "src_mb_s": 4.93,
+   "ratio": 1.0
+  }
+ },
+ "verify_cost": {
+  "archive_bytes": 135716363,
+  "seconds": 0.26,
+  "mb_s": 494.18,
+  "exit": 0,
+  "tail": [
+   "",
+   "Folders: 26",
+   "Files: 815",
+   "Size:       185969828",
+   "Compressed: 135716363"
+  ]
+ }
+}

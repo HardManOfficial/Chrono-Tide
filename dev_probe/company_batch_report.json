@@ -1,0 +1,727 @@
+{
+ "created": [
+  [
+   239,
+   "PULLTOP LATTE",
+   null,
+   null,
+   "active",
+   []
+  ],
+  [
+   240,
+   "Navel honeybell",
+   "ネーブルハニーベル",
+   null,
+   "active",
+   []
+  ],
+  [
+   241,
+   "Fairytale",
+   "フェアリーテール",
+   null,
+   "active",
+   []
+  ],
+  [
+   242,
+   "FOG",
+   "F・O・G",
+   null,
+   "active",
+   [
+    "フォグ",
+    "Full on Games"
+   ]
+  ],
+  [
+   243,
+   "WillPlus",
+   "株式会社ウィルプラス",
+   null,
+   "active",
+   [
+    "Will",
+    "株式会社ウィル"
+   ]
+  ],
+  [
+   244,
+   "Cotton Soft",
+   "コットンソフト",
+   null,
+   "active",
+   []
+  ],
+  [
+   245,
+   "Princess Soft",
+   "プリンセスソフト",
+   null,
+   "active",
+   [
+    "PrincessSoft"
+   ]
+  ],
+  [
+   246,
+   "Penguin Works",
+   "ペンギンワークス",
+   null,
+   "active",
+   []
+  ],
+  [
+   247,
+   "Sumikko Soft",
+   "すみっこソフト",
+   null,
+   "active",
+   []
+  ],
+  [
+   248,
+   "Hiqo Soft",
+   "ハイクオソフト",
+   null,
+   "active",
+   [
+    "Hi-Quality Soft",
+    "High Quality Soft",
+    "Hiquo Soft",
+    "Haikuo"
+   ]
+  ],
+  [
+   249,
+   "Shakunage",
+   "しゃくなげ",
+   null,
+   "discontinued",
+   [
+    "Rhododendron",
+    "syakunagesoft"
+   ]
+  ],
+  [
+   250,
+   "Erectlip",
+   "エレクトリップ",
+   null,
+   "active",
+   [
+    "erectlip from ACE tribe"
+   ]
+  ],
+  [
+   251,
+   "Hiyoko Soft",
+   "ひよこソフト",
+   null,
+   "discontinued",
+   []
+  ],
+  [
+   252,
+   "Meromero Cute",
+   "めろめろキュート",
+   null,
+   "active",
+   []
+  ],
+  [
+   253,
+   "Chien",
+   null,
+   null,
+   "active",
+   [
+    "シアン"
+   ]
+  ],
+  [
+   254,
+   "CITRUS",
+   null,
+   null,
+   "active",
+   []
+  ],
+  [
+   255,
+   "Tily",
+   null,
+   null,
+   "active",
+   [
+    "ティリー"
+   ]
+  ]
+ ],
+ "skipped": [
+  [
+   "p709",
+   "でぼの巣製作所"
+  ],
+  [
+   "p365",
+   "BLACK Cyc"
+  ],
+  [
+   "p507",
+   "Dual Tail"
+  ],
+  [
+   "p4153",
+   "STING"
+  ],
+  [
+   "p19",
+   "D.O."
+  ],
+  [
+   "p2015",
+   "hibiki works"
+  ],
+  [
+   "p85",
+   "FlyingShine"
+  ],
+  [
+   "p7659",
+   "Qruppo"
+  ],
+  [
+   "p6719",
+   "SILKY'S PLUS DOLCE"
+  ],
+  [
+   "p4768",
+   "SILKY'S PLUS WASABI"
+  ],
+  [
+   "p164",
+   "ROOT"
+  ],
+  [
+   "p357",
+   "Lass"
+  ],
+  [
+   "p390",
+   "Shiratama"
+  ],
+  [
+   "p5268",
+   "Us:track"
+  ],
+  [
+   "p11943",
+   "Aino+Links"
+  ],
+  [
+   "p520",
+   "Enterbrain"
+  ],
+  [
+   "p2695",
+   "Astronauts: Spica"
+  ],
+  [
+   "p170",
+   "Chuablesoft"
+  ],
+  [
+   "p2793",
+   "AKABEiSOFT3"
+  ],
+  [
+   "p984",
+   "Atelier Kaguya BerkshireYorkshire"
+  ],
+  [
+   "p171",
+   "Atelier Kaguya"
+  ],
+  [
+   "p503",
+   "Frill"
+  ],
+  [
+   "p12882",
+   "Shatou Sombrero"
+  ],
+  [
+   "p6745",
+   "Milk Factory"
+  ],
+  [
+   "p11568",
+   "Sister Position"
+  ],
+  [
+   "p162",
+   "Sekai Project"
+  ],
+  [
+   "p10527",
+   "Connection"
+  ],
+  [
+   "p6048",
+   "paleontology"
+  ],
+  [
+   "p24097",
+   "Seikou Soft"
+  ],
+  [
+   "p543",
+   "CyberFront"
+  ],
+  [
+   "p5009",
+   "SEACOXX"
+  ],
+  [
+   "p1303",
+   "KAI"
+  ],
+  [
+   "p7001",
+   "CRYSTALiA"
+  ],
+  [
+   "p589",
+   "Otomate"
+  ],
+  [
+   "p2361",
+   "Design Factory"
+  ],
+  [
+   "p242",
+   "light"
+  ],
+  [
+   "p1741",
+   "Torotoro Resistance"
+  ],
+  [
+   "p350",
+   "CAPCOM"
+  ],
+  [
+   "p3903",
+   "Atelier Kaguya BARE & BUNNY"
+  ],
+  [
+   "p404",
+   "raiL-soft"
+  ],
+  [
+   "p5769",
+   "Holicworks"
+  ],
+  [
+   "p19579",
+   "SDR Project"
+  ],
+  [
+   "p1499",
+   "Rejet"
+  ],
+  [
+   "p3293",
+   "inre"
+  ],
+  [
+   "p10241",
+   "aNCHOR Inc."
+  ],
+  [
+   "p4543",
+   "ADELTA"
+  ],
+  [
+   "p990",
+   "Team Baldrhead"
+  ],
+  [
+   "p751",
+   "LoveDelivery"
+  ],
+  [
+   "p352",
+   "Idea Factory"
+  ],
+  [
+   "p3723",
+   "Rascou"
+  ],
+  [
+   "p3891",
+   "ichicolumn inc."
+  ],
+  [
+   "p776",
+   "honeybee"
+  ],
+  [
+   "p3354",
+   "NOVECT"
+  ],
+  [
+   "p619",
+   "NITRO CHiRAL"
+  ],
+  [
+   "p593",
+   "Tennenouji"
+  ],
+  [
+   "p88",
+   "Nippon Ichi Software"
+  ],
+  [
+   "p567",
+   "Takuyo"
+  ],
+  [
+   "p906",
+   "Kemco"
+  ],
+  [
+   "p5927",
+   "Water Phoenix"
+  ],
+  [
+   "p26",
+   "PROTOTYPE"
+  ],
+  [
+   "p388",
+   "QuinRose"
+  ],
+  [
+   "p3894",
+   "VENUS"
+  ],
+  [
+   "p2184",
+   "Karin Chatnoir Ω"
+  ],
+  [
+   "p302",
+   "ninetail"
+  ],
+  [
+   "p699",
+   "Aromarie"
+  ],
+  [
+   "p379",
+   "Lillian"
+  ],
+  [
+   "p1424",
+   "Vingt-et-un Systems"
+  ],
+  [
+   "p490",
+   "Lune"
+  ],
+  [
+   "p622",
+   "Hadashi Shoujo"
+  ],
+  [
+   "p1078",
+   "Red Entertainment"
+  ],
+  [
+   "p6282",
+   "Kenkou Land"
+  ],
+  [
+   "p2892",
+   "LOVE&DESTROY"
+  ],
+  [
+   "p2748",
+   "Studio Pork"
+  ],
+  [
+   "p12213",
+   "XEECEE"
+  ],
+  [
+   "p6815",
+   "BA-KU"
+  ],
+  [
+   "p22808",
+   "AmuLit"
+  ],
+  [
+   "p793",
+   "Daisy2"
+  ],
+  [
+   "p2226",
+   "Voltage Inc."
+  ],
+  [
+   "p564",
+   "SEGA"
+  ],
+  [
+   "p331",
+   "Chunsoft"
+  ],
+  [
+   "p2807",
+   "Spike Chunsoft"
+  ],
+  [
+   "p77",
+   "KONAMI"
+  ],
+  [
+   "p1588",
+   "Koei Tecmo"
+  ],
+  [
+   "p97",
+   "Littlewitch"
+  ],
+  [
+   "p240",
+   "OVERDRIVE"
+  ],
+  [
+   "p548",
+   "ApRicoT"
+  ],
+  [
+   "p30",
+   "Kogado Studio"
+  ],
+  [
+   "p7564",
+   "Kogado Girls Project"
+  ],
+  [
+   "p910",
+   "GUST"
+  ],
+  [
+   "p499",
+   "KISS"
+  ],
+  [
+   "p370",
+   "Ricotta"
+  ],
+  [
+   "p409",
+   "Spray"
+  ],
+  [
+   "p526",
+   "CRAFTWORK"
+  ],
+  [
+   "p509",
+   "ETERNAL"
+  ],
+  [
+   "p568",
+   "TinkleBell"
+  ],
+  [
+   "p114",
+   "Karin Entertainment"
+  ],
+  [
+   "p175",
+   "BLACKRAINBOW"
+  ],
+  [
+   "p316",
+   "Syangrila"
+  ],
+  [
+   "p927",
+   "Lusterise"
+  ],
+  [
+   "p497",
+   "Gesen 18"
+  ],
+  [
+   "p430",
+   "Liquid"
+  ],
+  [
+   "p3489",
+   "ANIM.teamMM"
+  ],
+  [
+   "p2273",
+   "Heiantei"
+  ],
+  [
+   "p829",
+   "Takayashiki Kaihatsu"
+  ],
+  [
+   "p16377",
+   "LicoBiTs"
+  ],
+  [
+   "p16318",
+   "coly Inc."
+  ],
+  [
+   "p3130",
+   "Cheritz Co., Ltd"
+  ],
+  [
+   "p583",
+   "PIL/SLASH"
+  ],
+  [
+   "p4743",
+   "Primula"
+  ],
+  [
+   "p1915",
+   "Underground Campaign"
+  ],
+  [
+   "p12368",
+   "NITRO ORIGIN"
+  ],
+  [
+   "p1298",
+   "HaccaWorks*"
+  ],
+  [
+   "p6591",
+   "Quince Soft"
+  ],
+  [
+   "p8789",
+   "iMel Inc."
+  ],
+  [
+   "p6950",
+   "SEEC Inc."
+  ],
+  [
+   "p5",
+   "SUCCESS"
+  ],
+  [
+   "p346",
+   "Cing"
+  ],
+  [
+   "p104",
+   "Regista Co.,Ltd."
+  ],
+  [
+   "p10098",
+   "Regium"
+  ],
+  [
+   "p14884",
+   "Mogura Soft"
+  ],
+  [
+   "p988",
+   "Kuroneko-san Team"
+  ],
+  [
+   "p2383",
+   "parade"
+  ],
+  [
+   "p987",
+   "Atelier Kaguya TEAM HEARTBEAT"
+  ],
+  [
+   "p2693",
+   "Astronauts: Sirius"
+  ],
+  [
+   "p2789",
+   "Astronauts: Alya"
+  ],
+  [
+   "p4552",
+   "Astronauts: Comet"
+  ],
+  [
+   "p981",
+   "FlyingShine Black"
+  ],
+  [
+   "p982",
+   "FlyingShine Ken"
+  ],
+  [
+   "p983",
+   "FlyingShine Kotobuki"
+  ],
+  [
+   "p226",
+   "BaseSon"
+  ],
+  [
+   "p1008",
+   "ωstar"
+  ],
+  [
+   "p21",
+   "Leaf"
+  ],
+  [
+   "p434",
+   "SQUEEZ"
+  ],
+  [
+   "p1279",
+   "Lose"
+  ],
+  [
+   "p403",
+   "Escu:de"
+  ],
+  [
+   "p2975",
+   "HARUKAZE"
+  ],
+  [
+   "p1386",
+   "Unison Shift: Blossom"
+  ],
+  [
+   "p82",
+   "07th Expansion"
+  ],
+  [
+   "p3312",
+   "Madosoft"
+  ],
+  [
+   "p5049",
+   "Bug System"
+  ]
+ ],
+ "missing": [],
+ "total_companies": 255,
+ "total_keys": 723
+}

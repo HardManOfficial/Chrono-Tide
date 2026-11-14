@@ -1,0 +1,26 @@
+CreateFile failed 231
+Unhandled exception:
+ProcessException: 所有的管道范例都在使用中。
+
+  Command: cmd.exe /c ver
+#0      LocalProcessManager.runSync (package:process/src/interface/local_process_manager.dart:118:7)
+#1      ErrorHandlingProcessManager.runSync.<anonymous closure> (package:flutter_tools/src/base/error_handling_io.dart:724:24)
+#2      _runSync (package:flutter_tools/src/base/error_handling_io.dart:600:14)
+#3      ErrorHandlingProcessManager.runSync (package:flutter_tools/src/base/error_handling_io.dart:723:12)
+#4      _WindowsUtils.name (package:flutter_tools/src/base/os.dart:594:52)
+#5      _DefaultUsage.initialize (package:flutter_tools/src/reporting/usage.dart:196:20)
+#6      new Usage (package:flutter_tools/src/reporting/usage.dart:21:21)
+#7      runInContext.<anonymous closure> (package:flutter_tools/src/context_runner.dart:342:20)
+#8      AppContext._generateIfNecessary.<anonymous closure> (package:flutter_tools/src/base/context.dart:107:42)
+#9      _LinkedHashMapMixin.putIfAbsent (dart:collection-patch/compact_hash.dart:543:23)
+#10     AppContext._generateIfNecessary (package:flutter_tools/src/base/context.dart:95:20)
+#11     AppContext.get (package:flutter_tools/src/base/context.dart:124:32)
+#12     flutterUsage (package:flutter_tools/src/globals.dart:75:35)
+#13     generateCommands (package:flutter_tools/executable.dart:170:32)
+#14     main.<anonymous closure> (package:flutter_tools/executable.dart:95:11)
+#15     run.<anonymous closure> (package:flutter_tools/runner.dart:53:13)
+<asynchronous suspension>
+#16     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#17     main (package:flutter_tools/executable.dart:93:3)
+<asynchronous suspension>

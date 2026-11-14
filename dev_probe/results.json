@@ -1,0 +1,108 @@
+{
+  "V8": {
+    "loopCount0(无限)": {
+      "frameCount": 5,
+      "repetitionCount": -1
+    },
+    "loopCount3": {
+      "frameCount": 5,
+      "repetitionCount": 3
+    },
+    "无Netscape扩展": {
+      "frameCount": 5,
+      "repetitionCount": 0
+    }
+  },
+  "V1": {
+    "frames": [
+      "frame#0 200x150 dur=100ms t=2ms",
+      "frame#1 200x150 dur=100ms t=2ms",
+      "frame#2 200x150 dur=100ms t=2ms",
+      "frame#3 200x150 dur=100ms t=3ms",
+      "frame#4 200x150 dur=100ms t=3ms",
+      "frame#5 200x150 dur=100ms t=3ms"
+    ],
+    "需要回绕": "达到 frameCount=6",
+    "结论": "逐帧 getNextFrame 全部成功；GIF 有多帧即证明引擎具备多帧解码能力"
+  },
+  "V2": {
+    "引擎API直测": {
+      "请求 targetWidth=100, 原图 200x150": true,
+      "第1帧尺寸": "200x150",
+      "第2帧尺寸": "200x150",
+      "生效": false
+    },
+    "备注": "生产路径（ResizeImage/FileImage）见 V2b —— 纯 test() 里引擎文件 IO 不回调"
+  },
+  "V2b": {
+    "ResizeImage(width:100) 首帧": "null(未回调)",
+    "FileImage 原尺寸首帧": "null(未回调)",
+    "cacheWidth 生效": false
+  },
+  "V4": {
+    "同 FileImage(path) 两次 → 同一个 completer": true,
+    "同 ResizeImage(1920) 两次 → 同一个 completer": true,
+    "FileImage vs ResizeImage(1920) → 同一个 completer": false,
+    "结论提示": "前两行为 true → 「共用 provider key = 共用解码器」成立；第三行为 false → cacheWidth 必须全局统一，否则起第二个解码器"
+  },
+  "V6": {
+    "GIF 逻辑尺寸": "500x500 x 20 帧",
+    "单帧理论字节": 1000000,
+    "currentSizeBytes 变化": 0,
+    "倍数（相对单帧）": "0.00",
+    "首帧实际尺寸": null,
+    "解读": "倍数≈1 → 只按首帧计费（64MB 预算会低估多帧内存）；倍数≈帧数 → 按全部帧计费"
+  },
+  "V3": {
+    "precache PNG 耗时ms": 8,
+    "precache PNG 是否超时": false,
+    "precache GIF 耗时ms": 0,
+    "precache GIF 是否超时": false,
+    "precache 后 800ms 内收到的帧回调次数": 1,
+    "解读": "回调次数 >1 → precache 留下的多帧解码器仍在推进（监听即继续播）；=1 → precache 只留首帧；precache 超时 → precacheImage 对动图不返回"
+  },
+  "V5": {
+    "none": {
+      "平均微秒": 440,
+      "样本": [
+        1743,
+        132,
+        89,
+        88,
+        147
+      ]
+    },
+    "sigma8": {
+      "平均微秒": 262,
+      "样本": [
+        448,
+        335,
+        217,
+        175,
+        137
+      ]
+    },
+    "sigma20": {
+      "平均微秒": 217,
+      "样本": [
+        357,
+        278,
+        167,
+        146,
+        138
+      ]
+    },
+    "说明": "flutter_tester 软件光栅化，仅作相对量级参考，不代表 GPU 真机耗时"
+  },
+  "V7": {
+    "big.gif 体积MB": 5.31,
+    "全量扫描ms": 0.982,
+    "吞吐MB/s": 5403.9,
+    "全量结果": "GifScan(128x128, frames=600, delay=6000cs, fps=10.0, truncated=false, ok=true)",
+    "上限截断(100帧)ms": 0.065,
+    "截断结果": "GifScan(128x128, frames=100, delay=1000cs, fps=10.0, truncated=true, ok=true)",
+    "small.gif 平均单次扫描us": 27.66,
+    "small.gif 结果": "GifScan(200x150, frames=6, delay=60cs, fps=10.0, truncated=false, ok=true)",
+    "解读": "吞吐若 >100MB/s，则 10MB 文件全量扫描 <100ms，配合上限截断可稳定在数十毫秒内"
+  }
+}

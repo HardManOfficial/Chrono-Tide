@@ -1,0 +1,37 @@
+{
+ "readonly_attr": {
+  "src_is_readonly": true,
+  "extracted_is_readonly": true,
+  "src_mode": "0o100444",
+  "extracted_mode": "0o100444"
+ },
+ "cwd_mode": {
+  "compress_exit": 0,
+  "list_entries": 842,
+  "has_top_dotfile": true,
+  "no_src_prefix": true,
+  "extracted_files": 815,
+  "expected_files": 815,
+  "match": true
+ },
+ "sdel": {
+  "exit": 0,
+  "files_before": 805,
+  "files_after": 0,
+  "dirs_left": [],
+  "archive_exists": true,
+  "source_wiped": true
+ },
+ "volumes": {
+  "compress_exit": 0,
+  "volumes": [
+   "vol.7z.001",
+   "vol.7z.002",
+   "vol.7z.003"
+  ],
+  "extract_exit": 0,
+  "extracted_files": 815,
+  "expected_files": 815,
+  "auto_join_ok": true
+ }
+}

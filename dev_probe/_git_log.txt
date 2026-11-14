@@ -1,0 +1,60 @@
+commit fb102554a1d3f264aad483b40cd741f5a436da50
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 19:34:09 2026 +0800
+
+    docs: 图标换新收尾——DEV_LOG/HANDOFF 落地 BMP 帧最终态
+    
+    - DEV_LOG: 旧 PNG 帧条目（194,539B/两处）替换为最终态（BMP 帧 372,526B/
+      exe+托盘+安装器三处、LoadImage 兼容性结论、bottom-up 行序陷阱、f64a971）
+    - SESSION_HANDOFF: 顶部插入图标收官块（待重建 exe+打包+真机走查）
+    - 入库生成/验证工具: make_app_icon_ico.py / verify_orientation.py / verify_and_visual.py
+
+ dev_probe/make_app_icon_ico.py  | 157 ++++++++++++++++++++++++++++++++++++++++
+ dev_probe/verify_and_visual.py  |  39 ++++++++++
+ dev_probe/verify_orientation.py |  47 ++++++++++++
+ docs/DEV/DEV_LOG.md             |  46 +++++++-----
+ docs/DEV/SESSION_HANDOFF.md     |   9 +++
+ 5 files changed, 280 insertions(+), 18 deletions(-)
+
+commit f64a971286278ec45d07f038489324e8d7eff74b
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 19:01:00 2026 +0800
+
+    全局软件图标换新：exe+托盘+安装器三处统一（BMP 帧多尺寸 ICO）
+    
+    ico/ 7 尺寸源合并为 32bpp BMP 帧多尺寸 ICO（372,526B），零代码改动：
+    - windows/runner/resources/app_icon.ico：exe 图标（Runner.rc:55，
+      桌面快捷方式/任务栏/标题栏自动继承）
+    - assets/images/app_icon.ico：托盘图标源（tray_service.dart:107）
+    - ChronoTide.ico：安装器图标（ChronoTide_Setup.iss:31 SetupIconFile）
+    
+    选 BMP 帧而非源 PNG 帧：LoadImage（窗口类 HICON / 托盘 LR_LOADFROMFILE）
+    不支持 PNG 压缩帧；BMP(DIB) 全兼容。BMP 帧 bottom-up 行序陷阱已修，
+    源图 vs 落盘帧逐像素验证 7/7 一致。512 帧不进 ICO（格式无法表达）。
+    旧图标备份 dev_probe/_old_icons_backup/；工具 dev_probe/make_app_icon_ico.py。
+    待重建 exe + 打包 + 真机走查后生效。
+
+ ChronoTide.ico                        | Bin 867687 -> 372526 bytes
+ assets/images/app_icon.ico            | Bin 194539 -> 372526 bytes
+ windows/runner/resources/app_icon.ico | Bin 194539 -> 372526 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c240698c79c790066e3494df8863aeca203c8ff2
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 18:35:32 2026 +0800
+
+    全局图标换新：ico/ 新版图标 7 尺寸无损合并，替换 exe 图标与托盘图标
+    
+    - windows/runner/resources/app_icon.ico：exe 内嵌图标（桌面快捷方式/任务栏/标题栏，Runner.rc 引用不变）
+    - assets/images/app_icon.ico：托盘图标（tray_service.dart 运行时从 flutter_assets 读取）
+    - 合并方式：7 个单尺寸 PNG 帧（16-256）字节级搬运重排目录，不重编码像素；
+      512 帧因 ICO 目录项 1 字节宽高字段上限 256 而排除
+    - dev_probe/merge_app_icon.py：可复跑合并工具（--apply 才覆盖正式文件）
+    - 生效需重新构建 exe；iss 安装器图标（ChronoTide.ico）不在本次范围
+
+ assets/images/app_icon.ico            | Bin 873175 -> 194539 bytes
+ dev_probe/merge_app_icon.py           | 123 ++++++++++++++++++++++++++++++++++
+ docs/DEV/DEV_LOG.md                   |  19 ++++++
+ docs/DEV/SESSION_HANDOFF.md           |  11 +++
+ windows/runner/resources/app_icon.ico | Bin 887346 -> 194539 bytes
+ 5 files changed, 153 insertions(+)

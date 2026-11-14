@@ -1,0 +1,5 @@
+warning: in the working copy of 'docs/DEV/DEV_LOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/DEV/SESSION_HANDOFF.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'dev_probe/make_app_icon_ico.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'dev_probe/verify_and_visual.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'dev_probe/verify_orientation.py', LF will be replaced by CRLF the next time Git touches it

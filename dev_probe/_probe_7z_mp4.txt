@@ -1,0 +1,33 @@
+
+7-Zip (a) 23.01 (x86) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+
+Scanning the drive for archives:
+1 file, 2762552678 bytes (2635 MiB)
+
+Listing archive: E:\GAL\GAL\Wu5U4_重力势能【PC】.mp4
+
+--
+Path = E:\GAL\GAL\Wu5U4_重力势能【PC】.mp4
+Type = zip
+WARNINGS:
+There are data after the end of archive
+Offset = 8310000
+Physical Size = 2754231396
+Tail Size = 11282
+64-bit = +
+Comment = 
+{
+SHA-256 Hash of '銆怭C銆戦潚绌轰笅鐨勫姞缂?rar':
+ec27dca08d78391bde8b3e299d41413ae0a1369294911dda14dbd70675fcfd0f
+Timestamp '2026-01-27 13:22:20'
+Timehash '7824e850a29dd8fe0d9a2f6bb7fbaa6aaaf6adb02dd8ed4ed2da4318c5d4db61'
+}
+Characteristics = Zip64
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2026-01-27 13:22:10 .....   2754230850   2754230878  【PC】青空下的加缪.rar
+------------------- ----- ------------ ------------  ------------------------
+2026-01-27 13:22:10         2754230850   2754230878  1 files
+
+Warnings: 1

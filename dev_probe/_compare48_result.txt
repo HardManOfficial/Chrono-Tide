@@ -1,0 +1,5 @@
+NEW  app_48x48 (current) -> solid bbox=(0, 0, 48, 48) (100%)
+v1   PNG-frame build -> solid bbox=(0, 0, 48, 48) (100%)
+ORIG developer's first -> solid bbox=(1, 4, 44, 45) (77%)
+saved: D:\CTLIB\dev_probe\icon_48_compare.png (44767 B, (968, 440))
+RESULT: OK

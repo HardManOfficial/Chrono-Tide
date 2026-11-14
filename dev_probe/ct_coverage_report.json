@@ -1,0 +1,307 @@
+{
+ "total_games": 513,
+ "company": {
+  "records_with_dev": 436,
+  "unique": 110,
+  "record_hit_rate": 0.9862,
+  "missing": [
+   {
+    "raw": "株式会社",
+    "norm": "株式会社",
+    "count": 4
+   },
+   {
+    "raw": "CLD",
+    "norm": "cld",
+    "count": 1
+   },
+   {
+    "raw": "DS娘社",
+    "norm": "ds娘社",
+    "count": 1
+   }
+  ]
+ },
+ "tag": {
+  "total_occ": 3280,
+  "unique": 376,
+  "occ_hit_rate": 0.9808,
+  "missing": [
+   {
+    "raw": "魔法秘录",
+    "norm": "魔法秘录",
+    "count": 4
+   },
+   {
+    "raw": "时钟",
+    "norm": "时钟",
+    "count": 4
+   },
+   {
+    "raw": "地月",
+    "norm": "地月",
+    "count": 2
+   },
+   {
+    "raw": "蜜色任务",
+    "norm": "蜜色任务",
+    "count": 2
+   },
+   {
+    "raw": "水城",
+    "norm": "水城",
+    "count": 1
+   },
+   {
+    "raw": "完结",
+    "norm": "完结",
+    "count": 1
+   },
+   {
+    "raw": "收束",
+    "norm": "收束",
+    "count": 1
+   },
+   {
+    "raw": "异变",
+    "norm": "异变",
+    "count": 1
+   },
+   {
+    "raw": "救世",
+    "norm": "救世",
+    "count": 1
+   },
+   {
+    "raw": "同居全年龄",
+    "norm": "同居全年龄",
+    "count": 1
+   },
+   {
+    "raw": "同级",
+    "norm": "同级",
+    "count": 1
+   },
+   {
+    "raw": "直播",
+    "norm": "直播",
+    "count": 1
+   },
+   {
+    "raw": "if",
+    "norm": "if",
+    "count": 1
+   },
+   {
+    "raw": "实验性",
+    "norm": "实验性",
+    "count": 1
+   },
+   {
+    "raw": "神作",
+    "norm": "神作",
+    "count": 1
+   },
+   {
+    "raw": "七日",
+    "norm": "七日",
+    "count": 1
+   },
+   {
+    "raw": "东方",
+    "norm": "东方",
+    "count": 1
+   },
+   {
+    "raw": "整合",
+    "norm": "整合",
+    "count": 1
+   },
+   {
+    "raw": "命运悲歌",
+    "norm": "命运悲歌",
+    "count": 1
+   },
+   {
+    "raw": "悲愿流转",
+    "norm": "悲愿流转",
+    "count": 1
+   },
+   {
+    "raw": "多时代",
+    "norm": "多时代",
+    "count": 1
+   },
+   {
+    "raw": "生死哀歌",
+    "norm": "生死哀歌",
+    "count": 1
+   },
+   {
+    "raw": "浮生幻梦",
+    "norm": "浮生幻梦",
+    "count": 1
+   },
+   {
+    "raw": "恋之奇迹",
+    "norm": "恋之奇迹",
+    "count": 1
+   },
+   {
+    "raw": "恋之救赎",
+    "norm": "恋之救赎",
+    "count": 1
+   },
+   {
+    "raw": "IF 线",
+    "norm": "if线",
+    "count": 1
+   },
+   {
+    "raw": "夏日甜梦",
+    "norm": "夏日甜梦",
+    "count": 1
+   },
+   {
+    "raw": "夏日相伴",
+    "norm": "夏日相伴",
+    "count": 1
+   },
+   {
+    "raw": "空寂恋念",
+    "norm": "空寂恋念",
+    "count": 1
+   },
+   {
+    "raw": "灾难",
+    "norm": "灾难",
+    "count": 1
+   },
+   {
+    "raw": "死生观",
+    "norm": "死生观",
+    "count": 1
+   },
+   {
+    "raw": "杂学",
+    "norm": "杂学",
+    "count": 1
+   },
+   {
+    "raw": "晦涩",
+    "norm": "晦涩",
+    "count": 1
+   },
+   {
+    "raw": "时间恋曲",
+    "norm": "时间恋曲",
+    "count": 1
+   },
+   {
+    "raw": "异象",
+    "norm": "异象",
+    "count": 1
+   },
+   {
+    "raw": "时空宿命",
+    "norm": "时空宿命",
+    "count": 1
+   },
+   {
+    "raw": "记忆幻梦",
+    "norm": "记忆幻梦",
+    "count": 1
+   },
+   {
+    "raw": "爱之抉择",
+    "norm": "爱之抉择",
+    "count": 1
+   },
+   {
+    "raw": "夏日归乡",
+    "norm": "夏日归乡",
+    "count": 1
+   },
+   {
+    "raw": "向日葵",
+    "norm": "向日葵",
+    "count": 1
+   },
+   {
+    "raw": "宝石意志",
+    "norm": "宝石意志",
+    "count": 1
+   },
+   {
+    "raw": "宝石誓约",
+    "norm": "宝石誓约",
+    "count": 1
+   },
+   {
+    "raw": "雪下残梦",
+    "norm": "雪下残梦",
+    "count": 1
+   },
+   {
+    "raw": "孽缘缠劫",
+    "norm": "孽缘缠劫",
+    "count": 1
+   },
+   {
+    "raw": "匣中余响",
+    "norm": "匣中余响",
+    "count": 1
+   },
+   {
+    "raw": "任务",
+    "norm": "任务",
+    "count": 1
+   },
+   {
+    "raw": "秋忆救赎",
+    "norm": "秋忆救赎",
+    "count": 1
+   },
+   {
+    "raw": "萤光初遇",
+    "norm": "萤光初遇",
+    "count": 1
+   },
+   {
+    "raw": "白河萤视角",
+    "norm": "白河萤视角",
+    "count": 1
+   },
+   {
+    "raw": "盛夏心结",
+    "norm": "盛夏心结",
+    "count": 1
+   },
+   {
+    "raw": "双篇忆曲",
+    "norm": "双篇忆曲",
+    "count": 1
+   },
+   {
+    "raw": "雨后余思",
+    "norm": "雨后余思",
+    "count": 1
+   },
+   {
+    "raw": "三篇章",
+    "norm": "三篇章",
+    "count": 1
+   },
+   {
+    "raw": "执念",
+    "norm": "执念",
+    "count": 1
+   },
+   {
+    "raw": "约定",
+    "norm": "约定",
+    "count": 1
+   }
+  ]
+ }
+}

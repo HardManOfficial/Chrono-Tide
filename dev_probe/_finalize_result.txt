@@ -1,0 +1,332 @@
+[PROBE] docs/DEV 可写 OK
+[DEVLOG] 替换 OK | 备份=D:\CTLIB\docs\DEV\DEV_LOG.md.bak_icon | 560752 -> 561684 B
+[HANDOFF] 插入 OK | 备份=D:\CTLIB\docs\DEV\SESSION_HANDOFF.md.bak_icon | 216485 -> 217234 B
+[GIT] status rc=0
+ M docs/DEV/DEV_LOG.md
+ M docs/DEV/SESSION_HANDOFF.md
+?? .workbuddy/DEPLOY_HOOK_20260930.md
+?? .workbuddy/DEPLOY_HOOK_20260930_v2_lock_fields.md
+?? .workbuddy/analyze_probe/
+?? .workbuddy/clean_symlinks.py
+?? .workbuddy/copy_plugin_dirs.py
+?? .workbuddy/figma_abs.txt
+?? .workbuddy/figma_add_page_tree.txt
+?? .workbuddy/figma_add_page_tree2.txt
+?? .workbuddy/fix_plugins_deps.py
+?? .workbuddy/make_plugin_junctions.py
+?? .workbuddy/make_plugin_symlinks.py
+?? .workbuddy/out_$name.bmp
+?? .workbuddy/outputs/
+?? .workbuddy/patch_edit_dialog.py
+?? .workbuddy/pb_backup/
+?? .workbuddy/pb_hooks_deploy_20260930/
+?? .workbuddy/pb_tmp/_btn_text_bin.png
+?? .workbuddy/pb_tmp/_cand_A.png
+?? .workbuddy/pb_tmp/_cand_B.png
+?? .workbuddy/pb_tmp/_cand_avatar.png
+?? .workbuddy/pb_tmp/_grid_cover.png
+?? .workbuddy/pb_tmp/_grid_header.png
+?? .workbuddy/pb_tmp/_ico_get.png
+?? .workbuddy/pb_tmp/_ico_share.png
+?? .workbuddy/pb_tmp/_ico_up.png
+?? .workbuddy/pb_tmp/_mock_stats_test.js
+?? .workbuddy/pb_tmp/_mock_v4.js
+?? .workbuddy/pb_tmp/_mock_v4c.js
+?? .workbuddy/pb_tmp/_mock_v4d.js
+?? .workbuddy/pb_tmp/_orig_discover.dart
+?? .workbuddy/pb_tmp/_orig_gdp.dart
+?? .workbuddy/pb_tmp/_render_header.png
+?? .workbuddy/pb_tmp/_render_sharelist.png
+?? .workbuddy/pb_tmp/_render_toolbar.png
+?? .workbuddy/pb_tmp/_render_upload.png
+?? .workbuddy/pb_tmp/_zoom_btn2.png
+?? .workbuddy/pb_tmp/_zoom_btn_detail.png
+?? .workbuddy/pb_tmp/_zoom_buttons.png
+?? .workbuddy/pb_tmp/_zoom_cover.png
+?? .workbuddy/pb_tmp/_zoom_right.png
+?? .workbuddy/pb_tmp/_zoom_sharelist.png
+?? .workbuddy/pb_tmp/_zoom_sharelist2.png
+?? .workbuddy/pb_tmp/_zoom_sharelist_right.png
+?? .workbuddy/pb_tmp/_zoom_tag.png
+?? .workbuddy/pb_tmp/apply_unified_review.py
+?? .workbuddy/pb_tmp/backfill.py
+?? .workbuddy/pb_tmp/backfill_has_official.py
+?? .workbuddy/pb_tmp/backfill_has_official_manifest.json
+?? .workbuddy/pb_tmp/backfill_targets.json
+?? .workbuddy/pb_tmp/check_naked_text.py
+?? .workbuddy/pb_tmp/check_overlay_components.py
+?? .workbuddy/pb_tmp/check_overlay_components2.py
+?? .workbuddy/pb_tmp/check_overlay_material.py
+?? .workbuddy/pb_tmp/cleanup_test_data.py
+?? .workbuddy/pb_tmp/commit_msg_backfill_done.txt
+?? .workbuddy/pb_tmp/commit_msg_discover_v2.txt
+?? .workbuddy/pb_tmp/commit_msg_explore_docs.txt
+?? .workbuddy/pb_tmp/commit_msg_skill.txt
+?? .workbuddy/pb_tmp/extend_game_resources_manifest.json
+?? .workbuddy/pb_tmp/games_def_new.json
+?? .workbuddy/pb_tmp/games_final.json
+?? .workbuddy/pb_tmp/gen_gr_def.py
+?? .workbuddy/pb_tmp/gr_create_result.json
+?? .workbuddy/pb_tmp/gr_def.json
+?? .workbuddy/pb_tmp/gr_def_with_rules.json
+?? .workbuddy/pb_tmp/gr_final.json
+?? .workbuddy/pb_tmp/gr_patch_rules.json
+?? .workbuddy/pb_tmp/kanban_avatar_512.png
+?? .workbuddy/pb_tmp/kanban_manifest.json
+?? .workbuddy/pb_tmp/make_test_data.py
+?? .workbuddy/pb_tmp/patch_result.json
+?? .workbuddy/pb_tmp/patch_upload_dialog_build.py
+?? .workbuddy/pb_tmp/pb_extend_01_backup.py
+?? .workbuddy/pb_tmp/pb_extend_02_apply.py
+?? .workbuddy/pb_tmp/pb_kanban_01_survey.py
+?? .workbuddy/pb_tmp/pb_kanban_02_create.py
+?? .workbuddy/pb_tmp/pb_publish_01_backup.py
+?? .workbuddy/pb_tmp/pb_publish_02_apply.py
+?? .workbuddy/pb_tmp/probe_lock_fields.py
+?? .workbuddy/pb_tmp/probe_phase3_prod.py
+?? .workbuddy/pb_tmp/probe_prod_unified_review.py
+?? .workbuddy/pb_tmp/probe_v5_stats.py
+?? .workbuddy/pb_tmp/probe_v8_signature_prod.py
+?? .workbuddy/pb_tmp/r1.json
+?? .workbuddy/pb_tmp/r2.json
+?? .workbuddy/pb_tmp/read_users.py
+?? .workbuddy/pb_tmp/reg_otps_create.json
+?? .workbuddy/pb_tmp/review_desktop.py
+?? .workbuddy/pb_tmp/su_token.txt
+?? .workbuddy/pb_tmp/survey_has_official.py
+?? .workbuddy/pb_tmp/test_data_manifest.json
+?? .workbuddy/pb_tmp/test_id.txt
+?? .workbuddy/pb_tmp/types.d.ts
+?? .workbuddy/pb_tmp/users_col_definition.json
+?? .workbuddy/pb_tmp/users_col_id.txt
+?? .workbuddy/pdfimg/
+?? .workbuddy/prototypes/
+?? .workbuddy/render/
+?? .workbuddy/restore_from_recyclebin.py
+?? .workbuddy/safe_remove.py
+?? .workbuddy/test_symlink.py
+?? .workbuddy/tmp/
+?? .workbuddy/tmp_bpm35_batch_b.py
+?? .workbuddy/tmp_bpm35_batch_b2.py
+?? .workbuddy/tmp_bpm35_batch_c1.py
+?? .workbuddy/tmp_bpm35_batch_c2.py
+?? .workbuddy/tmp_bpm35_batch_d.py
+?? .workbuddy/tmp_bpm35_batch_e.py
+?? .workbuddy/tmp_bpm35_batch_e2.py
+?? .workbuddy/tmp_bpm35_batch_f.py
+?? .workbuddy/tmp_bpm35_docs.py
+?? .workbuddy/tmp_bpm35_fix_const.py
+?? .workbuddy/tmp_bpm_fullscreen_docs.py
+?? .workbuddy/tmp_bpm_v31_docs.py
+?? .workbuddy/tmp_bpm_v31_replay.py
+?? .workbuddy/tmp_bpm_v31_replay2.py
+?? .workbuddy/tmp_bpm_v32_library.py
+?? .workbuddy/tmp_bpm_v32_shell.py
+?? .workbuddy/tmp_bpm_v32_tests.py
+?? .workbuddy/tmp_docs_auth.py
+?? .workbuddy/tmp_docs_kungal.py
+?? .workbuddy/tmp_docs_kungal2.py
+?? .workbuddy/tmp_docs_nm.py
+?? .workbuddy/tmp_docs_r3.py
+?? .workbuddy/tmp_mem_update.py
+?? .workbuddy/tmp_mem_update2.py
+?? .workbuddy/tmp_mem_update3.py
+?? .workbuddy/tmp_mem_update4.py
+?? .workbuddy/tmp_pylibs/
+?? .workbuddy/tmp_sync_docs.py
+?? .workbuddy/tmp_v36re_docs.py
+?? .workbuddy/tmp_v38_docs.py
+?? dev_probe/_commit_msg.txt
+?? dev_probe/_devlog_full_new.md
+?? dev_probe/_enc_test.bat
+?? dev_probe/_finalize_result.txt
+?? dev_probe/_finalize_result.txt.git_tmp
+?? dev_probe/_finalize_run.txt
+?? dev_probe/_gen_full_result.txt
+?? dev_probe/_gen_full_result_copy.txt
+?? dev_probe/_git_status.txt
+?? dev_probe/_handoff_full_new.md
+?? dev_probe/_mem_check.txt
+?? dev_probe/_mem_check2.txt
+?? dev_probe/_mem_distill.py
+?? dev_probe/_mem_distill_check.txt
+?? dev_probe/_mem_entry.txt
+?? dev_probe/_mem_entry2.txt
+?? dev_probe/_move_result.txt
+?? dev_probe/_new_devlog_entry.txt
+?? dev_probe/_new_handoff_block.txt
+?? dev_probe/_old_icons_backup/
+?? dev_probe/_out_app_icon.ico
+?? dev_probe/_probe_result.txt
+?? dev_probe/_ps_edit_result.txt
+?? dev_probe/add_batch5.py
+?? dev_probe/b5_AKATSUKI_WORKS_.json
+?? dev_probe/b5_Aries_.json
+?? dev_probe/b5_Astronauts_.json
+?? dev_probe/b5_BootUP_.json
+?? dev_probe/b5_Candy_Soft_.json
+?? dev_probe/b5_Cherry_Soft_.json
+?? dev_probe/b5_Crossnet_.json
+?? dev_probe/b5_DALL_.json
+?? dev_probe/b5_D_O__.json
+?? dev_probe/b5_Escude_.json
+?? dev_probe/b5_F_C_.json
+?? dev_probe/b5_Nostalgic_Soft_.json
+?? dev_probe/b5_PeasSoft_.json
+?? dev_probe/b5_Rococo_Works_.json
+?? dev_probe/b5_Rootnuko_.json
+?? dev_probe/b5_Rosebleu_.json
+?? dev_probe/b5_Silky_.json
+?? dev_probe/b5_Silver_Bullet_.json
+?? dev_probe/b5_Softhouse_Chara_.json
+?? dev_probe/b5_Windmill_.json
+?? dev_probe/cleanup_session.py
+?? dev_probe/finalize_icon_task.py
+?? dev_probe/gif_fixtures.dart
+?? dev_probe/gif_scan.dart
+?? dev_probe/make_app_icon_ico.py
+?? dev_probe/new_icon_preview.png
+?? dev_probe/probe2_test.dart
+?? dev_probe/probe_test.dart
+?? dev_probe/results.json
+?? dev_probe/results2.json
+?? dev_probe/tag_vocabulary.backup.json
+?? dev_probe/verify_and_visual.py
+?? dev_probe/verify_orientation.py
+?? dev_probe/vndb_batch1.json
+?? dev_probe/vndb_status.json
+?? dev_probe/w_hd.gif
+?? dev_probe/w_mid.gif
+?? dev_probe/w_small.gif
+?? dev_probe/w_static.png
+?? dev_probe/win_probe_main.dart
+?? dev_probe/win_results.json
+?? dev_rename.py
+?? dev_tmp_charset.txt
+?? dev_tmp_charset_scan.py
+?? dev_tmp_subset_smiley.py
+?? docs/DEV/DEV_LOG.md.bak_icon
+?? docs/DEV/DEV_LOG.md.icon_bak
+?? docs/DEV/DEV_LOG.md.new
+?? docs/DEV/SESSION_HANDOFF.md.bak_icon
+?? docs/DEV/SESSION_HANDOFF.md.icon_bak
+?? docs/DEV/SESSION_HANDOFF.md.new
+?? docs/DEV/_write_probe.txt
+?? docs/DEV/explore_audit_2026-09-28.md
+?? docs/DEV/features/bpm_custom_backdrop_and_op_video_plan.md
+?? docs/DEV/tickets/2026-09-20-doc-governance-audit.md
+?? "docs/DEV/\345\274\200\345\217\221\345\267\245\344\275\234\346\261\207\346\200\273_20260913-20261003.md"
+?? "docs/DEV/\346\233\264\346\226\260\346\227\245\345\277\227_20260913-20261003.md"
+?? ico/
+?? lib/big_picture/widgets/bpm_action_hint_badge.dart
+?? lib/big_picture/widgets/bpm_key_cap.dart
+?? lib/big_picture/widgets/bpm_page_switch_hint.dart
+?? lib/big_picture/widgets/bpm_trigger_page_hint.dart
+?? st_p126.json
+?? st_p173.json
+?? st_p180.json
+?? st_p211.json
+?? st_p221.json
+?? st_p2316.json
+?? st_p254.json
+?? st_p2579.json
+?? st_p2692.json
+?? st_p2771.json
+?? st_p325.json
+?? st_p330.json
+?? st_p4449.json
+?? st_p457.json
+?? st_p518.json
+?? st_p733.json
+?? st_p784.json
+?? st_p80.json
+?? st_p83.json
+?? st_p96.json
+?? test/failures/
+?? "\347\264\240\346\235\220/"
+?? "\357\200\252\357\200\252\345\210\233\345\273\272\357\200\252\357\200\252\357\274\2322026-09-14"
+?? "\357\200\252\357\200\252\345\256\241\350\256\241\346\226\271\345\274\217\357\200\252\357\200\252\357\274\232\346\262\273\347\220\206\346\226\207\344\273\266\345\205\250\350\257\273"
+?? "\357\200\252\357\200\252\346\226\207\346\241\243\346\200\247\350\264\250\357\200\252\357\200\252\357\274\232\351\230\266\346\256\265"
+?? "\357\200\252\357\200\252\347\224\250\346\210\267\345\267\262\346\213\215\346\235\277\345\206\263\347\255\226\357\200\252\357\200\252\357\274\232\342\221\240"
+
+[GIT] dev_probe 被跟踪: True
+[CLEAN] 删除 _git_status.txt
+[CLEAN] 删除 _git_lsfiles.txt
+[CLEAN] 删除 _commit_msg.txt
+[CLEAN] 删除 _new_devlog_entry.txt
+[CLEAN] 删除 _new_handoff_block.txt
+[CLEAN] 保留: make_app_icon_ico.py / verify_orientation.py / verify_and_visual.py / merge_app_icon.py(并行会话) / _old_icons_backup/ / *.bak_icon
+[GIT] add rc=0 (docs/DEV/DEV_LOG.md, docs/DEV/SESSION_HANDOFF.md, dev_probe/make_app_icon_ico.py, dev_probe/verify_orientation.py, dev_probe/verify_and_visual.py)
+[GIT] 提交前 staged 自查:
+  A  dev_probe/make_app_icon_ico.py
+  A  dev_probe/verify_and_visual.py
+  A  dev_probe/verify_orientation.py
+  M  docs/DEV/DEV_LOG.md
+  M  docs/DEV/SESSION_HANDOFF.md
+[GIT] commit rc=0
+[master fb10255] docs: 图标换新收尾——DEV_LOG/HANDOFF 落地 BMP 帧最终态
+ 5 files changed, 280 insertions(+), 18 deletions(-)
+ create mode 100644 dev_probe/make_app_icon_ico.py
+ create mode 100644 dev_probe/verify_and_visual.py
+ create mode 100644 dev_probe/verify_orientation.py
+[GIT] log -3 --stat:
+commit fb102554a1d3f264aad483b40cd741f5a436da50
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 19:34:09 2026 +0800
+
+    docs: 图标换新收尾——DEV_LOG/HANDOFF 落地 BMP 帧最终态
+    
+    - DEV_LOG: 旧 PNG 帧条目（194,539B/两处）替换为最终态（BMP 帧 372,526B/
+      exe+托盘+安装器三处、LoadImage 兼容性结论、bottom-up 行序陷阱、f64a971）
+    - SESSION_HANDOFF: 顶部插入图标收官块（待重建 exe+打包+真机走查）
+    - 入库生成/验证工具: make_app_icon_ico.py / verify_orientation.py / verify_and_visual.py
+
+ dev_probe/make_app_icon_ico.py  | 157 ++++++++++++++++++++++++++++++++++++++++
+ dev_probe/verify_and_visual.py  |  39 ++++++++++
+ dev_probe/verify_orientation.py |  47 ++++++++++++
+ docs/DEV/DEV_LOG.md             |  46 +++++++-----
+ docs/DEV/SESSION_HANDOFF.md     |   9 +++
+ 5 files changed, 280 insertions(+), 18 deletions(-)
+
+commit f64a971286278ec45d07f038489324e8d7eff74b
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 19:01:00 2026 +0800
+
+    全局软件图标换新：exe+托盘+安装器三处统一（BMP 帧多尺寸 ICO）
+    
+    ico/ 7 尺寸源合并为 32bpp BMP 帧多尺寸 ICO（372,526B），零代码改动：
+    - windows/runner/resources/app_icon.ico：exe 图标（Runner.rc:55，
+      桌面快捷方式/任务栏/标题栏自动继承）
+    - assets/images/app_icon.ico：托盘图标源（tray_service.dart:107）
+    - ChronoTide.ico：安装器图标（ChronoTide_Setup.iss:31 SetupIconFile）
+    
+    选 BMP 帧而非源 PNG 帧：LoadImage（窗口类 HICON / 托盘 LR_LOADFROMFILE）
+    不支持 PNG 压缩帧；BMP(DIB) 全兼容。BMP 帧 bottom-up 行序陷阱已修，
+    源图 vs 落盘帧逐像素验证 7/7 一致。512 帧不进 ICO（格式无法表达）。
+    旧图标备份 dev_probe/_old_icons_backup/；工具 dev_probe/make_app_icon_ico.py。
+    待重建 exe + 打包 + 真机走查后生效。
+
+ ChronoTide.ico                        | Bin 867687 -> 372526 bytes
+ assets/images/app_icon.ico            | Bin 194539 -> 372526 bytes
+ windows/runner/resources/app_icon.ico | Bin 194539 -> 372526 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c240698c79c790066e3494df8863aeca203c8ff2
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 18:35:32 2026 +0800
+
+    全局图标换新：ico/ 新版图标 7 尺寸无损合并，替换 exe 图标与托盘图标
+    
+    - windows/runner/resources/app_icon.ico：exe 内嵌图标（桌面快捷方式/任务栏/标题栏，Runner.rc 引用不变）
+    - assets/images/app_icon.ico：托盘图标（tray_service.dart 运行时从 flutter_assets 读取）
+    - 合并方式：7 个单尺寸 PNG 帧（16-256）字节级搬运重排目录，不重编码像素；
+      512 帧因 ICO 目录项 1 字节宽高字段上限 256 而排除
+    - dev_probe/merge_app_icon.py：可复跑合并工具（--apply 才覆盖正式文件）
+    - 生效需重新构建 exe；iss 安装器图标（ChronoTide.ico）不在本次范围
+
+ assets/images/app_icon.ico            | Bin 873175 -> 194539 bytes
+ dev_probe/merge_app_icon.py           | 123 ++++++++++++++++++++++++++++++++++
+ docs/DEV/DEV_LOG.md                   |  19 ++++++
+ docs/DEV/SESSION_HANDOFF.md           |  11 +++
+ windows/runner/resources/app_icon.ico | Bin 887346 -> 194539 bytes
+ 5 files changed, 153 insertions(+)

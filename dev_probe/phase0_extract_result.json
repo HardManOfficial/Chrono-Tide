@@ -1,0 +1,70 @@
+{
+ "extract_progress": {
+  "stdout_bytes": 792,
+  "segments_by_lf": 23,
+  "segments_by_cr": 29,
+  "parsed_by_lf": 0,
+  "parsed_by_cr": 1,
+  "pct_samples": [
+   "  0%",
+   " 94% 31 - src\\big_incompressible\\rand_1.bin",
+   " 99% 292 - src\\many_small\\f0258.txt",
+   " 99% 578 - src\\many_small\\f0544.txt"
+  ],
+  "exit": 0,
+  "elapsed_s": 0.82
+ },
+ "test_archive": {
+  "exit": 0,
+  "elapsed_s": 0.15,
+  "tail": [
+   "Everything is Ok",
+   "",
+   "Folders: 26",
+   "Files: 815",
+   "Size:       185969828",
+   "Compressed: 135716363"
+  ]
+ },
+ "roundtrip": {
+  "expected_files": 815,
+  "expected_dirs": 26,
+  "extracted_files": 815,
+  "extracted_dirs": 27,
+  "missing": [],
+  "extra": [],
+  "size_diff": [],
+  "content_diff": [],
+  "dirs_missing": [],
+  "edge_cases": {
+   "中文文件名": {
+    "rel": "中文目录/中文测试文件.txt",
+    "ok": true
+   },
+   "日文文件名": {
+    "rel": "日文ディレクトリ/テスト_セーブ.txt",
+    "ok": true
+   },
+   "0字节文件": {
+    "rel": "c_empty.txt",
+    "ok": true
+   },
+   "只读文件": {
+    "rel": "e_readonly.bin",
+    "ok": true
+   },
+   "全角标点": {
+    "rel": "中文目录/全角（括号）【方括号】、逗号。.txt",
+    "ok": true
+   },
+   "点开头文件": {
+    "rel": "中文目录/.hidden_config.ini",
+    "ok": true
+   },
+   "深层>260文件": {
+    "rel": "nested/lvl01_层级名称测试/lvl02_层级名称测试/lvl03_层级名称测试/lvl04_层级名称测试/lvl05_层级名称测试/lvl06_层级名称测试/lvl07_层级名称测试/lvl08_层级名称测试/lvl09_层级名称测试/lvl10_层级名称测试/lvl11_层级名称测试/lvl12_层级名称测试/lvl13_层级名称测试/lvl14_层级名称测试/lvl15_层级名称测试/lvl16_层级名称测试/lvl17_层级名称测试/lvl18_层级名称测试/deep_target.txt",
+    "ok": true
+   }
+  }
+ }
+}

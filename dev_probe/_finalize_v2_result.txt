@@ -1,0 +1,63 @@
+[DISK] C free=0.76 GB (99.4% used) | D free=34.49 GB (89.4% used)
+[DEVLOG] 插入 OK | 577242 -> 579291 B
+[HANDOFF] 插入 OK | 228413 -> 229287 B
+[GIT] add: ChronoTide.ico, assets/images/app_icon.ico, windows/runner/resources/app_icon.ico, dev_probe/replace_icons_v2.py, docs/DEV/DEV_LOG.md, docs/DEV/SESSION_HANDOFF.md
+[GIT] 提交前 staged 自查:
+  M  ChronoTide.ico
+  M  assets/images/app_icon.ico
+  A  dev_probe/replace_icons_v2.py
+  M  docs/DEV/DEV_LOG.md
+  M  docs/DEV/SESSION_HANDOFF.md
+  M  windows/runner/resources/app_icon.ico
+[GIT] commit:
+[master 15fddc1] chore(assets): 全局图标 v2 换新——新素材包重出 BMP 帧多尺寸 ICO（三处统一）
+ 6 files changed, 240 insertions(+)
+ create mode 100644 dev_probe/replace_icons_v2.py
+[GIT] hash=15fddc1
+[GIT] log -1 --stat:
+commit 15fddc1ed1b4bf823af17596e23aed056786035d
+Author: HardManOfficial <<REDACTED>>
+Date:   Sat Oct 3 21:28:57 2026 +0800
+
+    chore(assets): 全局图标 v2 换新——新素材包重出 BMP 帧多尺寸 ICO（三处统一）
+    
+    - 素材包改名 ico/app_NxN.ico（8 尺寸单帧 PNG）→ 重出 32bpp BMP 帧多尺寸 ICO
+      （372,526B，尺寸组合同 v1），覆盖三处：
+      windows/runner/resources/app_icon.ico（exe，Runner.rc:55）
+      assets/images/app_icon.ico（托盘，tray_service.dart:107）
+      ChronoTide.ico（安装器，ChronoTide_Setup.iss:31）
+    - 与 v1 逐尺寸像素差异 ~71%，确认是新图；与源逐像素 7/7 SAME（含方向）；
+      三处 md5 一致（6aa59591f024）
+    - app_512x512.ico 不规范（目录项声明 256 / 内容 512×512）未采用；256 为 Windows 上限
+    - v1 回滚副本 dev_probe/_old_icons_backup/*_193a6bce.ico；备份策略改 md5 命名去重
+    - 新增工具 dev_probe/replace_icons_v2.py（源名双兼容 + 内联验证 + git 自查）
+    - 零代码改动；需重建 exe + 打包 + 真机走查后生效
+
+ ChronoTide.ico                        | Bin 372526 -> 372526 bytes
+ assets/images/app_icon.ico            | Bin 372526 -> 372526 bytes
+ dev_probe/replace_icons_v2.py         | 208 ++++++++++++++++++++++++++++++++++
+ docs/DEV/DEV_LOG.md                   |  24 ++++
+ docs/DEV/SESSION_HANDOFF.md           |   8 ++
+ windows/runner/resources/app_icon.ico | Bin 372526 -> 372526 bytes
+ 6 files changed, 240 insertions(+)
+
+[MEM] 环境条=1 图标条=1 | 写后校验 hash=OK / v2标记=OK
+[TODAY] append OK | 44602 -> 45696 B
+[CLEAN] 删除 _inspect_run.txt
+[CLEAN] 删除 _inspect_new_icons.txt
+[CLEAN] 删除 _v2_run.txt
+[CLEAN] 删除 _skill_diff.txt
+[CLEAN] 删除 _skill_diff_u8.txt
+[CLEAN] 删除 _disk_now.txt
+[CLEAN] 删除 _disk_now_u8.txt
+[CLEAN] 删除 replace_icons_v2_result.txt
+[CLEAN] 删除 _v2_git_status.txt
+[CLEAN] 删除 _v2_git_diff.txt
+[CLEAN] 删除 _v2f_git_add.txt
+[CLEAN] 删除 _v2f_git_status.txt
+[CLEAN] 删除 _v2f_git_commit.txt
+[CLEAN] 删除 _v2f_git_hash.txt
+[CLEAN] 删除 _v2f_git_log.txt
+[CLEAN] 删除 _v2_commit_msg.txt
+[CLEAN] 保留: replace_icons_v2.py / inspect_new_icons.py(一次性审计) / _old_icons_backup/
+RESULT: ALL_DONE

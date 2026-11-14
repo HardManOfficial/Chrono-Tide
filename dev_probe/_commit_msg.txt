@@ -1,0 +1,6 @@
+docs: 图标换新收尾——DEV_LOG/HANDOFF 落地 BMP 帧最终态
+
+- DEV_LOG: 旧 PNG 帧条目（194,539B/两处）替换为最终态（BMP 帧 372,526B/
+  exe+托盘+安装器三处、LoadImage 兼容性结论、bottom-up 行序陷阱、f64a971）
+- SESSION_HANDOFF: 顶部插入图标收官块（待重建 exe+打包+真机走查）
+- 入库生成/验证工具: make_app_icon_ico.py / verify_orientation.py / verify_and_visual.py

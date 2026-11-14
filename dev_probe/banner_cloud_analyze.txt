@@ -1,0 +1,57 @@
+Analyzing 8 items...                                            
+
+warning - The operand can't be null, so the condition is always 'false' - lib\pages\game_detail_page.dart:310:47 - unnecessary_null_comparison
+warning - The '!' will have no effect because the receiver can't be null - lib\pages\game_detail_page.dart:314:35 - unnecessary_non_null_assertion
+   info - Empty catch block - lib\pages\game_detail_page.dart:351:17 - empty_catches
+warning - The operand can't be null, so the condition is always 'false' - lib\pages\game_detail_page.dart:359:47 - unnecessary_null_comparison
+warning - The operand can't be null, so the condition is always 'false' - lib\pages\game_detail_page.dart:373:47 - unnecessary_null_comparison
+warning - The '!' will have no effect because the receiver can't be null - lib\pages\game_detail_page.dart:375:35 - unnecessary_non_null_assertion
+   info - Use 'const' with the constructor to improve performance - lib\pages\game_detail_page.dart:758:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\pages\game_detail_page.dart:761:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\pages\game_detail_page.dart:1319:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\pages\game_detail_page.dart:2348:29 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps - lib\services\cloud_install_flow.dart:62:52 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\services\cloud_install_flow.dart:70:7 - use_build_context_synchronously
+   info - The import of 'package:flutter/material.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\services\download_core.dart:2:8 - unnecessary_import
+warning - The value of the field '_mergeStartPercent' isn't used - lib\services\download_core.dart:181:23 - unused_field
+warning - The value of the field '_progressThrottleMs' isn't used - lib\services\download_core.dart:183:20 - unused_field
+warning - The value of the field '_logThrottlePercent' isn't used - lib\services\download_core.dart:184:20 - unused_field
+warning - The value of the field '_ioBufferSize' isn't used - lib\services\download_core.dart:185:20 - unused_field
+   info - The 'if' statement could be replaced by a null-aware assignment - lib\services\download_core.dart:193:5 - prefer_conditional_assignment
+warning - The value of the field '_lastLogTime' isn't used - lib\services\download_core.dart:241:13 - unused_field
+warning - The value of the field '_lastLoggedPercent' isn't used - lib\services\download_core.dart:242:10 - unused_field
+warning - The left operand can't be null, so the right operand is never executed - lib\services\download_core.dart:417:60 - dead_null_aware_expression
+   info - Unnecessary braces in a string interpolation - lib\services\download_core.dart:794:20 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\services\download_core.dart:799:34 - unnecessary_brace_in_string_interps
+warning - The value of the field '_downloadsDir' isn't used - lib\services\extract_manager.dart:151:23 - unused_field
+   info - The declaration '_startSilentProcess' isn't referenced - lib\services\extract_manager.dart:328:19 - unused_element
+   info - Use 'isNotEmpty' instead of 'length' to test whether the collection is empty - lib\services\extract_manager.dart:743:28 - prefer_is_empty
+warning - The value of the local variable 'gameId' isn't used - lib\services\extract_manager.dart:878:15 - unused_local_variable
+warning - The operand can't be null, so the condition is always 'true' - lib\services\extract_manager.dart:1002:29 - unnecessary_null_comparison
+   info - Unnecessary use of string interpolation - lib\services\extract_manager.dart:1290:15 - unnecessary_string_interpolations
+warning - The value of the local variable 'exePath' isn't used - lib\services\extract_manager.dart:2498:11 - unused_local_variable
+warning - The value of the local variable 'exePath' isn't used - lib\services\extract_manager.dart:3022:11 - unused_local_variable
+warning - Dead code - lib\services\extract_manager.dart:3028:5 - dead_code
+warning - The value of the local variable 'exePath' isn't used - lib\services\extract_manager.dart:3090:11 - unused_local_variable
+warning - The value of the local variable 'exePath' isn't used - lib\services\extract_manager.dart:3105:11 - unused_local_variable
+warning - The value of the local variable 'exePath' isn't used - lib\services\extract_manager.dart:3119:11 - unused_local_variable
+warning - Dead code - lib\services\extract_manager.dart:3124:5 - dead_code
+warning - The value of the local variable 'exePath' isn't used - lib\services\extract_manager.dart:3154:11 - unused_local_variable
+   info - Use 'whereType' to select elements of a given type - lib\services\extract_manager.dart:3348:38 - prefer_iterable_wheretype
+   info - Use 'whereType' to select elements of a given type - lib\services\extract_manager.dart:3349:37 - prefer_iterable_wheretype
+warning - The '!' will have no effect because the receiver can't be null - lib\services\extract_manager.dart:3387:28 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\services\extract_manager.dart:3391:55 - unnecessary_non_null_assertion
+   info - Use 'whereType' to select elements of a given type - lib\services\extract_manager.dart:3427:40 - prefer_iterable_wheretype
+   info - Use 'whereType' to select elements of a given type - lib\services\extract_manager.dart:3428:39 - prefer_iterable_wheretype
+   info - Statements in a for should be enclosed in a block - lib\services\global_install_center.dart:318:38 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\services\global_install_center.dart:323:41 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\services\global_install_center.dart:328:38 - curly_braces_in_flow_control_structures
+   info - Statements in a for should be enclosed in a block - lib\services\global_install_center.dart:332:40 - curly_braces_in_flow_control_structures
+   info - Use 'const' with the constructor to improve performance - lib\services\global_install_center.dart:797:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\services\global_install_center.dart:844:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail\publish_game_dialog.dart:520:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail\publish_game_dialog.dart:523:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail\publish_game_dialog.dart:606:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail\publish_game_dialog.dart:609:25 - prefer_const_constructors
+
+53 issues found. (ran in 4.4s)

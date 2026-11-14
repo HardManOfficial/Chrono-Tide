@@ -1,0 +1,23 @@
+﻿## 全局软件图标换新：exe+托盘+安装器三处统一（f64a971）
+
+- ico/ 7 尺寸源（PNG 帧）合并 32bpp BMP 帧多尺寸 ICO（372,526B）覆盖三处：
+  windows/runner/resources/app_icon.ico（exe 图标，Runner.rc:55）/
+  assets/images/app_icon.ico（托盘源，tray_service.dart:107）/
+  ChronoTide.ico（安装器，Setup.iss:31 SetupIconFile）。零代码改动。
+- 关键决策：**BMP 帧而非 PNG 帧**——LoadImage（窗口类 HICON/托盘
+  LR_LOADFROMFILE）不支持 PNG 压缩帧；并行会话的 PNG 帧搬运版
+  （merge_app_icon.py，194,539B）有任务栏/托盘加载失败风险，其产物备份于
+  dev_probe/_old_icons_backup/。
+- 🔴 新坑：ICO BMP 帧 = **bottom-up** 行序，top-down 写入全部上下颠倒——被
+  「源图 vs 落盘帧逐像素比对」（verify_orientation.py，IcoImageFile.size
+  选帧）抓到。512 帧无法进 ICO（bWidth 仅 1 字节，256=0 封顶）。
+- 🔴 环境坑（P0）：**C 盘 0 剩余** → Bash 瘫（ENOSPC）/PowerShell 原生输出
+  捕获全丢/Edit·Write 工具 ModifyBackup 失败（os error 112）/managed venv
+  python 静默失败 → 改用 system Python313 + PIL 12.2.0，进程输出一律落盘
+  文件绕开管道。
+- 🔴 环境坑：docs/DEV/DEV_LOG.md（560KB/7871 行）与 SESSION_HANDOFF.md
+  （216KB）被**系统级写保护**——python PermissionError（目录内新建也被拒）、
+  PowerShell Set-Content/WriteAllLines/Move-Item -Force 全部报成功但静默
+  不落盘。图标条目更新文本备好在 dev_probe/_new_devlog_entry.txt 与
+  _new_handoff_block.txt，待锁释放后落地。
+- ⏳ 生效：重建 exe + 打包 + 真机走查（桌面旧图=图标缓存，重启 Explorer）。

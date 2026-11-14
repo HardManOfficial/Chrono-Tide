@@ -1,0 +1,1704 @@
+{
+ "でぼの巣製作所": [
+  {
+   "id": "p709",
+   "name": "Debo no Su Seisakusho",
+   "original": "でぼの巣製作所",
+   "aliases": [
+    "DebonosuWorks",
+    "Debonosu Works"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "The company founded by the former employees of [URL=/p17]Studio e.go![/URL]"
+  },
+  {
+   "id": "p5772",
+   "name": "Debo no Su Seisakusho Co., Ltd.",
+   "original": "株式会社でぼの巣製作所",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "BaseSon": [
+  {
+   "id": "p226",
+   "name": "BaseSon",
+   "original": "ベースソン",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p3046",
+   "name": "BaseSon SPICE*",
+   "original": "ベースソン スパイス",
+   "aliases": [
+    "ＢａｓｅＳｏｎ ＳＰＩＣＥ＊"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "BaseSon's BL games brand."
+  },
+  {
+   "id": "p4817",
+   "name": "BaseSon Light",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "ωstar": [
+  {
+   "id": "p1008",
+   "name": "ωstar",
+   "original": null,
+   "aliases": [
+    "Omega Star",
+    "オメガスター"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "Leaf": [
+  {
+   "id": "p21",
+   "name": "Leaf",
+   "original": null,
+   "aliases": [
+    "リーフ"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Leaf is an adult visual novel brand under the publisher [url=/p87]AQUAPLUS[/url], and has offices in Yodogawa-ku, Osaka, and Tokyo. It and its competitor [url=/"
+  },
+  {
+   "id": "p454",
+   "name": "Four Leaf Studios",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": "Formed by a group of 4chan regulars to produce the doujin VN Katawa Shoujo, but has since released a number of smaller works in addition to the first Act of Kat"
+  },
+  {
+   "id": "p4364",
+   "name": "Leaf-Rain",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p4850",
+   "name": "PinkTreeLeaf",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p7249",
+   "name": "Copper Leaf Games",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p7780",
+   "name": "Spring Leaf",
+   "original": null,
+   "aliases": [
+    "SpringLeaf"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "SQUEEZ": [
+  {
+   "id": "p434",
+   "name": "SQUEEZ",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p3393",
+   "name": "Squeeze All",
+   "original": null,
+   "aliases": [
+    "SQUEEZE::ALL"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p5070",
+   "name": "SQUEEZ sweet",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "SQUEEZ's character and story oriented sister brand."
+  },
+  {
+   "id": "p29519",
+   "name": "Squeeze Koubou",
+   "original": "スクイズ工房",
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "Lose": [
+  {
+   "id": "p28",
+   "name": "No Name Losers",
+   "original": null,
+   "aliases": [
+    "nnl"
+   ],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p1279",
+   "name": "Lose",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "On 28-11-2020, the company announced through their [url=https://fantia.jp/posts/529817]official Fantia page[/url] that they will stop producing new work after f"
+  },
+  {
+   "id": "p2732",
+   "name": "ClosetChild",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p3434",
+   "name": "Loser/s",
+   "original": null,
+   "aliases": [
+    "ルーザーハイフンエス"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": "[url=https://web.archive.org/web/20140628190039/http://losers.ninja-web.net/]old site[/url]"
+  },
+  {
+   "id": "p4769",
+   "name": "enclosed0",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p6384",
+   "name": "ClosedCircle",
+   "original": null,
+   "aliases": [
+    "秘密結社bldk"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": "Another https://note.com/bldk  old website https://web.archive.org/web/20140914215359/http://cw.bldk.org/"
+  }
+ ],
+ "エスクード": [
+  {
+   "id": "p403",
+   "name": "Escu:de",
+   "original": "エスクード",
+   "aliases": [
+    "Escude, 小E社"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "HARUKAZE": [
+  {
+   "id": "p2975",
+   "name": "HARUKAZE",
+   "original": null,
+   "aliases": [
+    "HARU❀KAZE",
+    "春风社"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "ユニゾンシフト": [
+  {
+   "id": "p262",
+   "name": "Unison Shift",
+   "original": "ユニゾンシフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p1386",
+   "name": "Unison Shift: Blossom",
+   "original": "ユニゾンシフト：ブロッサム",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p2706",
+   "name": "Unison Shift: Accent",
+   "original": "ユニゾンシフト・アクセント",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p3946",
+   "name": "Unison Shift: Clear",
+   "original": "ユニゾンシフト・クレア",
+   "aliases": [
+    "UNiSONSHIFT CREA"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "07th Expansion": [
+  {
+   "id": "p82",
+   "name": "07th Expansion",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": "07th Expansion is a Japanese dōjin circle that specializes in the creation of visual novels known as sound novels. They started out drawing for the trading card"
+  }
+ ],
+ "まどそふと": [
+  {
+   "id": "p3312",
+   "name": "Madosoft",
+   "original": "まどそふと",
+   "aliases": [
+    "窗社"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "バグシステム": [
+  {
+   "id": "p5049",
+   "name": "Bug System",
+   "original": "バグシステム",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "BLACK Cyc": [
+  {
+   "id": "p365",
+   "name": "Black Cyc",
+   "original": null,
+   "aliases": [
+    "b-cyc",
+    "ブラックサイク"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Started in 2001 as the evil mad brand of Cyc Co., Ltd. then followed the movement when B-Eye Communications took over the business. Slowly died after a talents "
+  }
+ ],
+ "Dual Tail": [
+  {
+   "id": "p507",
+   "name": "dualtail",
+   "original": null,
+   "aliases": [
+    "Dual Tail",
+    "DualMagic"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "STING": [
+  {
+   "id": "p2257",
+   "name": "Twisting Giroro",
+   "original": null,
+   "aliases": [
+    "Twisting_Giroro"
+   ],
+   "lang": "en",
+   "type": "in",
+   "desc": "An individual on Livejournal. Moved her translations to annot.me in February 2013 to avoid copyright issues. Innactive since the website went defunct."
+  },
+  {
+   "id": "p4153",
+   "name": "STING CO., LTD.",
+   "original": "株式会社スティング",
+   "aliases": [
+    "Sting Entertainment"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Game development studio founded on 7 February 1989; its active properties currently include Baroque, Dokapon, and the Dept. Heaven series.  [Edited from [url=ht"
+  },
+  {
+   "id": "p6010",
+   "name": "Nippon Cultural Broadcasting Extend Inc.",
+   "original": "株式会社文化放送エクステンド",
+   "aliases": [
+    "eXtend"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Content production company established in 2012 as a wholly owned subsidiary of [url=https://en.wikipedia.org/wiki/Nippon_Cultural_Broadcasting]Nippon Cultural B"
+  },
+  {
+   "id": "p9222",
+   "name": "Casting Couch Games",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p9580",
+   "name": "Casting Dreams",
+   "original": null,
+   "aliases": [
+    "gem"
+   ],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p10785",
+   "name": "Casting Planet",
+   "original": "キャスティングプラネット",
+   "aliases": [],
+   "lang": "ja",
+   "type": "in",
+   "desc": "old site  https://web.archive.org/web/20141216221011/http://casting-planet.com/site/"
+  }
+ ],
+ "D.O.": [
+  {
+   "id": "p19",
+   "name": "D.O.",
+   "original": null,
+   "aliases": [
+    "Digital Object",
+    "株式会社ディーオー",
+    "D.O. corp."
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Founded in 1990 as the successor to Adult Inn. Became a brand of Contents Traffic in May of 2009, resumed activities in 2013 and suspended them in 2016."
+  },
+  {
+   "id": "p30",
+   "name": "Kogado Studio",
+   "original": "工画堂スタジオ",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Kogado Studio is a Japanese video game studio which has released adventure, strategy, and bishōjo games for the MSX, MSX2, PlayStation 2 and PC, including such "
+  },
+  {
+   "id": "p103",
+   "name": "LIBIDO",
+   "original": null,
+   "aliases": [
+    "リビドー"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Old website archive:https://web.archive.org/web/20031007203110/http://www.qt-resource.co.jp/"
+  },
+  {
+   "id": "p111",
+   "name": "Onadoru Euphoria",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p133",
+   "name": "Kadokawa Shoten",
+   "original": "株式会社角川書店",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Kadokawa Shoten Publishing Co., Ltd. (株式会社角川書店, Kabushiki-gaisha Kadokawa Shoten?) (TYO: 9477), founded in 1954, is a well-known Japanese publisher, based in To"
+  },
+  {
+   "id": "p196",
+   "name": "Kiseki",
+   "original": "奇跡",
+   "aliases": [
+    "遠藤健治",
+    "Endou Kenji"
+   ],
+   "lang": "ja",
+   "type": "in",
+   "desc": ""
+  }
+ ],
+ "hibiki works": [
+  {
+   "id": "p2015",
+   "name": "hibiki works",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p7186",
+   "name": "Akatsuki WORKS -Hibiki-",
+   "original": "暁WORKS-響-",
+   "aliases": [
+    "暁WORKS響SIDE",
+    "Akatsuki WORKS Hibiki SIDE"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "FlyingShine": [
+  {
+   "id": "p85",
+   "name": "FlyingShine",
+   "original": "フライングシャイン",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Declared bankruptcy on June 19, 2019."
+  },
+  {
+   "id": "p981",
+   "name": "FlyingShine Black",
+   "original": "FlyingShine黒",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p982",
+   "name": "FlyingShine Ken",
+   "original": "フライングシャイン犬",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p983",
+   "name": "FlyingShine Kotobuki",
+   "original": "FlyingShine寿",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p5764",
+   "name": "Flyingshine Co., Ltd.",
+   "original": "有限会社フライングシャイン",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Declared bankruptcy on June 19, 2019."
+  }
+ ],
+ "Qruppo": [
+  {
+   "id": "p7659",
+   "name": "Qruppo",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "シルキーズプラス": [
+  {
+   "id": "p4449",
+   "name": "SILKY'S PLUS",
+   "original": "シルキーズプラス",
+   "aliases": [
+    "シルプラ"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Focused on works with engaging story."
+  },
+  {
+   "id": "p4768",
+   "name": "SILKY'S PLUS WASABI",
+   "original": "シルキーズプラス WASABI",
+   "aliases": [
+    "Wasabi software"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p5324",
+   "name": "SILKY'S PLUS ALPHA",
+   "original": "シルキーズプラスアルファ",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p5449",
+   "name": "SILKY'S PLUS A5 Wagyuu",
+   "original": "シルキーズプラス A5和牛",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p6719",
+   "name": "SILKY'S PLUS DOLCE",
+   "original": "シルキーズプラス DOLCE",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "ROOT": [
+  {
+   "id": "p164",
+   "name": "ROOT",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Root is a Japanese visual novel studio under the publishing company ARIDESIGN (formerly Orbit) founded in 2000.  [From [url=http://en.wikipedia.org/wiki/Root_(c"
+  },
+  {
+   "id": "p1018",
+   "name": "rootnuko",
+   "original": null,
+   "aliases": [
+    "√ nuko",
+    "root nuko"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "[url=http://blog.livedoor.jp/rootnuko/]Blog[/url]"
+  },
+  {
+   "id": "p1857",
+   "name": "√nova",
+   "original": null,
+   "aliases": [
+    "ルート・ノヴァ",
+    "Root Nova",
+    "Route Nova"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p2771",
+   "name": "rootnuko+H",
+   "original": "rootnuko＋Ｈ（ぷらすえっち）",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p10425",
+   "name": "clint",
+   "original": null,
+   "aliases": [
+    "execroot"
+   ],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p14943",
+   "name": "BRUT",
+   "original": null,
+   "aliases": [
+    "brootka"
+   ],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  }
+ ],
+ "Lass": [
+  {
+   "id": "p357",
+   "name": "Lass",
+   "original": null,
+   "aliases": [
+    "ラス"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "In 2018/01/25, Lass' IP rights were transferred to DMM."
+  },
+  {
+   "id": "p1212",
+   "name": "Glasses!",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p1314",
+   "name": "hourglass",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "[url=http://www.hourglass-game.com/]Old website.[/url] (Need a proxy.)"
+  },
+  {
+   "id": "p1425",
+   "name": "P+Lass",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p2783",
+   "name": "Selavi Games",
+   "original": null,
+   "aliases": [
+    "GlassHeart"
+   ],
+   "lang": "en",
+   "type": "in",
+   "desc": "Founded by [url=/s9891]GlassHeart[/url]."
+  },
+  {
+   "id": "p2969",
+   "name": "cutlass",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "しらたま": [
+  {
+   "id": "p390",
+   "name": "Shiratama",
+   "original": "しらたま",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p10436",
+   "name": "Shiratamaco",
+   "original": null,
+   "aliases": [
+    "サークルしらたまこ",
+    "白玉社"
+   ],
+   "lang": "ja",
+   "type": "in",
+   "desc": ""
+  }
+ ],
+ "Sister Position": {
+  "error": "The read operation timed out"
+ },
+ "Us:track": [
+  {
+   "id": "p5268",
+   "name": "Us:track",
+   "original": null,
+   "aliases": [
+    "ユーストラック"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "Aino+Links": [
+  {
+   "id": "p11943",
+   "name": "Aino+Links",
+   "original": null,
+   "aliases": [
+    "アイノリンクス"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "エンターブレイン": [
+  {
+   "id": "p520",
+   "name": "Enterbrain!",
+   "original": "エンターブレイン",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Enterbrain was founded on April 1st, 2000, as a subsidiary of ASCII Corporation. They are also the publisher of the magazine Famitsu."
+  }
+ ],
+ "アストロノーツ": [
+  {
+   "id": "p2692",
+   "name": "Astronauts",
+   "original": null,
+   "aliases": [
+    "アストロノーツ",
+    "太空人社"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p2693",
+   "name": "Astronauts: Sirius",
+   "original": null,
+   "aliases": [
+    "アストロノーツ・シリウス",
+    "太空人社"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p2695",
+   "name": "Astronauts: Spica",
+   "original": "アストロノーツ・スピカ",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p2789",
+   "name": "Astronauts: Alya",
+   "original": "アストロノーツ・アリア",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p4552",
+   "name": "Astronauts: Comet",
+   "original": "アストロノーツ・コメット",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "チュアブルソフト": [
+  {
+   "id": "p170",
+   "name": "Chuablesoft",
+   "original": "チュアブルソフト",
+   "aliases": [
+    "Chuable-Soft",
+    "Chuable Soft"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Chuablesoft was an adult game brand. Their slogan was \"A medicine for your mind\"."
+  }
+ ],
+ "あかべぇそふとすりぃ": [
+  {
+   "id": "p2793",
+   "name": "AKABEiSOFT3",
+   "original": "あかべぇそふとすりぃ",
+   "aliases": [
+    "あかべぇそふと３",
+    "Akabee Soft 3",
+    "AkabeiSoft3",
+    "Akabei Soft 3"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "アトリエかぐや": [
+  {
+   "id": "p171",
+   "name": "Atelier Kaguya",
+   "original": "アトリエかぐや",
+   "aliases": [
+    "竹子社"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Old Website http://web.archive.org/web/20010223234603/http://www.alpha-net.ne.jp:80/users2/kaguya21/"
+  },
+  {
+   "id": "p984",
+   "name": "Atelier Kaguya BerkshireYorkshire",
+   "original": "アトリエかぐや BerkshireYorkshire",
+   "aliases": [
+    "AKBY"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p986",
+   "name": "Atelier Kaguya HonkyTonk Pumpkin",
+   "original": "アトリエかぐや Honky-Tonk Pumpkin",
+   "aliases": [
+    "アトリエかぐや ホンキートンク パンプキン"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p987",
+   "name": "Atelier Kaguya TEAM HEARTBEAT",
+   "original": "アトリエかぐや TEAM HEARTBEAT",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p1088",
+   "name": "Atelier Kaguya P-ch",
+   "original": "アトリエかぐや P-ch",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p3132",
+   "name": "Atelier Kaguya TEAM Gassa-Q",
+   "original": "アトリエかぐや TEAM Gassa-Q",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "Frill": [
+  {
+   "id": "p503",
+   "name": "Frill",
+   "original": null,
+   "aliases": [
+    "フリル"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Left VISUAL ARTS and was transferred to ee-product in 2022."
+  },
+  {
+   "id": "p1836",
+   "name": "Frillboy",
+   "original": null,
+   "aliases": [
+    "Frill boy",
+    "フリルボーイ"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "斜塔ソンブレロ": [
+  {
+   "id": "p12882",
+   "name": "Shatou Sombrero",
+   "original": "斜塔ソンブレロ",
+   "aliases": [],
+   "lang": "ja",
+   "type": "in",
+   "desc": ""
+  }
+ ],
+ "みるくふぁくとりー": [
+  {
+   "id": "p6745",
+   "name": "Milk Factory",
+   "original": "みるくふぁくとりー",
+   "aliases": [
+    "Milfac",
+    "みるふぁく"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Adult game brand created by former SQUEEZ staff."
+  }
+ ],
+ "Sekai Project": [
+  {
+   "id": "p162",
+   "name": "Sekai Project",
+   "original": null,
+   "aliases": [
+    "セカイプロジェクト"
+   ],
+   "lang": "en",
+   "type": "co",
+   "desc": "Sekai Project is an American video game publisher best known for licensing and translating Japanese visual novels into English, but they have also published man"
+  }
+ ],
+ "上海アリス幻樂団": [],
+ "Connection": [
+  {
+   "id": "p10527",
+   "name": "Connection",
+   "original": null,
+   "aliases": [],
+   "lang": "zh",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p13710",
+   "name": "City Connection Co., Ltd.",
+   "original": "株式会社シティコネクション",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Console game maker."
+  },
+  {
+   "id": "p21523",
+   "name": "Traffics Connection",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "paleontology": [
+  {
+   "id": "p6048",
+   "name": "paleontology",
+   "original": "パレオントロジー",
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "Seikou Soft": [
+  {
+   "id": "p24097",
+   "name": "Seikou Soft.",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "CyberFront": [
+  {
+   "id": "p543",
+   "name": "CYBERFRONT",
+   "original": "サイバーフロント",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Has announced its shutdown after years of economical loss, with its last game being released on January 24, 2014. CYBERFRONT's back catalogue was consumed by [u"
+  },
+  {
+   "id": "p3075",
+   "name": "CYBERFRONT Korea",
+   "original": null,
+   "aliases": [],
+   "lang": "ko",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p11766",
+   "name": "CYBERFRONT GeneX",
+   "original": null,
+   "aliases": [],
+   "lang": "ko",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "SEACOXX": [
+  {
+   "id": "p5009",
+   "name": "SEACOXX",
+   "original": null,
+   "aliases": [
+    "シコックス"
+   ],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  }
+ ],
+ "カイ": [
+  {
+   "id": "p162",
+   "name": "Sekai Project",
+   "original": null,
+   "aliases": [
+    "セカイプロジェクト"
+   ],
+   "lang": "en",
+   "type": "co",
+   "desc": "Sekai Project is an American video game publisher best known for licensing and translating Japanese visual novels into English, but they have also published man"
+  },
+  {
+   "id": "p229",
+   "name": "SkyFish",
+   "original": null,
+   "aliases": [
+    "スカイ・フィッシュ"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p876",
+   "name": "Cain",
+   "original": null,
+   "aliases": [
+    "カイン"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Makes DVDPG Ports of digi Anime and its Subsidiaries games.  [url=http://web.archive.org/web/20030714043315/http://www.cain.jp/][Old Site Archived Here[/url]]"
+  },
+  {
+   "id": "p2310",
+   "name": "Sky Walk",
+   "original": "スカイウォーク",
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p2454",
+   "name": "Kaikoku Soft",
+   "original": "カイコクソフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p3045",
+   "name": "TECH GIAN",
+   "original": "テックジャイアン",
+   "aliases": [
+    "TECH GIANアーカイブ",
+    "Tech Gian Archive"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Bishōjo game DVD-ROM magazine; it was initially published by Aspect in October 1995 before being transferred to Enterbrain at the end of 2003. Kadokawa took ove"
+  }
+ ],
+ "クリスタル": [
+  {
+   "id": "p2384",
+   "name": "Crystal Soft",
+   "original": "クリスタルソフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p5315",
+   "name": "XTAL SOFT",
+   "original": null,
+   "aliases": [
+    "X'TAL SOFT",
+    "クリスタルソフト",
+    "Crystal Soft"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "On October 1st, 1990 it was bought by [url=/p2110]T&E Soft[/url] and became its Osaka development office."
+  },
+  {
+   "id": "p5475",
+   "name": "Crystal Vision",
+   "original": "クリスタルビジョン",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p9658",
+   "name": "Crystal Eizou Corporation",
+   "original": "クリスタル映像株式会社",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Crystal-Eizou, known in English as Crystal Image or Crystal Video, is a Japanese corporation involved in the production and distribution of adult videos.  [from"
+  }
+ ],
+ "Team Shanghai Alice": [],
+ "CLD": [
+  {
+   "id": "p14150",
+   "name": "CLDꝜ",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "in",
+   "desc": "Modder from F95 Zone who also makes ports of Ren'py games to other platforms, mainly for Android."
+  }
+ ],
+ "Shanghai Alice": [],
+ "アリス幻樂団": [],
+ "PULLTOP Latte": [
+  {
+   "id": "p2953",
+   "name": "PULLTOP LATTE",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "Navel honeybell": [
+  {
+   "id": "p3932",
+   "name": "Navel honeybell",
+   "original": "ネーブルハニーベル",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "Navel Lime": [],
+ "FairyTale": [
+  {
+   "id": "p964",
+   "name": "Fairytale",
+   "original": "フェアリーテール",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p4149",
+   "name": "Fairytale Ethix",
+   "original": "FAIRYTALE ETHIX",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p4232",
+   "name": "Kagetsu Gumi/Fairytale",
+   "original": "花月組/フェアリーテール",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Started during the winter Comiket of 2002. It became a limited company the 2003/04/01. Managed by Takamatsu Katsuyoshi."
+  },
+  {
+   "id": "p4244",
+   "name": "Tsuki Boshi Gumi/Fairytale",
+   "original": "月星組/フェアリーテール",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p5032",
+   "name": "Fairytale X-Shitei",
+   "original": "フェアリーテール Ｘ指定",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p5361",
+   "name": "FAIRYTALE HARDCOVER",
+   "original": "FAIRYTALE･HARDCOVER",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Originally a brand of [url=https://vndb.org/p964]Fairytale[/url] but when [url=https://vndb.org/p80]F&C[/url] was created and performed its brands restructuring"
+  }
+ ],
+ "FOG": [
+  {
+   "id": "p1005",
+   "name": "FOG",
+   "original": "F・O・G",
+   "aliases": [
+    "フォグ",
+    "Full on Games"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p5705",
+   "name": "Foglio Inc.",
+   "original": "株式会社フォリオ",
+   "aliases": [
+    "Foglio Publishing"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p12306",
+   "name": "Studio Foglio Co., Ltd.",
+   "original": "株式会社スタジオフォリオ",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p18480",
+   "name": "Foggy Dream",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p20122",
+   "name": "i-fog",
+   "original": "艾佛格科技",
+   "aliases": [
+    "北京艾佛格科技发展有限公司"
+   ],
+   "lang": "zh",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p26571",
+   "name": "Jurou",
+   "original": null,
+   "aliases": [
+    "jurou-kohishiro, NFogcrawler, jurou_white_koihi"
+   ],
+   "lang": "ta",
+   "type": "in",
+   "desc": "[url=https://ko-fi.com/juroukohishirou]ko-fi[/url] page"
+  }
+ ],
+ "WillPlus": [
+  {
+   "id": "p100",
+   "name": "WillPlus",
+   "original": "株式会社ウィルプラス",
+   "aliases": [
+    "Will",
+    "株式会社ウィル"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Started in 1992/07/01 as Will. WillPlus since 2010/08/20.  [url=https://www.youtube.com/@willgamejapan2]Alternative YouTube Channel[/url] | [url=https://willplu"
+  }
+ ],
+ "Visual Art's": [
+  {
+   "id": "p993",
+   "name": "VISUAL ARTS Co.,Ltd.",
+   "original": "株式会社ビジュアルアーツ",
+   "aliases": [
+    "视艺动漫有限公司",
+    "Visual Art's",
+    "Visual Artist Office",
+    "ビジュアルアーティストオフィス"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Visual Arts, formerly Visual Artist Office, and previously spelled in English as VisualArt's, is a publishing company which specializes in publishing and distri"
+  },
+  {
+   "id": "p2004",
+   "name": "Visual Art's Motto",
+   "original": "ビジュアルアーツ★Motto",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Brand managed by Prototype that publishes Visual Art's games on mobile phones."
+  },
+  {
+   "id": "p2767",
+   "name": "Visual Art's MottoSP",
+   "original": "ビジュアルアーツ★MottoSP",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Brand managed by Visual Art's Motto that publishes Visual Art's games on Android app."
+  },
+  {
+   "id": "p2914",
+   "name": "Wet Dreams Games",
+   "original": null,
+   "aliases": [
+    "Tatami Visual Arts ",
+    "Wet Dreams"
+   ],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p3824",
+   "name": "Colorful Visual Arts",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p5217",
+   "name": "M-Vizlab",
+   "original": null,
+   "aliases": [
+    "Modern Visual Arts Laboratory"
+   ],
+   "lang": "ko",
+   "type": "ng",
+   "desc": "M-Vizlab (Modern Visual Arts Laboratory) is an indie game development team made in Korea."
+  }
+ ],
+ "RealLive": [],
+ "コットンソフト": [
+  {
+   "id": "p234",
+   "name": "Cotton Soft",
+   "original": "コットンソフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "プリンセスソフト": [
+  {
+   "id": "p22",
+   "name": "Princess Soft",
+   "original": "プリンセスソフト",
+   "aliases": [
+    "PrincessSoft"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "PrincessSoft was a Japanese company founded 30 January 2001. It specialized in the development of visual novel video game ports for use on home video game conso"
+  }
+ ],
+ "ペンギンワークス": [
+  {
+   "id": "p1771",
+   "name": "Penguin Works",
+   "original": "ペンギンワークス",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "すみっこソフト": [
+  {
+   "id": "p315",
+   "name": "Sumikko Soft",
+   "original": "すみっこソフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "ハイクオソフト": [
+  {
+   "id": "p263",
+   "name": "Hiqo Soft",
+   "original": "ハイクオソフト",
+   "aliases": [
+    "Hi-Quality Soft",
+    "High Quality Soft",
+    "Hiquo Soft",
+    "Haikuo",
+    "Hiqo-Soft",
+    "HiqoSoft"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "しゃくなげ": [
+  {
+   "id": "p380",
+   "name": "Shakunage",
+   "original": "しゃくなげ",
+   "aliases": [
+    "Rhododendron",
+    "syakunagesoft"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Dissolved in February 2012, now a sister brand of Abelia."
+  }
+ ],
+ "エレクトリップ": [
+  {
+   "id": "p1698",
+   "name": "Erectlip",
+   "original": "エレクトリップ",
+   "aliases": [
+    "erectlip from ACE tribe"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ],
+ "ひよこソフト": [
+  {
+   "id": "p739",
+   "name": "Hiyoko Soft",
+   "original": "ひよこソフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Bishoujo game brand created in 2008 by [url=/s2703]Tsukinon[/url], [url=/s9358]Mizuki Hotaru[/url], [url=/s3673]Blasterhead[/url], and others; it was operated b"
+  },
+  {
+   "id": "p1493",
+   "name": "Hiyoko Soft",
+   "original": "ひよこソフト",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Not to be confused with the other producer named \"[url=https://vndb.org/p739]Hiyoko Soft[/url]\" that was founded in 2008."
+  },
+  {
+   "id": "p2453",
+   "name": "Hiyoko Soft Momogumi",
+   "original": "ひよこソフト桃組",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Hiyoko Soft's nukige focused sister brand."
+  }
+ ],
+ "グミソフト": [],
+ "めろめろキュート": [
+  {
+   "id": "p256",
+   "name": "Meromero Cute",
+   "original": "めろめろキュート",
+   "aliases": [],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Is a brand of [url=/p559]XERO[/url], founded in 2006. It was constitued of former staff from XANADU."
+  }
+ ],
+ "Chien": [
+  {
+   "id": "p218",
+   "name": "Chien",
+   "original": null,
+   "aliases": [
+    "シアン"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": "Initially a brand of [url=/p2585]Over[/url], later transferred to [url=/p5778]Quadra Co., Ltd.[/url]."
+  },
+  {
+   "id": "p1894",
+   "name": "Aozora Youchien",
+   "original": "あおぞら幼稚園",
+   "aliases": [],
+   "lang": "ja",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p7771",
+   "name": "Tava Yachi Entertainment",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p15879",
+   "name": "Tamagon Youchien",
+   "original": "たまごん幼稚園",
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": "Creates parodies of Key and Leaf works."
+  }
+ ],
+ "Citrus": [
+  {
+   "id": "p8573",
+   "name": "CITRUS",
+   "original": null,
+   "aliases": [],
+   "lang": "ja",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p8593",
+   "name": "Citrus",
+   "original": null,
+   "aliases": [
+    "シトラス"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  },
+  {
+   "id": "p17844",
+   "name": "Citrus Koi",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "ng",
+   "desc": ""
+  },
+  {
+   "id": "p18262",
+   "name": "lavendercitrus",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p24191",
+   "name": "CitrusPlanes",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  },
+  {
+   "id": "p25012",
+   "name": "a citrus sky",
+   "original": null,
+   "aliases": [],
+   "lang": "en",
+   "type": "in",
+   "desc": ""
+  }
+ ],
+ "Tily": [
+  {
+   "id": "p18098",
+   "name": "Tily",
+   "original": null,
+   "aliases": [
+    "ティリー"
+   ],
+   "lang": "ja",
+   "type": "co",
+   "desc": ""
+  }
+ ]
+}

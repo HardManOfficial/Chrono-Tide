@@ -1,0 +1,8 @@
+row 48 factor 1.00 ok
+row 48 factor 1.08 ok
+row 48 factor 1.15 ok
+row 256 factor 1.00 ok
+row 256 factor 1.08 ok
+row 256 factor 1.15 ok
+saved: D:\CTLIB\dev_probe\icon_overscan_preview.png (351540 B, (968, 814))
+RESULT: OK

@@ -1,0 +1,2107 @@
+{
+ "done": {
+  "wzphv56ewv3w": {
+   "title": "AIR原版",
+   "file": "banner_backfill_imgs\\banner_3535888291.webp"
+  },
+  "g45a3ev6j1vt": {
+   "title": "AIR重置版",
+   "file": "banner_backfill_imgs\\banner_3535888291.webp"
+  },
+  "560uj6jla4z0": {
+   "title": "樱之诗",
+   "file": "banner_backfill_imgs\\banner_7196381342.webp"
+  },
+  "at72fyxzdijd": {
+   "title": "甜蜜女友",
+   "file": "banner_backfill_imgs\\banner_2637208516.webp"
+  },
+  "8ibxntpkbo95": {
+   "title": "夏日口袋：夏日绚烂之中",
+   "file": "banner_backfill_imgs\\banner_9583486635.webp"
+  },
+  "pc78nwuy5ydz": {
+   "title": "恋爱少不了撒娇～番外篇FD1",
+   "file": "banner_backfill_imgs\\banner_679213952.webp"
+  },
+  "og9l18i614ni": {
+   "title": "恋爱少不了撒娇 ～番外篇FD2",
+   "file": "banner_backfill_imgs\\banner_679213952.webp"
+  },
+  "nmtxezttfyna": {
+   "title": "晴霁之后，定是菜花盛开的好天气",
+   "file": "banner_backfill_imgs\\banner_7823127024.webp"
+  }
+ },
+ "failed": {
+  "hyzaww1e31tw": {
+   "title": "美少女万华镜1 -被诅咒的传说少女-",
+   "reason": "no-candidate"
+  },
+  "qf145iucgdpx": {
+   "title": "美少女万华镜2 -勿忘草与永远的少女",
+   "reason": "no-candidate"
+  },
+  "pa329j9u9yrn": {
+   "title": "美少女万华镜番外 -致曾经是少女的你",
+   "reason": "no-candidate"
+  },
+  "ph05smy11qud": {
+   "title": "美少女万华镜3 -神明所创造的少女们",
+   "reason": "no-candidate"
+  },
+  "4pjb07w1sd2u": {
+   "title": "美少女万华镜4 -罪与罰的少女",
+   "reason": "no-candidate"
+  },
+  "gl5emzpsy1y0": {
+   "title": "美少女万华镜5 -理与迷宫的少女",
+   "reason": "no-candidate"
+  },
+  "kpc4p5mydkat": {
+   "title": "美少女万华镜异闻 雪女",
+   "reason": "no-candidate"
+  },
+  "tf8dffbsu6r8": {
+   "title": "CLANNAD HD版",
+   "reason": "no-candidate"
+  },
+  "2180xc8j610s": {
+   "title": "CLANNAD：被光守望着的坡道",
+   "reason": "no-candidate"
+  },
+  "q1lznwl0oa81": {
+   "title": "樱之诗 10周年纪念版",
+   "reason": "download: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+   "url": "https://images.yurari.moe/images/80322996-4663-4acd-8b3d-b67538eb4a9d.webp"
+  },
+  "oh5jddj3jwlp": {
+   "title": "命运石之门0",
+   "reason": "no-candidate"
+  },
+  "52ocp5kj2fgo": {
+   "title": "命运石之门：変移空间的八比特",
+   "reason": "no-candidate"
+  },
+  "6xl4e8kracgn": {
+   "title": "死馆1：濒死轮回的卿，馆中萌生的憎恶",
+   "reason": "no-candidate"
+  },
+  "nzme9tjditnz": {
+   "title": "死馆2:逝去的骑士，异世界中迥响的断末魔",
+   "reason": "no-candidate"
+  },
+  "vrai1aa1b4g9": {
+   "title": "猫娘乐园 Vol.0",
+   "reason": "no-candidate"
+  },
+  "pk2nwoly4k6i": {
+   "title": "猫娘乐园 Extra",
+   "reason": "no-candidate"
+  },
+  "c3xbcnneotxg": {
+   "title": "白色相簿",
+   "reason": "aspect 500x469 < 1.15",
+   "url": "https://image.kungal.iloveren.link/5d/4b/5d4b2eca2442de54378df4dee1e4a4cad8e94b9897f08a67811b983e92ef1f83.webp"
+  },
+  "kfbm0w0tfd5e": {
+   "title": "罪恶王冠:失落的圣诞",
+   "reason": "no-candidate"
+  },
+  "f6ec62baqe2p": {
+   "title": "魔法使之夜",
+   "reason": "no-candidate"
+  },
+  "arkpnrdvwduk": {
+   "title": "BLACKSOULS Ⅰ",
+   "reason": "no-candidate"
+  },
+  "twfnmb36hquw": {
+   "title": "BLACKSOULS 前传：红帽森林",
+   "reason": "no-candidate"
+  },
+  "x31q6sx0kidl": {
+   "title": "BLACKSOULS Ⅱ",
+   "reason": "no-candidate"
+  },
+  "qrx85ilyt2jj": {
+   "title": "海市蜃楼之馆：纯真的安魂曲",
+   "reason": "no-candidate"
+  },
+  "0mev5tsck53y": {
+   "title": "《重生萝莉岛》",
+   "reason": "no-candidate"
+  },
+  "kdzjhlx7p874": {
+   "title": "女装山脉",
+   "reason": "no-candidate"
+  },
+  "9tzkidtmptje": {
+   "title": "是谁杀了知更鸟",
+   "reason": "no-candidate"
+  },
+  "jhyxhfrbpqkl": {
+   "title": "媚肉之香",
+   "reason": "no-candidate"
+  },
+  "rgpuy0hd8eqc": {
+   "title": "妹调教日记",
+   "reason": "no-candidate"
+  },
+  "lcdafz8amahb": {
+   "title": "妹调教日记FD",
+   "reason": "no-candidate"
+  },
+  "vygnr5owk1u3": {
+   "title": "君与彼女与彼女之恋",
+   "reason": "no-candidate"
+  },
+  "y760zx7el9fo": {
+   "title": "电波消逝之日",
+   "reason": "no-candidate"
+  },
+  "le8cp53b72uw": {
+   "title": "甜蜜女友SS",
+   "reason": "no-candidate"
+  },
+  "c3zrt6ln917x": {
+   "title": "甜蜜女友SS+",
+   "reason": "no-candidate"
+  },
+  "tnn6ndlt4ly3": {
+   "title": "媚肉之香 FD",
+   "reason": "no-candidate"
+  },
+  "fi3xr984luo7": {
+   "title": "白色相簿2 特典",
+   "reason": "no-candidate"
+  },
+  "0v17l5ofqzse": {
+   "title": "近月少女的礼仪2",
+   "reason": "no-candidate"
+  },
+  "amhjx3olktvp": {
+   "title": "近月少女的礼仪2.1",
+   "reason": "no-candidate"
+  },
+  "6nlsb3h3lj8w": {
+   "title": "近月少女的礼仪2.2",
+   "reason": "width 256 < 480",
+   "url": "https://image.kungal.iloveren.link/bd/20/bd20d52d38b4a603be4ed428051a0697b6d8d63e5cdaba84a728ecc8b66f2459.webp"
+  },
+  "4ix1aay3t7hd": {
+   "title": "as:9-nine-",
+   "reason": "no-candidate"
+  },
+  "yo5cgkh6zoc1": {
+   "title": "年上彼女２",
+   "reason": "no-candidate"
+  },
+  "d4fkbts9d12k": {
+   "title": "anemoi",
+   "reason": "width 256 < 480",
+   "url": "https://image.kungal.iloveren.link/00/0d/000d8748f7b405d3e7bc467e1c3157bf78cc5f5ee24e563dd5218273e7851de8.webp"
+  },
+  "zdt097pwu33a": {
+   "title": "爱之钥-限定剧情",
+   "reason": "no-candidate"
+  },
+  "k7919rvgxnz5": {
+   "title": "几度相逢若初见",
+   "reason": "no-candidate"
+  },
+  "4keajjohvis3": {
+   "title": "认真和我谈恋爱！！",
+   "reason": "no-candidate"
+  },
+  "me9sjdbxd1cm": {
+   "title": "认真和我谈恋爱！！A系列",
+   "reason": "no-candidate"
+  },
+  "ixdwn2z7hotp": {
+   "title": "超次元恋人",
+   "reason": "no-candidate"
+  },
+  "iu1zch0fivxe": {
+   "title": "Rewrite Harvest festa!",
+   "reason": "no-candidate"
+  },
+  "f6bbvytzceob": {
+   "title": "Rewrite+",
+   "reason": "no-candidate"
+  },
+  "pluiueg68qvd": {
+   "title": "曲光",
+   "reason": "no-candidate"
+  },
+  "xp1tiewckdpk": {
+   "title": "Angel Beats! 1st beat",
+   "reason": "no-candidate"
+  },
+  "pox8t5jo47tr": {
+   "title": "天籁人偶／冬穹烟火／雪华纹样",
+   "reason": "no-candidate"
+  },
+  "44r3pfsnow0t": {
+   "title": "不败世界与终焉之花",
+   "reason": "no-candidate"
+  },
+  "v6yfjf8pjkt6": {
+   "title": "废村少女～妖异魅惑的笼之乡～",
+   "reason": "no-candidate"
+  },
+  "v7p784kti5fv": {
+   "title": "廃村少女 外伝 ～嬌絡夢現～",
+   "reason": "no-candidate"
+  },
+  "23izrzxlyvlv": {
+   "title": "废村少女［贰］ ～幽秘蛊惑的姬之匣～",
+   "reason": "no-candidate"
+  },
+  "b429pfapdpg0": {
+   "title": "廃村少女 番外 ～籠愛拾遺～",
+   "reason": "no-candidate"
+  },
+  "tth3lkzg43zk": {
+   "title": "寒蝉鸣泣之时·礼",
+   "reason": "no-candidate"
+  },
+  "bdzk8x3mw74y": {
+   "title": "Friend to Lover FD",
+   "reason": "no-candidate"
+  },
+  "muy1elbgndf8": {
+   "title": "银色遥远",
+   "reason": "too small (7852B)",
+   "url": "https://image.kungal.iloveren.link/cd/dd/cddd6bd5df1772ee095dbd7b6a19d41b59e1134061fc57c33a95586b1e37bca3.webp"
+  },
+  "5kz8kl1f9bql": {
+   "title": "水葬银货",
+   "reason": "aspect 1101x1080 < 1.15",
+   "url": "https://image.kungal.iloveren.link/b7/29/b72903e4805380b605c34350e32f9c70b326f7a7548c2e1616e79f2364ccc644.webp"
+  },
+  "5dmi9lce9hjn": {
+   "title": "魔法少女的魔女审判",
+   "reason": "no-candidate"
+  },
+  "ay7u09wkakle": {
+   "title": "9-nine-九次九日九重色",
+   "reason": "no-candidate"
+  },
+  "qm4t0sv2dwt0": {
+   "title": "9-nine-天色天歌天籁音",
+   "reason": "no-candidate"
+  },
+  "1nevnuvxmufw": {
+   "title": "9-nine-雪色雪花雪之痕",
+   "reason": "no-candidate"
+  },
+  "qwm32zfl1rxc": {
+   "title": "虹彩都市",
+   "reason": "no-candidate"
+  },
+  "qjee51kha5ok": {
+   "title": "兰斯02 -反逆的少女们",
+   "reason": "no-candidate"
+  },
+  "jpg1fum5abob": {
+   "title": "兰斯04",
+   "reason": "no-candidate"
+  },
+  "l8qq0zhwulqz": {
+   "title": "兰斯08 Rance quest",
+   "reason": "too small (7672B)",
+   "url": "https://image.kungal.iloveren.link/5d/2a/5d2afaf7501e5c7b52af994fd35ca0d94cf754513164f12f2279257a3996f0e2.webp"
+  },
+  "7t590dxyqz6f": {
+   "title": "兰斯09 赫尔曼革命",
+   "reason": "no-candidate"
+  },
+  "o1hyu1i3yx3q": {
+   "title": "夏娃年代记兰斯版",
+   "reason": "no-candidate"
+  },
+  "1zrvl2kby313": {
+   "title": "装甲恶鬼村正",
+   "reason": "no-candidate"
+  },
+  "6mpfcsfb9y7n": {
+   "title": "装甲恶鬼村正邪念篇",
+   "reason": "no-candidate"
+  },
+  "tm2k5e8klxry": {
+   "title": "装甲恶鬼村正 赎罪篇",
+   "reason": "no-candidate"
+  },
+  "fjjpa97brdl7": {
+   "title": "战女神VERITA",
+   "reason": "no-candidate"
+  },
+  "285v51ndqobb": {
+   "title": "战女神MEMORIA",
+   "reason": "no-candidate"
+  },
+  "3i1tzeet6kpa": {
+   "title": "战女神2 ～致失去记忆的镇魂歌～",
+   "reason": "no-candidate"
+  },
+  "eleyjgsa2vvf": {
+   "title": "狂之血",
+   "reason": "no-candidate"
+  },
+  "0ze76nz9ahca": {
+   "title": "BALDR SKY ZERO",
+   "reason": "aspect 1139x1080 < 1.15",
+   "url": "https://image.kungal.iloveren.link/86/23/86233116b8f9abd663f1617bcb97adcd81db5ad307307b31cdf81cb823aa6b84.webp"
+  },
+  "o0uf0sxkybyr": {
+   "title": "BALDR SKY ZERO 2",
+   "reason": "aspect 1139x1080 < 1.15",
+   "url": "https://image.kungal.iloveren.link/86/23/86233116b8f9abd663f1617bcb97adcd81db5ad307307b31cdf81cb823aa6b84.webp"
+  },
+  "xbtggcc9itec": {
+   "title": "VenusBlood -RAGNAROK",
+   "reason": "no-candidate"
+  },
+  "lc50c9i4ft12": {
+   "title": "天结神缘",
+   "reason": "aspect 610x560 < 1.15",
+   "url": "https://image.kungal.iloveren.link/1f/ba/1fba54ac6c35eeff57e9b21ffc200bcf31fc4a7e08cd8039aebffa264e6bef3f.webp"
+  },
+  "5tjqh29hbntg": {
+   "title": "天结神缘2 迷宫大师",
+   "reason": "no-candidate"
+  },
+  "p37i85u4y66j": {
+   "title": "水仙",
+   "reason": "no-candidate"
+  },
+  "5wk8rd2am0lw": {
+   "title": "月姬",
+   "reason": "aspect 404x384 < 1.15",
+   "url": "https://image.kungal.iloveren.link/fa/8f/fa8f2c762d1bd963dcdb0547d74f611291e19cabc60856db839ab26b6e8117a9.webp"
+  },
+  "eznymcid4cx4": {
+   "title": "月姬plus",
+   "reason": "aspect 404x384 < 1.15",
+   "url": "https://image.kungal.iloveren.link/fa/8f/fa8f2c762d1bd963dcdb0547d74f611291e19cabc60856db839ab26b6e8117a9.webp"
+  },
+  "ydmby83uok9c": {
+   "title": "Fate stay night 重置版",
+   "reason": "no-candidate"
+  },
+  "v3v823niyvsh": {
+   "title": "纯白交响曲",
+   "reason": "no-candidate"
+  },
+  "esr0qevgsmn8": {
+   "title": "纯白交响曲 SANA EDITION",
+   "reason": "no-candidate"
+  },
+  "if39kqqw7e6w": {
+   "title": "终焉之莉莉：骑士寂夜",
+   "reason": "no-candidate"
+  },
+  "ybsitvfp6rgq": {
+   "title": "常轨脱离Creative Re:Re:call",
+   "reason": "no-candidate"
+  },
+  "7k5yv575srli": {
+   "title": "夏日彼方",
+   "reason": "no-candidate"
+  },
+  "ybaxlf8emw9b": {
+   "title": "初音岛II",
+   "reason": "width 450 < 480",
+   "url": "https://image.kungal.iloveren.link/1e/f6/1ef636c30ab1d9c0a0be999d29898e352f49dac16d3189297676c26745aed5d2.webp"
+  },
+  "auejjggsmqwy": {
+   "title": "初音岛II Spring Celebration",
+   "reason": "aspect 1176x1080 < 1.15",
+   "url": "https://image.kungal.iloveren.link/4f/85/4f850b9db184ffc0a8bc73853a9b55fae84e5824b8695c0a65665958c485f9e7.webp"
+  },
+  "4ygy4bu11yaf": {
+   "title": "初音岛2 To You",
+   "reason": "aspect 1176x1080 < 1.15",
+   "url": "https://image.kungal.iloveren.link/4f/85/4f850b9db184ffc0a8bc73853a9b55fae84e5824b8695c0a65665958c485f9e7.webp"
+  },
+  "zj7v2pt17w2j": {
+   "title": "日在校园 HQ",
+   "reason": "no-candidate"
+  },
+  "x51ecpcw7x4e": {
+   "title": "彷徨之街",
+   "reason": "no-candidate"
+  },
+  "uooresgs75bi": {
+   "title": "魔导巧壳",
+   "reason": "no-candidate"
+  },
+  "dsr5z6p6rxsn": {
+   "title": "妻中蜜",
+   "reason": "no-candidate"
+  },
+  "ckmju7cc5hw4": {
+   "title": "妻中蜜2",
+   "reason": "no-candidate"
+  },
+  "xmrdu16rwzc6": {
+   "title": "妻中蜜 3",
+   "reason": "no-candidate"
+  },
+  "1ddoyrjap4t3": {
+   "title": "妻中蜜 3特典",
+   "reason": "no-candidate"
+  },
+  "zwl1dydk2nio": {
+   "title": "融化的风花与白兔",
+   "reason": "no-candidate"
+  },
+  "b0wud2gt4g9d": {
+   "title": "米塔",
+   "reason": "no-candidate"
+  },
+  "kevm78o1n2m2": {
+   "title": "宝石少女 1st.cut",
+   "reason": "no-candidate"
+  },
+  "5emb5lifmb8a": {
+   "title": "宝石少女 2nd",
+   "reason": "no-candidate"
+  },
+  "abxt2hfbnwh4": {
+   "title": "LABYRINTHOS：深渊的迷宮",
+   "reason": "no-candidate"
+  },
+  "xykwdzr8muyz": {
+   "title": "命运石之门 重启",
+   "reason": "no-candidate"
+  },
+  "7de92y5movzg": {
+   "title": "密语",
+   "reason": "no-candidate"
+  },
+  "tjcb1muf89yv": {
+   "title": "密语-Silver Snow Sister-",
+   "reason": "no-candidate"
+  },
+  "4b0vir3ricco": {
+   "title": "恋姬†无双 ～心跳☆满是少女的三国演义～",
+   "reason": "too small (7916B)",
+   "url": "https://image.kungal.iloveren.link/3d/cf/3dcf969100d99233f199795f46eae5b9738a1dd48a895ab7a22b9d881354f5a5.webp"
+  },
+  "hvi0kubcsahm": {
+   "title": "真・恋姫†英雄譚１２３+PLUS～乙女艶乱☆三国志演義～",
+   "reason": "no-candidate"
+  },
+  "zi5pb7moui8h": {
+   "title": "真・恋姬†英雄谭 4 5",
+   "reason": "no-candidate"
+  },
+  "an6qsreoakyu": {
+   "title": "真・恋姬英雄传外传 白月之灯火",
+   "reason": "no-candidate"
+  },
+  "xid8678o03oi": {
+   "title": "对你说再见～comment te dire adieu～",
+   "reason": "aspect 536x472 < 1.15",
+   "url": "https://image.kungal.iloveren.link/3f/5a/3f5aefa155ea6f9923ca98e86ab226545953a9ce1c7d02a51a3cf578175aba5a.webp"
+  },
+  "e72o9qi0denr": {
+   "title": "家族计划~再开~",
+   "reason": "no-candidate"
+  },
+  "3yo0d88a6822": {
+   "title": "想要传达给你的爱恋",
+   "reason": "no-candidate"
+  },
+  "2k8kfs514f8k": {
+   "title": "心灵重启",
+   "reason": "no-candidate"
+  },
+  "f4zo3de10bog": {
+   "title": "戦国†恋姫",
+   "reason": "aspect 1024x922 < 1.15",
+   "url": "https://image.kungal.iloveren.link/08/f4/08f4ca8172f153419c975d0c1936de6a187b65867f8052c0dc3758880a87b879.webp"
+  },
+  "qyixcuvnqf8n": {
+   "title": "戦国†恋姫X",
+   "reason": "no-candidate"
+  },
+  "6qnl4woslsf0": {
+   "title": "想谈个恋爱吗？那就给钱吧~椿&千夏篇",
+   "reason": "no-candidate"
+  },
+  "andwzqpg30z4": {
+   "title": "想谈个恋爱吗？那就给钱吧~绘未＆八纯",
+   "reason": "no-candidate"
+  },
+  "znnnkk3xmqku": {
+   "title": "恋爱、初邂逅",
+   "reason": "no-candidate"
+  },
+  "vro4vjwbnoe4": {
+   "title": "若能与你再次相见",
+   "reason": "no-candidate"
+  },
+  "037zp0d70qk9": {
+   "title": "魔女恋爱日记 Dragon×Caravan",
+   "reason": "no-candidate"
+  },
+  "6so0ghdohhpe": {
+   "title": "Aster",
+   "reason": "no-candidate"
+  },
+  "zc4ug08q0phb": {
+   "title": "杀恋～悠久流传的恋之歌～",
+   "reason": "no-candidate"
+  },
+  "1c5ba71tl9qz": {
+   "title": "夏空彼方：塔弦之雪",
+   "reason": "no-candidate"
+  },
+  "j5aylftpunhj": {
+   "title": "恋爱成双 瑠衣＆宮子小剧场",
+   "reason": "no-candidate"
+  },
+  "5z8kews2wx6m": {
+   "title": "恋爱成双 结爱&煌小剧场",
+   "reason": "no-candidate"
+  },
+  "1it9p336l1bb": {
+   "title": "国王恋爱",
+   "reason": "no-candidate"
+  },
+  "y6o7s8oa2dve": {
+   "title": "【测试】用户分享作品（可忽略）",
+   "reason": "no-candidate"
+  },
+  "so2inxn0ji7c": {
+   "title": "DeepSeek 蓝色大肥鱼",
+   "reason": "no-candidate"
+  }
+ },
+ "_dry_done": {
+  "b2z0vfdj16fx": {
+   "title": "ATRI",
+   "file": "banner_backfill_imgs\\banner_6806376882.webp",
+   "dry": true
+  },
+  "tu7i8f1nuwcw": {
+   "title": "爱上火车Last Run",
+   "file": "banner_backfill_imgs\\banner_5932371594.webp",
+   "dry": true
+  },
+  "q3hw9h9sx9fa": {
+   "title": "乐园 euphoria",
+   "file": "banner_backfill_imgs\\banner_3402358836.webp",
+   "dry": true
+  },
+  "1u8wo1yupo1f": {
+   "title": "千恋 * 万花",
+   "file": "banner_backfill_imgs\\banner_7131924481.webp",
+   "dry": true
+  },
+  "sawkdin1a8be": {
+   "title": "魔女的夜宴",
+   "file": "banner_backfill_imgs\\banner_3855161496.webp",
+   "dry": true
+  },
+  "1h8tjdosrh4z": {
+   "title": "秽翼的尤斯蒂娅",
+   "file": "banner_backfill_imgs\\banner_2172564089.webp",
+   "dry": true
+  },
+  "ssp5oslmdnpy": {
+   "title": "樱之刻",
+   "file": "banner_backfill_imgs\\banner_7887247980.webp",
+   "dry": true
+  },
+  "721jt6r0biva": {
+   "title": "命运石之门",
+   "file": "banner_backfill_imgs\\banner_2478980972.webp",
+   "dry": true
+  },
+  "tpa1t9dwl0b8": {
+   "title": "命运石之门:比翼恋理的爱人",
+   "file": "banner_backfill_imgs\\banner_2947779449.webp",
+   "dry": true
+  },
+  "zhiz8687pktc": {
+   "title": "命运石之门：线形拘束的表征图",
+   "file": "banner_backfill_imgs\\banner_2478980972.webp",
+   "dry": true
+  },
+  "9fzi20gz7pi5": {
+   "title": "纸上的魔法使",
+   "file": "banner_backfill_imgs\\banner_3869910092.webp",
+   "dry": true
+  },
+  "fgbzco6zybbv": {
+   "title": "人狼村之谜",
+   "file": "banner_backfill_imgs\\banner_9290016202.webp",
+   "dry": true
+  },
+  "3gqcji3628hw": {
+   "title": "苍之彼方的四重奏",
+   "file": "banner_backfill_imgs\\banner_7356338654.webp",
+   "dry": true
+  },
+  "ulra83dxeol0": {
+   "title": "苍之彼方的四重奏 EXTRA1",
+   "file": "banner_backfill_imgs\\banner_9223480935.webp",
+   "dry": true
+  },
+  "kr1ozj6srd5u": {
+   "title": "苍之彼方的四重奏 EXTRA2",
+   "file": "banner_backfill_imgs\\banner_70115626.webp",
+   "dry": true
+  },
+  "l2q0f722izhh": {
+   "title": "苍之彼方的四重奏：交予世界的答卷",
+   "file": "banner_backfill_imgs\\banner_70115626.webp",
+   "dry": true
+  },
+  "7zi32ljnb85x": {
+   "title": "KIRA☆KIRA 煌煌舞台",
+   "file": "banner_backfill_imgs\\banner_8156154748.webp",
+   "dry": true
+  },
+  "y99fgz1he2qf": {
+   "title": "天使☆嚣嚣 RE-BOOT!",
+   "file": "banner_backfill_imgs\\banner_1116124.webp",
+   "dry": true
+  },
+  "2vlkromr7lzp": {
+   "title": "猫娘乐园 Vol.1",
+   "file": "banner_backfill_imgs\\banner_4448674041.webp",
+   "dry": true
+  },
+  "hobhp822tf6t": {
+   "title": "猫娘乐园 Vol.2",
+   "file": "banner_backfill_imgs\\banner_6207997311.webp",
+   "dry": true
+  },
+  "vyll1bb8zv4b": {
+   "title": "猫娘乐园 Vol.3",
+   "file": "banner_backfill_imgs\\banner_4187627053.webp",
+   "dry": true
+  },
+  "5tv8pwu0qhh8": {
+   "title": "猫娘乐园 Vol.4",
+   "file": "banner_backfill_imgs\\banner_5157851830.webp",
+   "dry": true
+  },
+  "gweodqh6w9yl": {
+   "title": "猫娘乐园 After",
+   "file": "banner_backfill_imgs\\banner_4500330433.webp",
+   "dry": true
+  },
+  "vy6rok1bzljh": {
+   "title": "末世孤雄 Vol. 1",
+   "file": "banner_backfill_imgs\\banner_7313678781.webp",
+   "dry": true
+  },
+  "zkyvf0dfl1a7": {
+   "title": "末世孤雄 Vol. 2",
+   "file": "banner_backfill_imgs\\banner_8872869480.webp",
+   "dry": true
+  },
+  "odtmuhsp6lyv": {
+   "title": "末世孤雄 Vol. 3",
+   "file": "banner_backfill_imgs\\banner_7806937710.webp",
+   "dry": true
+  },
+  "0f1qp51y3ju3": {
+   "title": "白色相簿2",
+   "file": "banner_backfill_imgs\\banner_1399514242.webp",
+   "dry": true
+  },
+  "sybth9j3eoju": {
+   "title": "变态监狱",
+   "file": "banner_backfill_imgs\\banner_1920649049.webp",
+   "dry": true
+  },
+  "b851y9t8nyux": {
+   "title": "天津罪",
+   "file": "banner_backfill_imgs\\banner_1189949061.webp",
+   "dry": true
+  },
+  "drbs6s8t9uqm": {
+   "title": "主播女孩重度依赖",
+   "file": "banner_backfill_imgs\\banner_6710885968.webp",
+   "dry": true
+  },
+  "ko006wfl0680": {
+   "title": "混沌之子",
+   "file": "banner_backfill_imgs\\banner_2451483440.webp",
+   "dry": true
+  },
+  "z8f205h0dyqs": {
+   "title": "海市蜃楼之馆",
+   "file": "banner_backfill_imgs\\banner_5224507449.webp",
+   "dry": true
+  },
+  "m2vlscu87ik8": {
+   "title": "沙耶之歌",
+   "file": "banner_backfill_imgs\\banner_4813566776.webp",
+   "dry": true
+  },
+  "x8eb4beazof9": {
+   "title": "素晴日｜美好的每一天～不连续的存在～",
+   "file": "banner_backfill_imgs\\banner_9825546616.webp",
+   "dry": true
+  },
+  "dkmncujadj62": {
+   "title": "Dark Blue",
+   "file": "banner_backfill_imgs\\banner_5696179041.webp",
+   "dry": true
+  },
+  "d2pr7b7znet5": {
+   "title": "3days ～在逝去时间的另一端～",
+   "file": "banner_backfill_imgs\\banner_9362989722.webp",
+   "dry": true
+  },
+  "553e5c3inkrt": {
+   "title": "甜蜜女友+",
+   "file": "banner_backfill_imgs\\banner_400497375.webp",
+   "dry": true
+  },
+  "njp7mo9r2h30": {
+   "title": "甜蜜女友2",
+   "file": "banner_backfill_imgs\\banner_8608330357.webp",
+   "dry": true
+  },
+  "y7ri0fpn8vfx": {
+   "title": "甜蜜女友2+",
+   "file": "banner_backfill_imgs\\banner_8608330357.webp",
+   "dry": true
+  },
+  "swqavzuigzmf": {
+   "title": "甜蜜女友3",
+   "file": "banner_backfill_imgs\\banner_4775058159.webp",
+   "dry": true
+  },
+  "xrmh6jgtbai6": {
+   "title": "近月少女的礼仪",
+   "file": "banner_backfill_imgs\\banner_3780391804.webp",
+   "dry": true
+  },
+  "zz2n1ksyh2ro": {
+   "title": "少女理论及其之后的周边",
+   "file": "banner_backfill_imgs\\banner_3678190568.webp",
+   "dry": true
+  },
+  "y747txsetllz": {
+   "title": "少女理论及其周边 -École de Paris-",
+   "file": "banner_backfill_imgs\\banner_1045410292.webp",
+   "dry": true
+  },
+  "0m3nrqkcgt6t": {
+   "title": "女仆来我家",
+   "file": "banner_backfill_imgs\\banner_7202897736.webp",
+   "dry": true
+  },
+  "fggd45ee1lyu": {
+   "title": "女仆来我家S",
+   "file": "banner_backfill_imgs\\banner_7202897736.webp",
+   "dry": true
+  },
+  "y3l6xe9dlqjf": {
+   "title": "爱之钥",
+   "file": "banner_backfill_imgs\\banner_8588639125.webp",
+   "dry": true
+  },
+  "8seb9wcjnlp8": {
+   "title": "爱之钥～甜园夏日～",
+   "file": "banner_backfill_imgs\\banner_8588639125.webp",
+   "dry": true
+  },
+  "73xgpunss418": {
+   "title": "爱之钥2",
+   "file": "banner_backfill_imgs\\banner_8416317891.webp",
+   "dry": true
+  },
+  "bi9i51gg1a4f": {
+   "title": "爱之钥3",
+   "file": "banner_backfill_imgs\\banner_2184643060.webp",
+   "dry": true
+  },
+  "ow3dmxuxo8fs": {
+   "title": "ガルドマ-女子寮の管理人",
+   "file": "banner_backfill_imgs\\banner_2152080154.webp",
+   "dry": true
+  },
+  "66c1ybtzxvh0": {
+   "title": "女子宿舍的管理员- After",
+   "file": "banner_backfill_imgs\\banner_2152080154.webp",
+   "dry": true
+  },
+  "ce76ev3l568f": {
+   "title": "年下彼女",
+   "file": "banner_backfill_imgs\\banner_3493111602.webp",
+   "dry": true
+  },
+  "xntx1dg3v041": {
+   "title": "年上彼女",
+   "file": "banner_backfill_imgs\\banner_623458700.webp",
+   "dry": true
+  },
+  "g2tey64uzqvp": {
+   "title": "星之终途",
+   "file": "banner_backfill_imgs\\banner_1922901304.webp",
+   "dry": true
+  },
+  "8nysc32vxe8u": {
+   "title": "星之终途后日谈：渺茫希望的日记",
+   "file": "banner_backfill_imgs\\banner_2767326991.webp",
+   "dry": true
+  },
+  "3sqxghie2x52": {
+   "title": "StraySheep",
+   "file": "banner_backfill_imgs\\banner_8370707148.webp",
+   "dry": true
+  },
+  "rdqb58b027zz": {
+   "title": "Rewrite",
+   "file": "banner_backfill_imgs\\banner_9805810852.webp",
+   "dry": true
+  },
+  "k6habd607rt6": {
+   "title": "末世孤雄 Vol.0",
+   "file": "banner_backfill_imgs\\banner_4249285473.webp",
+   "dry": true
+  },
+  "40vkjcsp35gh": {
+   "title": "智代After ～It's a Wonderful Life～",
+   "file": "banner_backfill_imgs\\banner_2183889512.webp",
+   "dry": true
+  },
+  "vkjs97x9c3dc": {
+   "title": "寒蝉鸣泣之时·出题篇",
+   "file": "banner_backfill_imgs\\banner_5400513426.webp",
+   "dry": true
+  },
+  "ts05g0cbn60p": {
+   "title": "寒蝉鸣泣之时·解题篇",
+   "file": "banner_backfill_imgs\\banner_5400513426.webp",
+   "dry": true
+  },
+  "w127qb0s0m7z": {
+   "title": "薛定谔的电话",
+   "file": "banner_backfill_imgs\\banner_748152563.webp",
+   "dry": true
+  },
+  "i3gbpbzuidt2": {
+   "title": "Friend to Lover",
+   "file": "banner_backfill_imgs\\banner_7524854138.webp",
+   "dry": true
+  },
+  "u8g1uh4fdzcv": {
+   "title": "金辉恋曲四重奏",
+   "file": "banner_backfill_imgs\\banner_7108559360.webp",
+   "dry": true
+  },
+  "0mesm4y2f736": {
+   "title": "金辉恋曲四重奏 -Golden Time-",
+   "file": "banner_backfill_imgs\\banner_498241179.webp",
+   "dry": true
+  },
+  "5iy2jxee8b0s": {
+   "title": "冥契的牧神节",
+   "file": "banner_backfill_imgs\\banner_1560080000.webp",
+   "dry": true
+  },
+  "lfuylwk9rcus": {
+   "title": "四叶草的约定",
+   "file": "banner_backfill_imgs\\banner_8151429334.webp",
+   "dry": true
+  },
+  "g83z1wovz81u": {
+   "title": "逐光柠檬协奏曲",
+   "file": "banner_backfill_imgs\\banner_5443456544.webp",
+   "dry": true
+  },
+  "1bj07j16c1fq": {
+   "title": "五彩斑斓的世界",
+   "file": "banner_backfill_imgs\\banner_6768794200.webp",
+   "dry": true
+  },
+  "7722q0twhxs9": {
+   "title": "五彩斑斓的曙光",
+   "file": "banner_backfill_imgs\\banner_6768794200.webp",
+   "dry": true
+  },
+  "vvjzq3lqnk2w": {
+   "title": "映入红瞳的世界",
+   "file": "banner_backfill_imgs\\banner_9687432710.webp",
+   "dry": true
+  },
+  "4s7fxjh4lm3m": {
+   "title": "青鸟",
+   "file": "banner_backfill_imgs\\banner_4136292369.webp",
+   "dry": true
+  },
+  "ijp2duduylzs": {
+   "title": "夏之锁",
+   "file": "banner_backfill_imgs\\banner_7576838393.webp",
+   "dry": true
+  },
+  "5c91wv0w2127": {
+   "title": "兰斯01 寻找小光",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp",
+   "dry": true
+  },
+  "cam3wysbvht4": {
+   "title": "兰斯03 利萨斯陷落",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp",
+   "dry": true
+  },
+  "zytkqnyru316": {
+   "title": "兰斯5D 孤单的女孩",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp",
+   "dry": true
+  },
+  "zd2hsw5kx8am": {
+   "title": "兰斯06 塞斯崩坏",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp",
+   "dry": true
+  },
+  "ijrqfg7igy3m": {
+   "title": "兰斯07 战国兰斯",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp",
+   "dry": true
+  },
+  "jwgf3ikjkw47": {
+   "title": "兰斯10 决战",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp",
+   "dry": true
+  },
+  "1gkak6po4zf6": {
+   "title": "战女神ZERO",
+   "file": "banner_backfill_imgs\\banner_3384324204.webp",
+   "dry": true
+  },
+  "3efgxbcgnhvf": {
+   "title": "星空列车与白的旅行",
+   "file": "banner_backfill_imgs\\banner_9532746178.webp",
+   "dry": true
+  },
+  "q9xxm4sj1ke9": {
+   "title": "巧克甜恋",
+   "file": "banner_backfill_imgs\\banner_8335707340.webp",
+   "dry": true
+  },
+  "eunwckkhz9e0": {
+   "title": "巧克甜恋2",
+   "file": "banner_backfill_imgs\\banner_8763865631.webp",
+   "dry": true
+  },
+  "tha1riyius3p": {
+   "title": "巧克甜恋3",
+   "file": "banner_backfill_imgs\\banner_5778053214.webp",
+   "dry": true
+  },
+  "b5chdv1ay31d": {
+   "title": "VenusBlood Frontier",
+   "file": "banner_backfill_imgs\\banner_4890170534.webp",
+   "dry": true
+  },
+  "hhec65ta2xfo": {
+   "title": "约会大作战：莲 反乌托邦",
+   "file": "banner_backfill_imgs\\banner_1367760281.webp",
+   "dry": true
+  },
+  "jpwlu8cqzm6f": {
+   "title": "约会大作战・凛绪轮回",
+   "file": "banner_backfill_imgs\\banner_181293786.webp",
+   "dry": true
+  },
+  "6ypg97g6bxvd": {
+   "title": "白雪~七凭之祭~",
+   "file": "banner_backfill_imgs\\banner_4695456545.webp",
+   "dry": true
+  },
+  "x8wd7buwy5mj": {
+   "title": "恋狱～月狂病～",
+   "file": "banner_backfill_imgs\\banner_7005802049.webp",
+   "dry": true
+  },
+  "w9ik9ovrdvut": {
+   "title": "壳之少女",
+   "file": "banner_backfill_imgs\\banner_9214788137.webp",
+   "dry": true
+  },
+  "v279bkjr8xvx": {
+   "title": "虚之少女",
+   "file": "banner_backfill_imgs\\banner_2460495057.webp",
+   "dry": true
+  },
+  "pmkwxux9rot5": {
+   "title": "天之少女",
+   "file": "banner_backfill_imgs\\banner_1498774583.webp",
+   "dry": true
+  },
+  "nxz1y6fc583o": {
+   "title": "多娜多娜 一起来干坏事吧",
+   "file": "banner_backfill_imgs\\banner_9217767811.webp",
+   "dry": true
+  },
+  "97gn34oqhog2": {
+   "title": "夏日狂想曲：乡间的难忘回忆",
+   "file": "banner_backfill_imgs\\banner_9373341709.webp",
+   "dry": true
+  },
+  "p4fyhzhx35hx": {
+   "title": "Eden*",
+   "file": "banner_backfill_imgs\\banner_2675197264.webp",
+   "dry": true
+  },
+  "kzhthl3lh9vj": {
+   "title": "水仙3",
+   "file": "banner_backfill_imgs\\banner_6154456489.webp",
+   "dry": true
+  },
+  "sl76f5r3pswd": {
+   "title": "车轮之国，向日葵的少女",
+   "file": "banner_backfill_imgs\\banner_8179317826.webp",
+   "dry": true
+  },
+  "qrq909oxm7yi": {
+   "title": "樱花萌放-as the Night's, Reincarnation-",
+   "file": "banner_backfill_imgs\\banner_4613910259.webp",
+   "dry": true
+  },
+  "quidaqhdy9nk": {
+   "title": "勇者大战魔物娘",
+   "file": "banner_backfill_imgs\\banner_2023405599.webp",
+   "dry": true
+  },
+  "cj0z4w53557n": {
+   "title": "Fate/stay night",
+   "file": "banner_backfill_imgs\\banner_7084010937.webp",
+   "dry": true
+  },
+  "zyf7v3u48q1t": {
+   "title": "Ever17",
+   "file": "banner_backfill_imgs\\banner_1142864000.webp",
+   "dry": true
+  },
+  "85pz0r6eb1rf": {
+   "title": "Utawarerumono Prelude to the Fallen",
+   "file": "banner_backfill_imgs\\banner_3987499666.webp",
+   "dry": true
+  },
+  "sbf3e050yerg": {
+   "title": "Utawarerumono: The False Faces",
+   "file": "banner_backfill_imgs\\banner_8159779994.webp",
+   "dry": true
+  },
+  "7snwfea95efu": {
+   "title": "Utawarerumono: Futari no Hakuoro",
+   "file": "banner_backfill_imgs\\banner_8159779994.webp",
+   "dry": true
+  },
+  "jsdxzhk7zgdw": {
+   "title": "孤独的魔王与我的塔",
+   "file": "banner_backfill_imgs\\banner_1174276463.webp",
+   "dry": true
+  },
+  "pj2i0cidkkx6": {
+   "title": "交响乐之雨",
+   "file": "banner_backfill_imgs\\banner_9385184084.webp",
+   "dry": true
+  },
+  "yw93kw4y52tv": {
+   "title": "GINKA-银花",
+   "file": "banner_backfill_imgs\\banner_4491965635.webp",
+   "dry": true
+  },
+  "hty5mte4kmc1": {
+   "title": "常轨脱离Creative",
+   "file": "banner_backfill_imgs\\banner_96535194.webp",
+   "dry": true
+  },
+  "iiijuy4tu4fw": {
+   "title": "常轨脱离Creative凸",
+   "file": "banner_backfill_imgs\\banner_2005266945.webp",
+   "dry": true
+  },
+  "hn8bepj4h0kk": {
+   "title": "痴情哥哥与病弱妹妹的乡间生活",
+   "file": "banner_backfill_imgs\\banner_9976076758.webp",
+   "dry": true
+  },
+  "24wff5f28pba": {
+   "title": "友爱俱乐部",
+   "file": "banner_backfill_imgs\\banner_7832253991.webp",
+   "dry": true
+  },
+  "rqhhlzz83mrb": {
+   "title": "初音岛Ⅰ",
+   "file": "banner_backfill_imgs\\banner_8799875765.webp",
+   "dry": true
+  },
+  "1bdfuxbhnsio": {
+   "title": "初音岛Ⅲ",
+   "file": "banner_backfill_imgs\\banner_8799875765.webp",
+   "dry": true
+  },
+  "wbrsidow19i5": {
+   "title": "初音岛4",
+   "file": "banner_backfill_imgs\\banner_7118742497.webp",
+   "dry": true
+  },
+  "1mg91az6uien": {
+   "title": "初音岛5",
+   "file": "banner_backfill_imgs\\banner_745614417.webp",
+   "dry": true
+  },
+  "yb16jy12ed2z": {
+   "title": "梦狱之国的爱丽丝",
+   "file": "banner_backfill_imgs\\banner_6858981109.webp",
+   "dry": true
+  },
+  "azad0h3svepx": {
+   "title": "弹丸论破 希望的学园与绝望的高中生",
+   "file": "banner_backfill_imgs\\banner_8595270065.webp",
+   "dry": true
+  },
+  "okkczgjtp52x": {
+   "title": "超级弹丸论破2 再见绝望学园",
+   "file": "banner_backfill_imgs\\banner_5517649120.webp",
+   "dry": true
+  },
+  "6v6969ug3jdm": {
+   "title": "虫爱少女",
+   "file": "banner_backfill_imgs\\banner_7766478864.webp",
+   "dry": true
+  },
+  "sglkzo91de6v": {
+   "title": "星织梦未来",
+   "file": "banner_backfill_imgs\\banner_6380145606.webp",
+   "dry": true
+  },
+  "0qjdzr0o26i7": {
+   "title": "异想魅惑 暮色廻奇谭",
+   "file": "banner_backfill_imgs\\banner_2827093844.webp",
+   "dry": true
+  },
+  "guhpjjzlzrh8": {
+   "title": "异想魅惑2 暮色廻奇谭",
+   "file": "banner_backfill_imgs\\banner_7290062297.webp",
+   "dry": true
+  },
+  "7jwfq7iw2oss": {
+   "title": "Fate/hollow ataraxia",
+   "file": "banner_backfill_imgs\\banner_1227901348.webp",
+   "dry": true
+  },
+  "g267zzzzymkl": {
+   "title": "臭作",
+   "file": "banner_backfill_imgs\\banner_5893949054.webp",
+   "dry": true
+  },
+  "coowc3cmkfvv": {
+   "title": "真・恋姬†无双-萌将传",
+   "file": "banner_backfill_imgs\\banner_614696847.webp",
+   "dry": true
+  },
+  "h3lck8ogpso9": {
+   "title": "真・恋姫†夢想-革命 三部曲",
+   "file": "banner_backfill_imgs\\banner_6565854087.webp",
+   "dry": true
+  },
+  "kqhjvsktavvy": {
+   "title": "家族计划～追忆～",
+   "file": "banner_backfill_imgs\\banner_43487363.webp",
+   "dry": true
+  },
+  "p1jd6r3h0wk7": {
+   "title": "恋爱少不了撒娇",
+   "file": "banner_backfill_imgs\\banner_5341399849.webp",
+   "dry": true
+  },
+  "4b6okfwbsroo": {
+   "title": "COCORO",
+   "file": "banner_backfill_imgs\\banner_4751122969.webp",
+   "dry": true
+  },
+  "qbp60a6apl7h": {
+   "title": "尤里与爱丽丝",
+   "file": "banner_backfill_imgs\\banner_3686904780.webp",
+   "dry": true
+  },
+  "jeemmwocj92p": {
+   "title": "八卦恋爱",
+   "file": "banner_backfill_imgs\\banner_5682241869.webp",
+   "dry": true
+  },
+  "lrf5c28hju4y": {
+   "title": "恋爱，我就借走咯",
+   "file": "banner_backfill_imgs\\banner_3892004813.webp",
+   "dry": true
+  },
+  "gltcip0td56m": {
+   "title": "星之梦 HD",
+   "file": "banner_backfill_imgs\\banner_4764955896.webp",
+   "dry": true
+  },
+  "dek8ry26tr6y": {
+   "title": "星之梦 -雪圈球-",
+   "file": "banner_backfill_imgs\\banner_7895845414.webp",
+   "dry": true
+  },
+  "2q4o95jkot49": {
+   "title": "终之空",
+   "file": "banner_backfill_imgs\\banner_9825546616.webp",
+   "dry": true
+  },
+  "v1tq9n6hmapo": {
+   "title": "我们没有翅膀",
+   "file": "banner_backfill_imgs\\banner_3719952382.webp",
+   "dry": true
+  },
+  "hnf6r83kp37w": {
+   "title": "恋爱、初邂逅 FD",
+   "file": "banner_backfill_imgs\\banner_7625069768.webp",
+   "dry": true
+  },
+  "rj70ot1riaek": {
+   "title": "初雪樱",
+   "file": "banner_backfill_imgs\\banner_4856453220.webp",
+   "dry": true
+  },
+  "9fifoeo1utp2": {
+   "title": "魔女恋爱日记",
+   "file": "banner_backfill_imgs\\banner_4283594809.webp",
+   "dry": true
+  },
+  "5yctk0en1lb9": {
+   "title": "夏空彼方",
+   "file": "banner_backfill_imgs\\banner_671335182.webp",
+   "dry": true
+  },
+  "x97kfxu7w7ok": {
+   "title": "大图书馆的牧羊人",
+   "file": "banner_backfill_imgs\\banner_7168589335.webp",
+   "dry": true
+  },
+  "37hthdxayex5": {
+   "title": "大图书馆的牧羊人 Dreaming Sheep",
+   "file": "banner_backfill_imgs\\banner_7168589335.webp",
+   "dry": true
+  },
+  "uhjvcihwpwin": {
+   "title": "大图书馆的牧羊人 ～放学后的最后时光～",
+   "file": "banner_backfill_imgs\\banner_7168589335.webp",
+   "dry": true
+  },
+  "ddfwgmp1o6yv": {
+   "title": "乌有乡",
+   "file": "banner_backfill_imgs\\banner_6787725298.webp",
+   "dry": true
+  },
+  "1ca2zxcjushy": {
+   "title": "心跳文学部 Plus!",
+   "file": "banner_backfill_imgs\\banner_7185681597.webp",
+   "dry": true
+  },
+  "56t4w98qybsa": {
+   "title": "树莓立方体",
+   "file": "banner_backfill_imgs\\banner_7466397037.webp",
+   "dry": true
+  },
+  "5ultar131xqu": {
+   "title": "现在立刻就想对哥哥说我是妹妹",
+   "file": "banner_backfill_imgs\\banner_2045503056.webp",
+   "dry": true
+  },
+  "esp3byoxr5x6": {
+   "title": "少女＊领域",
+   "file": "banner_backfill_imgs\\banner_6857582237.webp",
+   "dry": true
+  },
+  "8pkqgrmr4fie": {
+   "title": "播种之谣",
+   "file": "banner_backfill_imgs\\banner_2932230979.webp",
+   "dry": true
+  },
+  "w8e47g3oo3f0": {
+   "title": "恋爱成双",
+   "file": "banner_backfill_imgs\\banner_8271493458.webp",
+   "dry": true
+  },
+  "7xw5am5zn6aj": {
+   "title": "同居女友1",
+   "file": "banner_backfill_imgs\\banner_7279705440.webp",
+   "dry": true
+  },
+  "fwnfthv8tw6k": {
+   "title": "同居女友2",
+   "file": "banner_backfill_imgs\\banner_7279705440.webp",
+   "dry": true
+  },
+  "91h8urbmcjns": {
+   "title": "同居女友3",
+   "file": "banner_backfill_imgs\\banner_4269877989.webp",
+   "dry": true
+  },
+  "tst93it2xpeo": {
+   "title": "为我的公主献上荣冠",
+   "file": "banner_backfill_imgs\\banner_8485224973.webp",
+   "dry": true
+  },
+  "msolo2684fb1": {
+   "title": "周末快乐",
+   "file": "banner_backfill_imgs\\banner_9705670461.webp",
+   "dry": true
+  },
+  "bc5yl5b458ik": {
+   "title": "妹妹与女友 各自的选择",
+   "file": "banner_backfill_imgs\\banner_8437851217.webp",
+   "dry": true
+  },
+  "ywcosfs81k0g": {
+   "title": "为我的女王献上荣冠 将军的诱惑",
+   "file": "banner_backfill_imgs\\banner_6621591037.webp",
+   "dry": true
+  },
+  "vk3f0jtiqcpj": {
+   "title": "悠之空",
+   "file": "banner_backfill_imgs\\banner_4030719912.webp",
+   "dry": true
+  },
+  "wph410wwc2dv": {
+   "title": "三角圆舞曲 -Triple Pairing-",
+   "file": "banner_backfill_imgs\\banner_6421195213.webp",
+   "dry": true
+  },
+  "wzphv56ewv3w": {
+   "title": "AIR原版",
+   "file": "banner_backfill_imgs\\banner_3535888291.webp",
+   "url": "https://images.yurari.moe/images/4b1a5a5d-a39e-4292-b6f0-8ce0c006b964.webp",
+   "info": "1115x643"
+  },
+  "g45a3ev6j1vt": {
+   "title": "AIR重置版",
+   "file": "banner_backfill_imgs\\banner_3535888291.webp",
+   "url": "https://images.yurari.moe/images/4b1a5a5d-a39e-4292-b6f0-8ce0c006b964.webp",
+   "info": "1115x643"
+  },
+  "560uj6jla4z0": {
+   "title": "樱之诗",
+   "file": "banner_backfill_imgs\\banner_7196381342.webp",
+   "url": "https://images.yurari.moe/images/80322996-4663-4acd-8b3d-b67538eb4a9d.webp",
+   "info": "1918x1358"
+  },
+  "at72fyxzdijd": {
+   "title": "甜蜜女友",
+   "file": "banner_backfill_imgs\\banner_2637208516.webp",
+   "url": "https://image.kungal.iloveren.link/80/76/80769c01b9bad0a39082b1b16a72d9c4bd99efd61bb2e855d0ab1ae3cbf095ba.webp",
+   "info": "1538x1080"
+  },
+  "8ibxntpkbo95": {
+   "title": "夏日口袋：夏日绚烂之中",
+   "file": "banner_backfill_imgs\\banner_9583486635.webp",
+   "url": "https://images.yurari.moe/images/793175f8-67f3-4f47-b125-5000e62f9a75.webp",
+   "info": "2031x1197"
+  },
+  "pc78nwuy5ydz": {
+   "title": "恋爱少不了撒娇～番外篇FD1",
+   "file": "banner_backfill_imgs\\banner_679213952.webp",
+   "url": "https://images.yurari.moe/images/61afeb28-9b69-4ce3-b774-7ead74aebfc8.webp",
+   "info": "1184x738"
+  },
+  "og9l18i614ni": {
+   "title": "恋爱少不了撒娇 ～番外篇FD2",
+   "file": "banner_backfill_imgs\\banner_679213952.webp",
+   "url": "https://images.yurari.moe/images/61afeb28-9b69-4ce3-b774-7ead74aebfc8.webp",
+   "info": "1184x738"
+  },
+  "nmtxezttfyna": {
+   "title": "晴霁之后，定是菜花盛开的好天气",
+   "file": "banner_backfill_imgs\\banner_7823127024.webp",
+   "url": "https://image.kungal.iloveren.link/e3/15/e3157dc6b82631a1a51118d04b1df9187b8dcb7afa61cfff739a30cf240202d0.webp",
+   "info": "640x463"
+  }
+ },
+ "_done_r2_backup": {
+  "b2z0vfdj16fx": {
+   "title": "ATRI",
+   "file": "banner_backfill_imgs\\banner_6806376882.webp"
+  },
+  "tu7i8f1nuwcw": {
+   "title": "爱上火车Last Run",
+   "file": "banner_backfill_imgs\\banner_5932371594.webp"
+  },
+  "q3hw9h9sx9fa": {
+   "title": "乐园 euphoria",
+   "file": "banner_backfill_imgs\\banner_3402358836.webp"
+  },
+  "1u8wo1yupo1f": {
+   "title": "千恋 * 万花",
+   "file": "banner_backfill_imgs\\banner_7131924481.webp"
+  },
+  "sawkdin1a8be": {
+   "title": "魔女的夜宴",
+   "file": "banner_backfill_imgs\\banner_3855161496.webp"
+  },
+  "1h8tjdosrh4z": {
+   "title": "秽翼的尤斯蒂娅",
+   "file": "banner_backfill_imgs\\banner_2172564089.webp"
+  },
+  "ssp5oslmdnpy": {
+   "title": "樱之刻",
+   "file": "banner_backfill_imgs\\banner_7887247980.webp"
+  },
+  "721jt6r0biva": {
+   "title": "命运石之门",
+   "file": "banner_backfill_imgs\\banner_2478980972.webp"
+  },
+  "tpa1t9dwl0b8": {
+   "title": "命运石之门:比翼恋理的爱人",
+   "file": "banner_backfill_imgs\\banner_2947779449.webp"
+  },
+  "zhiz8687pktc": {
+   "title": "命运石之门：线形拘束的表征图",
+   "file": "banner_backfill_imgs\\banner_2478980972.webp"
+  },
+  "9fzi20gz7pi5": {
+   "title": "纸上的魔法使",
+   "file": "banner_backfill_imgs\\banner_3869910092.webp"
+  },
+  "fgbzco6zybbv": {
+   "title": "人狼村之谜",
+   "file": "banner_backfill_imgs\\banner_9290016202.webp"
+  },
+  "3gqcji3628hw": {
+   "title": "苍之彼方的四重奏",
+   "file": "banner_backfill_imgs\\banner_7356338654.webp"
+  },
+  "ulra83dxeol0": {
+   "title": "苍之彼方的四重奏 EXTRA1",
+   "file": "banner_backfill_imgs\\banner_9223480935.webp"
+  },
+  "kr1ozj6srd5u": {
+   "title": "苍之彼方的四重奏 EXTRA2",
+   "file": "banner_backfill_imgs\\banner_70115626.webp"
+  },
+  "l2q0f722izhh": {
+   "title": "苍之彼方的四重奏：交予世界的答卷",
+   "file": "banner_backfill_imgs\\banner_70115626.webp"
+  },
+  "7zi32ljnb85x": {
+   "title": "KIRA☆KIRA 煌煌舞台",
+   "file": "banner_backfill_imgs\\banner_8156154748.webp"
+  },
+  "y99fgz1he2qf": {
+   "title": "天使☆嚣嚣 RE-BOOT!",
+   "file": "banner_backfill_imgs\\banner_1116124.webp"
+  },
+  "2vlkromr7lzp": {
+   "title": "猫娘乐园 Vol.1",
+   "file": "banner_backfill_imgs\\banner_4448674041.webp"
+  },
+  "hobhp822tf6t": {
+   "title": "猫娘乐园 Vol.2",
+   "file": "banner_backfill_imgs\\banner_6207997311.webp"
+  },
+  "vyll1bb8zv4b": {
+   "title": "猫娘乐园 Vol.3",
+   "file": "banner_backfill_imgs\\banner_4187627053.webp"
+  },
+  "5tv8pwu0qhh8": {
+   "title": "猫娘乐园 Vol.4",
+   "file": "banner_backfill_imgs\\banner_5157851830.webp"
+  },
+  "gweodqh6w9yl": {
+   "title": "猫娘乐园 After",
+   "file": "banner_backfill_imgs\\banner_4500330433.webp"
+  },
+  "vy6rok1bzljh": {
+   "title": "末世孤雄 Vol. 1",
+   "file": "banner_backfill_imgs\\banner_7313678781.webp"
+  },
+  "zkyvf0dfl1a7": {
+   "title": "末世孤雄 Vol. 2",
+   "file": "banner_backfill_imgs\\banner_8872869480.webp"
+  },
+  "odtmuhsp6lyv": {
+   "title": "末世孤雄 Vol. 3",
+   "file": "banner_backfill_imgs\\banner_7806937710.webp"
+  },
+  "0f1qp51y3ju3": {
+   "title": "白色相簿2",
+   "file": "banner_backfill_imgs\\banner_1399514242.webp"
+  },
+  "sybth9j3eoju": {
+   "title": "变态监狱",
+   "file": "banner_backfill_imgs\\banner_1920649049.webp"
+  },
+  "b851y9t8nyux": {
+   "title": "天津罪",
+   "file": "banner_backfill_imgs\\banner_1189949061.webp"
+  },
+  "drbs6s8t9uqm": {
+   "title": "主播女孩重度依赖",
+   "file": "banner_backfill_imgs\\banner_6710885968.webp"
+  },
+  "ko006wfl0680": {
+   "title": "混沌之子",
+   "file": "banner_backfill_imgs\\banner_2451483440.webp"
+  },
+  "z8f205h0dyqs": {
+   "title": "海市蜃楼之馆",
+   "file": "banner_backfill_imgs\\banner_5224507449.webp"
+  },
+  "m2vlscu87ik8": {
+   "title": "沙耶之歌",
+   "file": "banner_backfill_imgs\\banner_4813566776.webp"
+  },
+  "x8eb4beazof9": {
+   "title": "素晴日｜美好的每一天～不连续的存在～",
+   "file": "banner_backfill_imgs\\banner_9825546616.webp"
+  },
+  "dkmncujadj62": {
+   "title": "Dark Blue",
+   "file": "banner_backfill_imgs\\banner_5696179041.webp"
+  },
+  "d2pr7b7znet5": {
+   "title": "3days ～在逝去时间的另一端～",
+   "file": "banner_backfill_imgs\\banner_9362989722.webp"
+  },
+  "553e5c3inkrt": {
+   "title": "甜蜜女友+",
+   "file": "banner_backfill_imgs\\banner_400497375.webp"
+  },
+  "njp7mo9r2h30": {
+   "title": "甜蜜女友2",
+   "file": "banner_backfill_imgs\\banner_8608330357.webp"
+  },
+  "y7ri0fpn8vfx": {
+   "title": "甜蜜女友2+",
+   "file": "banner_backfill_imgs\\banner_8608330357.webp"
+  },
+  "swqavzuigzmf": {
+   "title": "甜蜜女友3",
+   "file": "banner_backfill_imgs\\banner_4775058159.webp"
+  },
+  "xrmh6jgtbai6": {
+   "title": "近月少女的礼仪",
+   "file": "banner_backfill_imgs\\banner_3780391804.webp"
+  },
+  "zz2n1ksyh2ro": {
+   "title": "少女理论及其之后的周边",
+   "file": "banner_backfill_imgs\\banner_3678190568.webp"
+  },
+  "y747txsetllz": {
+   "title": "少女理论及其周边 -École de Paris-",
+   "file": "banner_backfill_imgs\\banner_1045410292.webp"
+  },
+  "0m3nrqkcgt6t": {
+   "title": "女仆来我家",
+   "file": "banner_backfill_imgs\\banner_7202897736.webp"
+  },
+  "fggd45ee1lyu": {
+   "title": "女仆来我家S",
+   "file": "banner_backfill_imgs\\banner_7202897736.webp"
+  },
+  "y3l6xe9dlqjf": {
+   "title": "爱之钥",
+   "file": "banner_backfill_imgs\\banner_8588639125.webp"
+  },
+  "8seb9wcjnlp8": {
+   "title": "爱之钥～甜园夏日～",
+   "file": "banner_backfill_imgs\\banner_8588639125.webp"
+  },
+  "73xgpunss418": {
+   "title": "爱之钥2",
+   "file": "banner_backfill_imgs\\banner_8416317891.webp"
+  },
+  "bi9i51gg1a4f": {
+   "title": "爱之钥3",
+   "file": "banner_backfill_imgs\\banner_2184643060.webp"
+  },
+  "ow3dmxuxo8fs": {
+   "title": "ガルドマ-女子寮の管理人",
+   "file": "banner_backfill_imgs\\banner_2152080154.webp"
+  },
+  "66c1ybtzxvh0": {
+   "title": "女子宿舍的管理员- After",
+   "file": "banner_backfill_imgs\\banner_2152080154.webp"
+  },
+  "ce76ev3l568f": {
+   "title": "年下彼女",
+   "file": "banner_backfill_imgs\\banner_3493111602.webp"
+  },
+  "xntx1dg3v041": {
+   "title": "年上彼女",
+   "file": "banner_backfill_imgs\\banner_623458700.webp"
+  },
+  "g2tey64uzqvp": {
+   "title": "星之终途",
+   "file": "banner_backfill_imgs\\banner_1922901304.webp"
+  },
+  "8nysc32vxe8u": {
+   "title": "星之终途后日谈：渺茫希望的日记",
+   "file": "banner_backfill_imgs\\banner_2767326991.webp"
+  },
+  "3sqxghie2x52": {
+   "title": "StraySheep",
+   "file": "banner_backfill_imgs\\banner_8370707148.webp"
+  },
+  "rdqb58b027zz": {
+   "title": "Rewrite",
+   "file": "banner_backfill_imgs\\banner_9805810852.webp"
+  },
+  "k6habd607rt6": {
+   "title": "末世孤雄 Vol.0",
+   "file": "banner_backfill_imgs\\banner_4249285473.webp"
+  },
+  "40vkjcsp35gh": {
+   "title": "智代After ～It's a Wonderful Life～",
+   "file": "banner_backfill_imgs\\banner_2183889512.webp"
+  },
+  "vkjs97x9c3dc": {
+   "title": "寒蝉鸣泣之时·出题篇",
+   "file": "banner_backfill_imgs\\banner_5400513426.webp"
+  },
+  "ts05g0cbn60p": {
+   "title": "寒蝉鸣泣之时·解题篇",
+   "file": "banner_backfill_imgs\\banner_5400513426.webp"
+  },
+  "w127qb0s0m7z": {
+   "title": "薛定谔的电话",
+   "file": "banner_backfill_imgs\\banner_748152563.webp"
+  },
+  "i3gbpbzuidt2": {
+   "title": "Friend to Lover",
+   "file": "banner_backfill_imgs\\banner_7524854138.webp"
+  },
+  "u8g1uh4fdzcv": {
+   "title": "金辉恋曲四重奏",
+   "file": "banner_backfill_imgs\\banner_7108559360.webp"
+  },
+  "0mesm4y2f736": {
+   "title": "金辉恋曲四重奏 -Golden Time-",
+   "file": "banner_backfill_imgs\\banner_498241179.webp"
+  },
+  "5iy2jxee8b0s": {
+   "title": "冥契的牧神节",
+   "file": "banner_backfill_imgs\\banner_1560080000.webp"
+  },
+  "lfuylwk9rcus": {
+   "title": "四叶草的约定",
+   "file": "banner_backfill_imgs\\banner_8151429334.webp"
+  },
+  "g83z1wovz81u": {
+   "title": "逐光柠檬协奏曲",
+   "file": "banner_backfill_imgs\\banner_5443456544.webp"
+  },
+  "1bj07j16c1fq": {
+   "title": "五彩斑斓的世界",
+   "file": "banner_backfill_imgs\\banner_6768794200.webp"
+  },
+  "7722q0twhxs9": {
+   "title": "五彩斑斓的曙光",
+   "file": "banner_backfill_imgs\\banner_6768794200.webp"
+  },
+  "vvjzq3lqnk2w": {
+   "title": "映入红瞳的世界",
+   "file": "banner_backfill_imgs\\banner_9687432710.webp"
+  },
+  "4s7fxjh4lm3m": {
+   "title": "青鸟",
+   "file": "banner_backfill_imgs\\banner_4136292369.webp"
+  },
+  "ijp2duduylzs": {
+   "title": "夏之锁",
+   "file": "banner_backfill_imgs\\banner_7576838393.webp"
+  },
+  "5c91wv0w2127": {
+   "title": "兰斯01 寻找小光",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp"
+  },
+  "cam3wysbvht4": {
+   "title": "兰斯03 利萨斯陷落",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp"
+  },
+  "zytkqnyru316": {
+   "title": "兰斯5D 孤单的女孩",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp"
+  },
+  "zd2hsw5kx8am": {
+   "title": "兰斯06 塞斯崩坏",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp"
+  },
+  "ijrqfg7igy3m": {
+   "title": "兰斯07 战国兰斯",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp"
+  },
+  "jwgf3ikjkw47": {
+   "title": "兰斯10 决战",
+   "file": "banner_backfill_imgs\\banner_3645222196.webp"
+  },
+  "1gkak6po4zf6": {
+   "title": "战女神ZERO",
+   "file": "banner_backfill_imgs\\banner_3384324204.webp"
+  },
+  "3efgxbcgnhvf": {
+   "title": "星空列车与白的旅行",
+   "file": "banner_backfill_imgs\\banner_9532746178.webp"
+  },
+  "q9xxm4sj1ke9": {
+   "title": "巧克甜恋",
+   "file": "banner_backfill_imgs\\banner_8335707340.webp"
+  },
+  "eunwckkhz9e0": {
+   "title": "巧克甜恋2",
+   "file": "banner_backfill_imgs\\banner_8763865631.webp"
+  },
+  "tha1riyius3p": {
+   "title": "巧克甜恋3",
+   "file": "banner_backfill_imgs\\banner_5778053214.webp"
+  },
+  "b5chdv1ay31d": {
+   "title": "VenusBlood Frontier",
+   "file": "banner_backfill_imgs\\banner_4890170534.webp"
+  },
+  "hhec65ta2xfo": {
+   "title": "约会大作战：莲 反乌托邦",
+   "file": "banner_backfill_imgs\\banner_1367760281.webp"
+  },
+  "jpwlu8cqzm6f": {
+   "title": "约会大作战・凛绪轮回",
+   "file": "banner_backfill_imgs\\banner_181293786.webp"
+  },
+  "6ypg97g6bxvd": {
+   "title": "白雪~七凭之祭~",
+   "file": "banner_backfill_imgs\\banner_4695456545.webp"
+  },
+  "x8wd7buwy5mj": {
+   "title": "恋狱～月狂病～",
+   "file": "banner_backfill_imgs\\banner_7005802049.webp"
+  },
+  "w9ik9ovrdvut": {
+   "title": "壳之少女",
+   "file": "banner_backfill_imgs\\banner_9214788137.webp"
+  },
+  "v279bkjr8xvx": {
+   "title": "虚之少女",
+   "file": "banner_backfill_imgs\\banner_2460495057.webp"
+  },
+  "pmkwxux9rot5": {
+   "title": "天之少女",
+   "file": "banner_backfill_imgs\\banner_1498774583.webp"
+  },
+  "nxz1y6fc583o": {
+   "title": "多娜多娜 一起来干坏事吧",
+   "file": "banner_backfill_imgs\\banner_9217767811.webp"
+  },
+  "97gn34oqhog2": {
+   "title": "夏日狂想曲：乡间的难忘回忆",
+   "file": "banner_backfill_imgs\\banner_9373341709.webp"
+  },
+  "p4fyhzhx35hx": {
+   "title": "Eden*",
+   "file": "banner_backfill_imgs\\banner_2675197264.webp"
+  },
+  "kzhthl3lh9vj": {
+   "title": "水仙3",
+   "file": "banner_backfill_imgs\\banner_6154456489.webp"
+  },
+  "sl76f5r3pswd": {
+   "title": "车轮之国，向日葵的少女",
+   "file": "banner_backfill_imgs\\banner_8179317826.webp"
+  },
+  "qrq909oxm7yi": {
+   "title": "樱花萌放-as the Night's, Reincarnation-",
+   "file": "banner_backfill_imgs\\banner_4613910259.webp"
+  },
+  "quidaqhdy9nk": {
+   "title": "勇者大战魔物娘",
+   "file": "banner_backfill_imgs\\banner_2023405599.webp"
+  },
+  "cj0z4w53557n": {
+   "title": "Fate/stay night",
+   "file": "banner_backfill_imgs\\banner_7084010937.webp"
+  },
+  "zyf7v3u48q1t": {
+   "title": "Ever17",
+   "file": "banner_backfill_imgs\\banner_1142864000.webp"
+  },
+  "85pz0r6eb1rf": {
+   "title": "Utawarerumono Prelude to the Fallen",
+   "file": "banner_backfill_imgs\\banner_3987499666.webp"
+  },
+  "sbf3e050yerg": {
+   "title": "Utawarerumono: The False Faces",
+   "file": "banner_backfill_imgs\\banner_8159779994.webp"
+  },
+  "7snwfea95efu": {
+   "title": "Utawarerumono: Futari no Hakuoro",
+   "file": "banner_backfill_imgs\\banner_8159779994.webp"
+  },
+  "jsdxzhk7zgdw": {
+   "title": "孤独的魔王与我的塔",
+   "file": "banner_backfill_imgs\\banner_1174276463.webp"
+  },
+  "pj2i0cidkkx6": {
+   "title": "交响乐之雨",
+   "file": "banner_backfill_imgs\\banner_9385184084.webp"
+  },
+  "yw93kw4y52tv": {
+   "title": "GINKA-银花",
+   "file": "banner_backfill_imgs\\banner_4491965635.webp"
+  },
+  "hty5mte4kmc1": {
+   "title": "常轨脱离Creative",
+   "file": "banner_backfill_imgs\\banner_96535194.webp"
+  },
+  "iiijuy4tu4fw": {
+   "title": "常轨脱离Creative凸",
+   "file": "banner_backfill_imgs\\banner_2005266945.webp"
+  },
+  "hn8bepj4h0kk": {
+   "title": "痴情哥哥与病弱妹妹的乡间生活",
+   "file": "banner_backfill_imgs\\banner_9976076758.webp"
+  },
+  "24wff5f28pba": {
+   "title": "友爱俱乐部",
+   "file": "banner_backfill_imgs\\banner_7832253991.webp"
+  },
+  "rqhhlzz83mrb": {
+   "title": "初音岛Ⅰ",
+   "file": "banner_backfill_imgs\\banner_8799875765.webp"
+  },
+  "1bdfuxbhnsio": {
+   "title": "初音岛Ⅲ",
+   "file": "banner_backfill_imgs\\banner_8799875765.webp"
+  },
+  "wbrsidow19i5": {
+   "title": "初音岛4",
+   "file": "banner_backfill_imgs\\banner_7118742497.webp"
+  },
+  "1mg91az6uien": {
+   "title": "初音岛5",
+   "file": "banner_backfill_imgs\\banner_745614417.webp"
+  },
+  "yb16jy12ed2z": {
+   "title": "梦狱之国的爱丽丝",
+   "file": "banner_backfill_imgs\\banner_6858981109.webp"
+  },
+  "azad0h3svepx": {
+   "title": "弹丸论破 希望的学园与绝望的高中生",
+   "file": "banner_backfill_imgs\\banner_8595270065.webp"
+  },
+  "okkczgjtp52x": {
+   "title": "超级弹丸论破2 再见绝望学园",
+   "file": "banner_backfill_imgs\\banner_5517649120.webp"
+  },
+  "6v6969ug3jdm": {
+   "title": "虫爱少女",
+   "file": "banner_backfill_imgs\\banner_7766478864.webp"
+  },
+  "sglkzo91de6v": {
+   "title": "星织梦未来",
+   "file": "banner_backfill_imgs\\banner_6380145606.webp"
+  },
+  "0qjdzr0o26i7": {
+   "title": "异想魅惑 暮色廻奇谭",
+   "file": "banner_backfill_imgs\\banner_2827093844.webp"
+  },
+  "guhpjjzlzrh8": {
+   "title": "异想魅惑2 暮色廻奇谭",
+   "file": "banner_backfill_imgs\\banner_7290062297.webp"
+  },
+  "7jwfq7iw2oss": {
+   "title": "Fate/hollow ataraxia",
+   "file": "banner_backfill_imgs\\banner_1227901348.webp"
+  },
+  "g267zzzzymkl": {
+   "title": "臭作",
+   "file": "banner_backfill_imgs\\banner_5893949054.webp"
+  },
+  "coowc3cmkfvv": {
+   "title": "真・恋姬†无双-萌将传",
+   "file": "banner_backfill_imgs\\banner_614696847.webp"
+  },
+  "h3lck8ogpso9": {
+   "title": "真・恋姫†夢想-革命 三部曲",
+   "file": "banner_backfill_imgs\\banner_6565854087.webp"
+  },
+  "kqhjvsktavvy": {
+   "title": "家族计划～追忆～",
+   "file": "banner_backfill_imgs\\banner_43487363.webp"
+  },
+  "p1jd6r3h0wk7": {
+   "title": "恋爱少不了撒娇",
+   "file": "banner_backfill_imgs\\banner_5341399849.webp"
+  },
+  "4b6okfwbsroo": {
+   "title": "COCORO",
+   "file": "banner_backfill_imgs\\banner_4751122969.webp"
+  },
+  "qbp60a6apl7h": {
+   "title": "尤里与爱丽丝",
+   "file": "banner_backfill_imgs\\banner_3686904780.webp"
+  },
+  "jeemmwocj92p": {
+   "title": "八卦恋爱",
+   "file": "banner_backfill_imgs\\banner_5682241869.webp"
+  },
+  "lrf5c28hju4y": {
+   "title": "恋爱，我就借走咯",
+   "file": "banner_backfill_imgs\\banner_3892004813.webp"
+  },
+  "gltcip0td56m": {
+   "title": "星之梦 HD",
+   "file": "banner_backfill_imgs\\banner_4764955896.webp"
+  },
+  "dek8ry26tr6y": {
+   "title": "星之梦 -雪圈球-",
+   "file": "banner_backfill_imgs\\banner_7895845414.webp"
+  },
+  "2q4o95jkot49": {
+   "title": "终之空",
+   "file": "banner_backfill_imgs\\banner_9825546616.webp"
+  },
+  "v1tq9n6hmapo": {
+   "title": "我们没有翅膀",
+   "file": "banner_backfill_imgs\\banner_3719952382.webp"
+  },
+  "hnf6r83kp37w": {
+   "title": "恋爱、初邂逅 FD",
+   "file": "banner_backfill_imgs\\banner_7625069768.webp"
+  },
+  "rj70ot1riaek": {
+   "title": "初雪樱",
+   "file": "banner_backfill_imgs\\banner_4856453220.webp"
+  },
+  "9fifoeo1utp2": {
+   "title": "魔女恋爱日记",
+   "file": "banner_backfill_imgs\\banner_4283594809.webp"
+  },
+  "5yctk0en1lb9": {
+   "title": "夏空彼方",
+   "file": "banner_backfill_imgs\\banner_671335182.webp"
+  },
+  "x97kfxu7w7ok": {
+   "title": "大图书馆的牧羊人",
+   "file": "banner_backfill_imgs\\banner_7168589335.webp"
+  },
+  "37hthdxayex5": {
+   "title": "大图书馆的牧羊人 Dreaming Sheep",
+   "file": "banner_backfill_imgs\\banner_7168589335.webp"
+  },
+  "uhjvcihwpwin": {
+   "title": "大图书馆的牧羊人 ～放学后的最后时光～",
+   "file": "banner_backfill_imgs\\banner_7168589335.webp"
+  },
+  "ddfwgmp1o6yv": {
+   "title": "乌有乡",
+   "file": "banner_backfill_imgs\\banner_6787725298.webp"
+  },
+  "1ca2zxcjushy": {
+   "title": "心跳文学部 Plus!",
+   "file": "banner_backfill_imgs\\banner_7185681597.webp"
+  },
+  "56t4w98qybsa": {
+   "title": "树莓立方体",
+   "file": "banner_backfill_imgs\\banner_7466397037.webp"
+  },
+  "5ultar131xqu": {
+   "title": "现在立刻就想对哥哥说我是妹妹",
+   "file": "banner_backfill_imgs\\banner_2045503056.webp"
+  },
+  "esp3byoxr5x6": {
+   "title": "少女＊领域",
+   "file": "banner_backfill_imgs\\banner_6857582237.webp"
+  },
+  "8pkqgrmr4fie": {
+   "title": "播种之谣",
+   "file": "banner_backfill_imgs\\banner_2932230979.webp"
+  },
+  "w8e47g3oo3f0": {
+   "title": "恋爱成双",
+   "file": "banner_backfill_imgs\\banner_8271493458.webp"
+  },
+  "7xw5am5zn6aj": {
+   "title": "同居女友1",
+   "file": "banner_backfill_imgs\\banner_7279705440.webp"
+  },
+  "fwnfthv8tw6k": {
+   "title": "同居女友2",
+   "file": "banner_backfill_imgs\\banner_7279705440.webp"
+  },
+  "91h8urbmcjns": {
+   "title": "同居女友3",
+   "file": "banner_backfill_imgs\\banner_4269877989.webp"
+  },
+  "tst93it2xpeo": {
+   "title": "为我的公主献上荣冠",
+   "file": "banner_backfill_imgs\\banner_8485224973.webp"
+  },
+  "msolo2684fb1": {
+   "title": "周末快乐",
+   "file": "banner_backfill_imgs\\banner_9705670461.webp"
+  },
+  "bc5yl5b458ik": {
+   "title": "妹妹与女友 各自的选择",
+   "file": "banner_backfill_imgs\\banner_8437851217.webp"
+  },
+  "ywcosfs81k0g": {
+   "title": "为我的女王献上荣冠 将军的诱惑",
+   "file": "banner_backfill_imgs\\banner_6621591037.webp"
+  },
+  "vk3f0jtiqcpj": {
+   "title": "悠之空",
+   "file": "banner_backfill_imgs\\banner_4030719912.webp"
+  },
+  "wph410wwc2dv": {
+   "title": "三角圆舞曲 -Triple Pairing-",
+   "file": "banner_backfill_imgs\\banner_6421195213.webp"
+  },
+  "wzphv56ewv3w": {
+   "title": "AIR原版",
+   "file": "banner_backfill_imgs\\banner_3535888291.webp",
+   "dry": true
+  },
+  "g45a3ev6j1vt": {
+   "title": "AIR重置版",
+   "file": "banner_backfill_imgs\\banner_3535888291.webp",
+   "dry": true
+  },
+  "560uj6jla4z0": {
+   "title": "樱之诗",
+   "file": "banner_backfill_imgs\\banner_7196381342.webp",
+   "dry": true
+  },
+  "at72fyxzdijd": {
+   "title": "甜蜜女友",
+   "file": "banner_backfill_imgs\\banner_2637208516.webp",
+   "dry": true
+  },
+  "8ibxntpkbo95": {
+   "title": "夏日口袋：夏日绚烂之中",
+   "file": "banner_backfill_imgs\\banner_9583486635.webp",
+   "dry": true
+  },
+  "pc78nwuy5ydz": {
+   "title": "恋爱少不了撒娇～番外篇FD1",
+   "file": "banner_backfill_imgs\\banner_679213952.webp",
+   "dry": true
+  },
+  "og9l18i614ni": {
+   "title": "恋爱少不了撒娇 ～番外篇FD2",
+   "file": "banner_backfill_imgs\\banner_679213952.webp",
+   "dry": true
+  },
+  "nmtxezttfyna": {
+   "title": "晴霁之后，定是菜花盛开的好天气",
+   "file": "banner_backfill_imgs\\banner_7823127024.webp",
+   "dry": true
+  }
+ }
+}

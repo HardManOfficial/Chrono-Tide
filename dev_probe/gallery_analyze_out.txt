@@ -1,0 +1,77 @@
+Analyzing 3 items...                                            
+
+   info - Use the '??' operator rather than '?:' when testing for 'null' - lib\services\game_data_format.dart:383:9 - prefer_if_null_operators
+   info - Use 'const' with the constructor to improve performance - lib\services\game_data_format.dart:546:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\services\game_data_format.dart:611:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\services\game_data_format.dart:861:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\services\game_data_format.dart:867:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\services\game_data_format.dart:1139:28 - prefer_const_constructors
+   info - Statements in an if should be enclosed in a block - lib\services\game_data_format.dart:1391:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\game_data_format.dart:1392:40 - curly_braces_in_flow_control_structures
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\game_detail_dialog.dart:845:9 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\game_detail_dialog.dart:853:7 - use_build_context_synchronously
+   info - Use 'const' for final variables initialized to a constant value - lib\widgets\game_detail_dialog.dart:1055:11 - prefer_const_declarations
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\game_detail_dialog.dart:1082:13 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\game_detail_dialog.dart:1091:9 - use_build_context_synchronously
+   info - Unnecessary braces in a string interpolation - lib\widgets\game_detail_dialog.dart:1467:40 - unnecessary_brace_in_string_interps
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:1539:25 - prefer_const_constructors
+  error - The argument type 'CoverGalleryOverlay Function(BuildContext)' can't be assigned to the parameter type 'RoutePageBuilder'.  - lib\widgets\game_detail_dialog.dart:1655:20 - argument_type_not_assignable
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:1867:40 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:1868:42 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\game_detail_dialog.dart:1870:47 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:1871:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:1874:39 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:1875:50 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:2100:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:2102:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:2999:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3379:11 - prefer_const_constructors
+   info - Use 'const' for final variables initialized to a constant value - lib\widgets\game_detail_dialog.dart:3412:5 - prefer_const_declarations
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3439:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3447:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3472:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3503:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3504:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:3509:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4468:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4720:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4727:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4765:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4768:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4770:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4774:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4777:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4778:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4846:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4849:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4852:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4855:27 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\game_detail_dialog.dart:4858:39 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4859:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4862:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:4863:42 - prefer_const_constructors
+warning - The value of the local variable 'success' isn't used - lib\widgets\game_detail_dialog.dart:5179:16 - unused_local_variable
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5386:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5387:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5634:20 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\game_detail_dialog.dart:5635:25 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5636:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5639:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5640:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5642:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5680:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5683:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5685:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5689:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5692:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5693:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5762:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5765:36 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5768:35 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5771:27 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\widgets\game_detail_dialog.dart:5774:39 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5775:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5778:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\widgets\game_detail_dialog.dart:5779:42 - prefer_const_constructors
+
+73 issues found. (ran in 5.2s)

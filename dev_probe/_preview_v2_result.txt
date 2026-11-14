@@ -1,0 +1,9 @@
+frame 16x16 ok
+frame 24x24 ok
+frame 32x32 ok
+frame 48x48 ok
+frame 64x64 ok
+frame 128x128 ok
+frame 256x256 ok
+saved: D:\CTLIB\dev_probe\new_icon_v2_preview.png (241635 B, (1320, 838))
+RESULT: OK

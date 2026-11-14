@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chrono Tide · 宣传海报（1080×1920 × 3）</title>
+<style>
+/* ============ 字体（App 同款） ============ */
+@font-face{
+  font-family:'CT Title';
+  src:url('assets/fonts/SmileySans.ttf') format('truetype');
+  font-display:swap;
+}
+@font-face{
+  font-family:'CT Body';
+  src:url('assets/fonts/NotoSansSC.ttf') format('truetype');
+  font-display:swap;
+}
+
+/* ============ 页面（非海报区域） ============ */
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:#232833;
+  font-family:'CT Body','Noto Sans SC','Microsoft YaHei',sans-serif;
+  padding:56px 0 80px;
+  display:flex;flex-direction:column;align-items:center;gap:64px;
+}
+.page-head{color:#9AA3B5;text-align:center;font-size:15px;line-height:1.9}
+.page-head b{color:#E8ECF4;font-size:20px;letter-spacing:1px}
+.plate{
+  color:#8B94A8;font-size:13px;letter-spacing:3px;margin-bottom:14px;
+  display:flex;align-items:center;gap:14px;
+}
+.plate::before,.plate::after{content:'';display:block;width:56px;height:1px;background:#4A5164}
+
+/* ============ 海报通用 ============ */
+.poster{
+  width:1080px;height:1920px;flex:none;position:relative;overflow:hidden;
+  background:#fff;box-shadow:0 30px 90px rgba(0,0,0,.5);
+}
+.app-icon{object-fit:contain;flex:none}
+.app-name{font-family:'CT Title','CT Body',sans-serif;font-weight:normal}
+.logo-ph{
+  border:2px dashed rgba(28,43,94,.38);border-radius:999px;
+  padding:9px 20px;font-size:19px;line-height:1;letter-spacing:1px;
+  color:rgba(28,43,94,.6);white-space:nowrap;background:rgba(255,255,255,.55);
+}
+.logo-ph.light{border-color:rgba(255,255,255,.55);color:rgba(255,255,255,.85);background:rgba(255,255,255,.08)}
+.star{
+  position:absolute;background:#D9B36A;
+  clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);
+}
+.dots{
+  position:absolute;
+  background-image:radial-gradient(rgba(28,43,94,.16) 2.6px,transparent 3.1px);
+  background-size:26px 26px;
+}
+.dots.light{background-image:radial-gradient(rgba(255,255,255,.22) 2.6px,transparent 3.1px)}
+
+/* ================================================================
+   POSTER 1 · 居中主推 —— 「时光潮汐」
+   ================================================================ */
+#p1{background:linear-gradient(180deg,#FFFFFF 0%,#FFFFFF 63%,#E6EFFF 82%,#D8E6FF 100%)}
+#p1 .glow-tl{
+  position:absolute;left:-180px;top:-180px;width:560px;height:560px;border-radius:50%;
+  background:radial-gradient(circle,rgba(217,179,106,.20) 0%,rgba(217,179,106,0) 68%);
+}
+#p1 .glow-tr{
+  position:absolute;right:-140px;top:40px;width:480px;height:480px;border-radius:50%;
+  background:radial-gradient(circle,rgba(74,111,196,.14) 0%,rgba(74,111,196,0) 70%);
+}
+#p1 .dots-r{right:64px;top:360px;width:190px;height:320px}
+#p1 .dots-l{left:56px;top:1180px;width:170px;height:260px}
+#p1 .lockup{
+  position:absolute;top:96px;left:0;right:0;
+  display:flex;align-items:center;justify-content:center;gap:18px;
+}
+#p1 .lockup .app-icon{width:84px;height:84px}
+#p1 .lockup .app-name{font-size:52px;color:#16255A;letter-spacing:2px}
+#p1 .mascot{
+  position:absolute;top:240px;left:50%;transform:translateX(-50%);
+  width:760px;
+}
+#p1 .mascot img{display:block;width:760px;height:auto}
+#p1 .moon-cover{position:absolute;left:140px;top:560px;width:100px;height:100px}
+#p1 .s1{left:952px;top:1096px;width:34px;height:34px;transform:rotate(14deg)}
+#p1 .s2{right:132px;top:958px;width:22px;height:22px;transform:rotate(-18deg)}
+#p1 .s3{left:230px;top:840px;width:26px;height:26px;transform:rotate(24deg)}
+#p1 .sticker{
+  position:absolute;right:60px;top:480px;width:210px;
+  filter:drop-shadow(0 14px 22px rgba(28,43,94,.22));
+  transform:rotate(6deg);
+}
+#p1 .title{
+  position:absolute;top:1300px;left:0;right:0;text-align:center;
+  font-family:'CT Title','CT Body',sans-serif;font-weight:normal;
+  font-size:132px;line-height:1.08;color:#16255A;letter-spacing:10px;
+}
+#p1 .title .en{
+  display:block;font-size:34px;letter-spacing:12px;color:#4A6FC4;margin-top:10px;
+}
+#p1 .slogan{
+  position:absolute;top:1518px;left:0;right:0;text-align:center;
+  font-size:38px;color:rgba(28,43,94,.78);letter-spacing:5px;
+}
+#p1 .wave{position:absolute;left:0;right:0;bottom:0;height:250px;width:100%}
+
+/* ================================================================
+   POSTER 2 · 对角撞色 —— 「一键启程」
+   ================================================================ */
+#p2{background:linear-gradient(180deg,#FAFCFF 0%,#FFFFFF 100%)}
+#p2 .field{
+  position:absolute;inset:0;height:64%;
+  background:linear-gradient(135deg,#141F4A 0%,#1C2B5E 46%,#2A4A9E 100%);
+  clip-path:polygon(0 0,100% 0,100% 66%,0 91%);
+}
+#p2 .field-line{
+  position:absolute;inset:0;height:64%;
+  background:#D9B36A;opacity:.9;
+  clip-path:polygon(0 91%,100% 66%,100% 67.4%,0 92.4%);
+}
+#p2 .dots-a{left:610px;top:70px;width:300px;height:230px}
+#p2 .dots-b{left:80px;top:700px;width:200px;height:150px}
+#p2 .orbit{
+  position:absolute;right:-160px;top:60px;width:640px;height:640px;border-radius:50%;
+  border:2px dashed rgba(255,255,255,.28);
+}
+#p2 .orbit::after{
+  content:'';position:absolute;right:52px;top:64px;width:18px;height:18px;border-radius:50%;
+  background:#E8C98F;box-shadow:0 0 18px rgba(232,201,143,.9);
+}
+#p2 .lockup{
+  position:absolute;top:96px;left:96px;
+  display:flex;align-items:center;gap:16px;
+}
+#p2 .lockup .app-icon{width:72px;height:72px}
+#p2 .lockup .app-name{font-size:44px;color:#FFFFFF;letter-spacing:2px}
+#p2 .lockup .logo-ph{margin-left:6px}
+#p2 .title{
+  position:absolute;left:96px;top:380px;
+  writing-mode:vertical-rl;text-orientation:upright;
+  font-family:'CT Title','CT Body',sans-serif;font-weight:normal;
+  font-size:140px;line-height:1;letter-spacing:20px;color:#FFFFFF;
+  text-shadow:0 8px 30px rgba(0,0,0,.28);
+}
+#p2 .slogan{
+  position:absolute;left:92px;top:1046px;z-index:5;
+  display:inline-flex;align-items:center;gap:14px;
+  background:#1C2B5E;color:#fff;border-radius:999px;
+  padding:26px 46px;font-size:38px;letter-spacing:4px;
+  box-shadow:0 18px 44px rgba(20,31,74,.35);
+}
+#p2 .slogan i{
+  display:block;width:14px;height:14px;border-radius:50%;background:#E8C98F;flex:none;
+}
+#p2 .sticker{
+  position:absolute;left:96px;top:1280px;width:240px;z-index:4;
+  filter:drop-shadow(0 14px 22px rgba(28,43,94,.24));
+  transform:rotate(-5deg);
+}
+#p2 .mascot{
+  position:absolute;right:-60px;bottom:-30px;width:700px;height:830px;overflow:hidden;z-index:2;
+  -webkit-mask-image:linear-gradient(100deg,transparent 0%,#000 20%);
+  mask-image:linear-gradient(100deg,transparent 0%,#000 20%);
+}
+#p2 .mascot img{display:block;width:700px;height:830px;object-fit:cover;object-position:50% 0%}
+#p2 .s1{right:150px;top:1010px;width:40px;height:40px;transform:rotate(12deg);z-index:3}
+#p2 .s2{right:96px;top:1120px;width:24px;height:24px;transform:rotate(-20deg);z-index:3}
+#p2 .s3{left:380px;top:1240px;width:26px;height:26px;transform:rotate(30deg);z-index:3}
+#p2 .arc{
+  position:absolute;left:-120px;bottom:-140px;width:420px;height:420px;border-radius:50%;
+  background:radial-gradient(circle,rgba(217,179,106,.22) 0%,rgba(217,179,106,0) 70%);z-index:1;
+}
+
+/* ================================================================
+   POSTER 3 · 拱窗卡片 —— 「安心收藏」
+   ================================================================ */
+#p3{background:linear-gradient(180deg,#FFFFFF 0%,#F2F6FF 62%,#E8F0FF 100%)}
+#p3 .dots-a{left:70px;top:250px;width:170px;height:300px}
+#p3 .dots-b{right:64px;top:1240px;width:170px;height:280px}
+#p3 .glow-c{
+  position:absolute;left:50%;top:900px;transform:translate(-50%,-50%);
+  width:900px;height:900px;border-radius:50%;
+  background:radial-gradient(circle,rgba(74,111,196,.12) 0%,rgba(74,111,196,0) 66%);
+}
+#p3 .title{
+  position:absolute;top:186px;left:0;right:0;text-align:center;
+  font-family:'CT Title','CT Body',sans-serif;font-weight:normal;
+  font-size:126px;line-height:1.1;color:#16255A;letter-spacing:14px;
+}
+#p3 .title-rule{
+  position:absolute;top:372px;left:50%;transform:translateX(-50%);
+  display:flex;align-items:center;gap:16px;
+}
+#p3 .title-rule i{display:block;width:150px;height:2px;background:linear-gradient(90deg,transparent,#B9CCEE)}
+#p3 .title-rule i:last-child{background:linear-gradient(270deg,transparent,#B9CCEE)}
+#p3 .title-rule s{display:block;width:14px;height:14px;background:#D9B36A;
+  clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);text-decoration:none}
+#p3 .arch{
+  position:absolute;left:210px;top:452px;width:660px;height:1010px;
+  border-radius:330px 330px 40px 40px;
+  border:14px solid #FFFFFF;background:#DEE9FB;
+  box-shadow:0 34px 70px rgba(28,43,94,.18),inset 0 0 0 2px rgba(28,43,94,.08);
+  overflow:hidden;
+}
+#p3 .arch img{width:100%;height:100%;object-fit:cover;object-position:40% 50%;display:block}
+#p3 .moon{position:absolute;left:120px;top:1216px;width:110px;height:110px}
+#p3 .s1{right:126px;top:404px;width:40px;height:40px;transform:rotate(16deg)}
+#p3 .s2{right:86px;top:500px;width:22px;height:22px;transform:rotate(-14deg)}
+#p3 .s3{left:132px;top:388px;width:24px;height:24px;transform:rotate(24deg)}
+#p3 .ribbon{
+  position:absolute;top:1536px;left:120px;right:120px;height:104px;
+  background:linear-gradient(90deg,#1C2B5E,#2A4A9E);color:#fff;
+  clip-path:polygon(0 0,100% 0,95.5% 50%,100% 100%,0 100%,4.5% 50%);
+  display:flex;align-items:center;justify-content:center;gap:18px;
+  font-size:40px;letter-spacing:6px;
+  box-shadow:0 20px 46px rgba(28,43,94,.30);
+}
+#p3 .ribbon i{display:block;width:12px;height:12px;border-radius:50%;background:#E8C98F;flex:none}
+#p3 .lockup{
+  position:absolute;bottom:64px;left:0;right:0;
+  display:flex;align-items:center;justify-content:center;gap:14px;
+}
+#p3 .lockup .app-icon{width:58px;height:58px}
+#p3 .lockup .app-name{font-size:36px;color:#16255A;letter-spacing:2px}
+#p3 .lockup .logo-ph{padding:7px 16px;font-size:16px}
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <b>Chrono Tide · 宣传海报</b><br>
+  标准海报尺寸 1080 × 1920（9:16）· 每张海报为独立区块，可单独截屏导出<br>
+  素材引用：素材/ 表情包 / 新建文件夹 · 字体：得意黑 + 思源黑体（App 同款）
+</div>
+
+<!-- ================= POSTER 1 ================= -->
+<div class="plate">POSTER 01 · 居中主推 —— 时光潮汐</div>
+<section class="poster" id="p1">
+  <div class="glow-tl"></div>
+  <div class="glow-tr"></div>
+  <div class="dots dots-r"></div>
+  <div class="dots dots-l"></div>
+
+  <header class="lockup">
+    <img class="app-icon" src="素材/新建文件夹/app.png" alt="Chrono Tide 图标">
+    <div class="app-name">Chrono Tide</div>
+    <div class="logo-ph">Logo 占位｜缺失：logo.png</div>
+  </header>
+
+  <figure class="mascot">
+    <img src="素材/新建文件夹/ChatGPT%20Image%202026年9月13日%2016_11_43%20%281%29.png" alt="看板娘主视觉">
+  </figure>
+
+  <!-- 金色月牙 + 星：呼应裙装纹样 -->
+  <svg class="moon-cover" viewBox="0 0 100 100" aria-hidden="true">
+    <path d="M62 4 A46 46 0 1 0 62 96 A37 37 0 1 1 62 4 Z" fill="#D9B36A" opacity="0.92"/>
+  </svg>
+  <span class="star s1"></span>
+  <span class="star s2"></span>
+  <span class="star s3"></span>
+
+  <img class="sticker" src="素材/表情包/图层%203.png" alt="看板娘表情贴纸：嗨~">
+
+  <h2 class="title">时光潮汐<span class="en">CHRONO TIDE</span></h2>
+  <p class="slogan">每一段剧情，都值得被好好收藏</p>
+
+  <svg class="wave" viewBox="0 0 1080 250" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,110 C180,30 360,190 540,110 C720,30 900,190 1080,110 L1080,250 L0,250 Z" fill="#C7DBFA" opacity="0.8"/>
+    <path d="M0,170 C200,90 380,230 560,160 C760,85 920,220 1080,150 L1080,250 L0,250 Z" fill="#A9C4F4"/>
+  </svg>
+</section>
+
+<!-- ================= POSTER 2 ================= -->
+<div class="plate">POSTER 02 · 对角撞色 —— 一键启程</div>
+<section class="poster" id="p2">
+  <div class="field"></div>
+  <div class="field-line"></div>
+  <div class="dots dots-a light"></div>
+  <div class="dots dots-b light"></div>
+  <div class="orbit"></div>
+
+  <header class="lockup">
+    <img class="app-icon" src="素材/新建文件夹/app.png" alt="Chrono Tide 图标">
+    <div class="app-name">Chrono Tide</div>
+    <div class="logo-ph light">Logo 占位｜缺失：logo.png</div>
+  </header>
+
+  <h2 class="title">一键启程</h2>
+
+  <span class="star s1"></span>
+  <span class="star s2"></span>
+  <span class="star s3"></span>
+
+  <figure class="mascot">
+    <img src="素材/3a3e1840-566c-4006-aa02-5d7760ba42c7.png" alt="看板娘主视觉">
+  </figure>
+
+  <p class="slogan"><i></i>双击一下，回到那一天的物语</p>
+  <img class="sticker" src="素材/表情包/图层%202.png" alt="看板娘表情贴纸：拿捏了">
+  <div class="arc"></div>
+</section>
+
+<!-- ================= POSTER 3 ================= -->
+<div class="plate">POSTER 03 · 拱窗卡片 —— 安心收藏</div>
+<section class="poster" id="p3">
+  <div class="glow-c"></div>
+  <div class="dots dots-a"></div>
+  <div class="dots dots-b"></div>
+
+  <h2 class="title">安心收藏</h2>
+  <div class="title-rule"><i></i><s></s><i></i></div>
+
+  <span class="star s1"></span>
+  <span class="star s2"></span>
+  <span class="star s3"></span>
+  <svg class="moon" viewBox="0 0 100 100" aria-hidden="true">
+    <path d="M62 4 A46 46 0 1 0 62 96 A37 37 0 1 1 62 4 Z" fill="#D9B36A" opacity="0.9"/>
+  </svg>
+
+  <figure class="arch">
+    <img src="素材/jimeng-2026-09-13-7065-设计一名Chrono-Tide软件看板娘角色，17岁左右的精灵少女，二次元Gal....png" alt="看板娘持书主视觉">
+  </figure>
+
+  <p class="ribbon"><i></i>千部 Galgame，从容归档<i></i></p>
+
+  <footer class="lockup">
+    <img class="app-icon" src="素材/新建文件夹/app.png" alt="Chrono Tide 图标">
+    <div class="app-name">Chrono Tide</div>
+    <div class="logo-ph">Logo 占位｜缺失：logo.png</div>
+  </footer>
+</section>
+
+</body>
+</html>

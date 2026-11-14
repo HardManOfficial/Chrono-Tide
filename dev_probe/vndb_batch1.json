@@ -1,0 +1,1003 @@
+{
+ "VisualArt's": [
+  {
+   "id": "p993",
+   "name": "VISUAL ARTS Co.,Ltd.",
+   "original": "株式会社ビジュアルアーツ",
+   "type": "co",
+   "aliases": [
+    "视艺动漫有限公司",
+    "Visual Art's",
+    "Visual Artist Office",
+    "ビジュアルアーティストオフィス"
+   ]
+  },
+  {
+   "id": "p2004",
+   "name": "Visual Art's Motto",
+   "original": "ビジュアルアーツ★Motto",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p2767",
+   "name": "Visual Art's MottoSP",
+   "original": "ビジュアルアーツ★MottoSP",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p2914",
+   "name": "Wet Dreams Games",
+   "original": null,
+   "type": "ng",
+   "aliases": [
+    "Tatami Visual Arts ",
+    "Wet Dreams"
+   ]
+  },
+  {
+   "id": "p3824",
+   "name": "Colorful Visual Arts",
+   "original": null,
+   "type": "ng",
+   "aliases": []
+  }
+ ],
+ "ALICESOFT": [
+  {
+   "id": "p120",
+   "name": "Alice Soft",
+   "original": "アリスソフト",
+   "type": "co",
+   "aliases": [
+    "AliceSoft",
+    "愛麗絲社"
+   ]
+  }
+ ],
+ "age": [
+  {
+   "id": "p4",
+   "name": "age",
+   "original": "アージュ",
+   "type": "co",
+   "aliases": [
+    "âge"
+   ]
+  },
+  {
+   "id": "p11",
+   "name": "Stage-nana",
+   "original": "ステージなな",
+   "type": "ng",
+   "aliases": [
+    "Stage☆nana",
+    "ステージ☆なな"
+   ]
+  },
+  {
+   "id": "p146",
+   "name": "MAGES.",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "5pb. Games"
+   ]
+  },
+  {
+   "id": "p189",
+   "name": "BLACK PACKAGE",
+   "original": "ブラックパッケージ",
+   "type": "co",
+   "aliases": [
+    "ブラパ"
+   ]
+  },
+  {
+   "id": "p300",
+   "name": "Mirage",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ミラージュ"
+   ]
+  }
+ ],
+ "KeroQ": [
+  {
+   "id": "p1040",
+   "name": "KeroQ",
+   "original": "ケロQ",
+   "type": "co",
+   "aliases": [
+    "ケロキュウ",
+    "Kero Q"
+   ]
+  },
+  {
+   "id": "p1402",
+   "name": "Petit Kero",
+   "original": "ぷちけろ",
+   "type": "co",
+   "aliases": [
+    "プチケロQ",
+    "Petit KeroQ"
+   ]
+  }
+ ],
+ "HOOKSOFT": [
+  {
+   "id": "p106",
+   "name": "HOOKSOFT",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "HOOK",
+    "フックソフト"
+   ]
+  }
+ ],
+ "hook": [
+  {
+   "id": "p106",
+   "name": "HOOKSOFT",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "HOOK",
+    "フックソフト"
+   ]
+  },
+  {
+   "id": "p6302",
+   "name": "Front Hook",
+   "original": "フロントホック",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p24876",
+   "name": "coliioptera",
+   "original": null,
+   "type": "in",
+   "aliases": [
+    "Mari Zhuk",
+    "Mari Zhook",
+    "marimuffin"
+   ]
+  }
+ ],
+ "SMEE": [
+  {
+   "id": "p328",
+   "name": "SMEE",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p7598",
+   "name": "Ta&Ta❀Xinjianjin Hanhuazu",
+   "original": "他＆她❀心渐近汉化组",
+   "type": "ng",
+   "aliases": [
+    "SMEE汉化委员会"
+   ]
+  },
+  {
+   "id": "p22147",
+   "name": "mysmee",
+   "original": null,
+   "type": "in",
+   "aliases": []
+  }
+ ],
+ "ASa Project": [
+  {
+   "id": "p371",
+   "name": "ASa Project",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "颜艺社"
+   ]
+  },
+  {
+   "id": "p15235",
+   "name": "Hanasaya GP",
+   "original": "はなさやGP",
+   "type": "ng",
+   "aliases": [
+    "Hanasaya GAME PROJECT"
+   ]
+  }
+ ],
+ "Cabbage Soft": [
+  {
+   "id": "p6193",
+   "name": "Cabbage Soft",
+   "original": "きゃべつそふと",
+   "type": "co",
+   "aliases": [
+    "卷心菜社"
+   ]
+  }
+ ],
+ "Giga": [
+  {
+   "id": "p119",
+   "name": "GIGA",
+   "original": "戯画",
+   "type": "co",
+   "aliases": [
+    "戏画社"
+   ]
+  },
+  {
+   "id": "p291",
+   "name": "Fizz",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "Fizz feat.戯画",
+    "Fizz feat.GIGA"
+   ]
+  },
+  {
+   "id": "p1257",
+   "name": "St.GIGA",
+   "original": "セント・ギガ",
+   "type": "co",
+   "aliases": [
+    "Sento.GIGA"
+   ]
+  },
+  {
+   "id": "p2798",
+   "name": "GigasDrop.",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p11959",
+   "name": "IzanagiGames, Inc.",
+   "original": "株式会社イザナギゲームズ",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "KID": [
+  {
+   "id": "p8",
+   "name": "KID",
+   "original": "キッド",
+   "type": "co",
+   "aliases": [
+    "Kindle Imagine Develop"
+   ]
+  },
+  {
+   "id": "p414",
+   "name": "Kidnap Company",
+   "original": "キッドナップカンパニー",
+   "type": "ng",
+   "aliases": [
+    "誘拐会社"
+   ]
+  },
+  {
+   "id": "p829",
+   "name": "Takayashiki Kaihatsu",
+   "original": "高屋敷開発",
+   "type": "co",
+   "aliases": [
+    "Takayashiki Development"
+   ]
+  },
+  {
+   "id": "p908",
+   "name": "Gekidan Kinmirai",
+   "original": "劇團近未来",
+   "type": "ng",
+   "aliases": [
+    "劇団近未来"
+   ]
+  },
+  {
+   "id": "p1393",
+   "name": "Tail Skid",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "tone work's": [
+  {
+   "id": "p2446",
+   "name": "tone work's",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Ham-Ham Soft": [
+  {
+   "id": "p512",
+   "name": "HAMHAM-SOFT",
+   "original": "はむはむソフト",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Nostalgic Soft": [],
+ "Nekoneko Soft": [
+  {
+   "id": "p135",
+   "name": "NekoNeko Soft",
+   "original": "ねこねこソフト",
+   "type": "co",
+   "aliases": [
+    "NekoNeko-soft",
+    "猫猫社",
+    "猫猫软件"
+   ]
+  }
+ ],
+ "Marmalade": [
+  {
+   "id": "p391",
+   "name": "Marmalade",
+   "original": "ま～まれぇど",
+   "type": "co",
+   "aliases": [
+    "ままれ",
+    "MMLD",
+    "橘汁社",
+    "妈妈累多"
+   ]
+  },
+  {
+   "id": "p12764",
+   "name": "Marmalade ★ Star",
+   "original": "マーマレード★スター",
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p22420",
+   "name": "Spicy Marmalade Studio",
+   "original": null,
+   "type": "in",
+   "aliases": []
+  }
+ ],
+ "Sakura Soft": [
+  {
+   "id": "p5377",
+   "name": "Sakura Soft",
+   "original": "さくらソフト",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p19165",
+   "name": "SAKURA SOFT",
+   "original": null,
+   "type": "ng",
+   "aliases": [
+    "みこみこソフト"
+   ]
+  }
+ ],
+ "Hulotte": [
+  {
+   "id": "p1612",
+   "name": "Hulotte",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ユロット",
+    "时停社"
+   ]
+  },
+  {
+   "id": "p10919",
+   "name": "HULOTTE ROI",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ユロット ロワ"
+   ]
+  }
+ ],
+ "Caramel BOX": [
+  {
+   "id": "p140",
+   "name": "Caramel BOX",
+   "original": "キャラメルBOX",
+   "type": "co",
+   "aliases": [
+    "キャラ箱"
+   ]
+  },
+  {
+   "id": "p2314",
+   "name": "Caramel BOX Ichigo-aji",
+   "original": "キャラメルBOX いちご味",
+   "type": "co",
+   "aliases": [
+    "Caramel BOX Strawberry Flavor",
+    "キャラメルBOX イチゴ味"
+   ]
+  },
+  {
+   "id": "p3019",
+   "name": "Caramel BOX Milk-aji",
+   "original": "キャラメルBOX ミルク味",
+   "type": "co",
+   "aliases": [
+    "Caramel Box Milk Flavor"
+   ]
+  }
+ ],
+ "Pajamas Soft": [
+  {
+   "id": "p144",
+   "name": "Pajamas Soft",
+   "original": "ぱじゃまソフト",
+   "type": "co",
+   "aliases": [
+    "Pyjama Soft"
+   ]
+  }
+ ],
+ "HuneX": [
+  {
+   "id": "p763",
+   "name": "HuneX",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ヒューネックス"
+   ]
+  }
+ ],
+ "ensemble sister": [],
+ "Ume Soft": [
+  {
+   "id": "p650",
+   "name": "U･Me SOFT",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ユーミソフト"
+   ]
+  },
+  {
+   "id": "p4548",
+   "name": "Yumemi Soft",
+   "original": "ゆめみソフト",
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p18635",
+   "name": "Ume Softworks",
+   "original": null,
+   "type": "ng",
+   "aliases": [
+    "umesoft"
+   ]
+  }
+ ],
+ "Bishop": [
+  {
+   "id": "p215",
+   "name": "BISHOP",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p3555",
+   "name": "BISHOP Royal",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p28167",
+   "name": "B-bishop",
+   "original": null,
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p31215",
+   "name": "BISHOP HELLBOUND",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "interheart": [
+  {
+   "id": "p837",
+   "name": "INTERHEART",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "インターハート",
+    "Inter Heart"
+   ]
+  },
+  {
+   "id": "p5648",
+   "name": "Interheart Co., Ltd.",
+   "original": "株式会社インターハート",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p5971",
+   "name": "Interheart Cute",
+   "original": "INTERHEART cute",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p5973",
+   "name": "Interheart Glossy",
+   "original": "INTERHEART glossy",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Clochette": [
+  {
+   "id": "p386",
+   "name": "Clochette",
+   "original": "クロシェット",
+   "type": "co",
+   "aliases": [
+    "乳袋社"
+   ]
+  }
+ ],
+ "Triangle": [
+  {
+   "id": "p332",
+   "name": "Triangle",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "トライアングル",
+    "三角社"
+   ]
+  },
+  {
+   "id": "p2165",
+   "name": "Triangle!",
+   "original": "とらいあんぐる！",
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p3867",
+   "name": "Triangle-τ",
+   "original": "Triangle-τ（タウ）",
+   "type": "co",
+   "aliases": [
+    "Triangle TEAM-Tau"
+   ]
+  },
+  {
+   "id": "p4249",
+   "name": "Triangle-δ",
+   "original": "Triangle-δ（デルタ）",
+   "type": "co",
+   "aliases": [
+    "Triangle TEAM-Delta",
+    "Triangle-delta"
+   ]
+  },
+  {
+   "id": "p4322",
+   "name": "Sankaku Doumei",
+   "original": "さんかく同盟",
+   "type": "ng",
+   "aliases": [
+    "Triangle Alliance"
+   ]
+  }
+ ],
+ "TinkerBell": [
+  {
+   "id": "p481",
+   "name": "TinkerBell Nanigashigumi",
+   "original": "TinkerBell某組",
+   "type": "co",
+   "aliases": [
+    "ティンカーベル某組",
+    "TinkerBell Bougumi"
+   ]
+  },
+  {
+   "id": "p491",
+   "name": "TinkerBell",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "Tinker Bell",
+    "ティンカーベル",
+    "铃铛社"
+   ]
+  }
+ ],
+ "softhouse-seal": [
+  {
+   "id": "p397",
+   "name": "Softhouse-Seal",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ソフトハウスシール",
+    "Softhouse Seal"
+   ]
+  },
+  {
+   "id": "p1374",
+   "name": "softhouse-seal GRANDEE",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "软房子"
+   ]
+  },
+  {
+   "id": "p20939",
+   "name": "APPLICOT DX",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "soft house seal +",
+    "EAADX"
+   ]
+  }
+ ],
+ "propeller": [
+  {
+   "id": "p253",
+   "name": "propeller",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "SkyFish": [
+  {
+   "id": "p229",
+   "name": "SkyFish",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "スカイ・フィッシュ"
+   ]
+  },
+  {
+   "id": "p1972",
+   "name": "SkyFish poco",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Waffle": [
+  {
+   "id": "p341",
+   "name": "Waffle",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ワッフル"
+   ]
+  },
+  {
+   "id": "p22567",
+   "name": "Chicken With Waffles",
+   "original": null,
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p23482",
+   "name": "WaffleEater Soft",
+   "original": null,
+   "type": "in",
+   "aliases": []
+  },
+  {
+   "id": "p26796",
+   "name": "geoWaffle",
+   "original": null,
+   "type": "in",
+   "aliases": []
+  },
+  {
+   "id": "p27824",
+   "name": "EpicWafflez",
+   "original": null,
+   "type": "in",
+   "aliases": [
+    "KichikuouEpic",
+    "Epic's Basement"
+   ]
+  }
+ ],
+ "Lass": [
+  {
+   "id": "p357",
+   "name": "Lass",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ラス"
+   ]
+  },
+  {
+   "id": "p1212",
+   "name": "Glasses!",
+   "original": null,
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p1314",
+   "name": "hourglass",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p1425",
+   "name": "P+Lass",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p2783",
+   "name": "Selavi Games",
+   "original": null,
+   "type": "in",
+   "aliases": [
+    "GlassHeart"
+   ]
+  }
+ ],
+ "Laplacian": [
+  {
+   "id": "p5871",
+   "name": "Laplacian",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "ラプラシアン",
+    "拉普拉斯"
+   ]
+  },
+  {
+   "id": "p28690",
+   "name": "Laplacian Inc.",
+   "original": "ラプラシアン株式会社",
+   "type": "co",
+   "aliases": [
+    "株式会社ギミック",
+    "Gimmic Inc.",
+    "株式会社ヒトメモリ",
+    "Hitomemori Inc."
+   ]
+  }
+ ],
+ "Sukerasparo": [
+  {
+   "id": "p6944",
+   "name": "SukeraSparo",
+   "original": null,
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Xuse": [
+  {
+   "id": "p84",
+   "name": "Xuse",
+   "original": "ザウス",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p989",
+   "name": "Xuse [Honjouzou]",
+   "original": "ザウス【本醸造】",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p2189",
+   "name": "Weouxus Entertainment Circle",
+   "original": null,
+   "type": "ng",
+   "aliases": []
+  },
+  {
+   "id": "p2253",
+   "name": "Xuse [Ginjo]",
+   "original": "ザウス【吟醸】",
+   "type": "co",
+   "aliases": []
+  },
+  {
+   "id": "p3316",
+   "name": "Xuse [Junmai]",
+   "original": "ザウス【純米】",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "5pb.": [
+  {
+   "id": "p146",
+   "name": "MAGES.",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "5pb. Games"
+   ]
+  },
+  {
+   "id": "p6307",
+   "name": "MAGES. Inc.",
+   "original": "株式会社MAGES.",
+   "type": "co",
+   "aliases": [
+    "5pb. Inc."
+   ]
+  },
+  {
+   "id": "p26115",
+   "name": "AniTone",
+   "original": null,
+   "type": "co",
+   "aliases": [
+    "MAGES. MUSIC",
+    "5pb. Records"
+   ]
+  }
+ ],
+ "Uguisu Kagura": [
+  {
+   "id": "p4671",
+   "name": "Uguisu Kagura",
+   "original": "ウグイスカグラ",
+   "type": "co",
+   "aliases": [
+    "Kagura Uguisu"
+   ]
+  }
+ ],
+ "AkabeiSoft2": [
+  {
+   "id": "p56",
+   "name": "AKABEiSOFT2",
+   "original": "あかべぇそふとつぅ",
+   "type": "co",
+   "aliases": [
+    "Akabei Soft 2",
+    "Akabee Soft 2",
+    "AB2"
+   ]
+  },
+  {
+   "id": "p1639",
+   "name": "Akabei Soft2 TRY",
+   "original": "あかべぇそふとつぅTRY",
+   "type": "co",
+   "aliases": [
+    "AkabeeSoft2 TRY"
+   ]
+  },
+  {
+   "id": "p6915",
+   "name": "Akabei Soft2 Co., Ltd.",
+   "original": "有限会社AKABEiSOFT2",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Minato Soft": [
+  {
+   "id": "p301",
+   "name": "Minato Soft",
+   "original": "みなとそふと",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "Yuzusoft SOUR": [
+  {
+   "id": "p12215",
+   "name": "Yuzusoft SOUR",
+   "original": "ゆずソフトSOUR",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "みなとそふと": [
+  {
+   "id": "p301",
+   "name": "Minato Soft",
+   "original": "みなとそふと",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "はむはむソフト": [
+  {
+   "id": "p512",
+   "name": "HAMHAM-SOFT",
+   "original": "はむはむソフト",
+   "type": "co",
+   "aliases": []
+  }
+ ],
+ "ねこねこソフト": [
+  {
+   "id": "p135",
+   "name": "NekoNeko Soft",
+   "original": "ねこねこソフト",
+   "type": "co",
+   "aliases": [
+    "NekoNeko-soft",
+    "猫猫社",
+    "猫猫软件"
+   ]
+  }
+ ],
+ "桜そふと": [],
+ "あかべぇそふとつぅ": [
+  {
+   "id": "p56",
+   "name": "AKABEiSOFT2",
+   "original": "あかべぇそふとつぅ",
+   "type": "co",
+   "aliases": [
+    "Akabei Soft 2",
+    "Akabee Soft 2",
+    "AB2"
+   ]
+  },
+  {
+   "id": "p1639",
+   "name": "Akabei Soft2 TRY",
+   "original": "あかべぇそふとつぅTRY",
+   "type": "co",
+   "aliases": [
+    "AkabeeSoft2 TRY"
+   ]
+  }
+ ],
+ "ウグイスカグラ": [
+  {
+   "id": "p4671",
+   "name": "Uguisu Kagura",
+   "original": "ウグイスカグラ",
+   "type": "co",
+   "aliases": [
+    "Kagura Uguisu"
+   ]
+  }
+ ]
+}

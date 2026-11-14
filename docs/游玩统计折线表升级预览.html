@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>游玩统计折线表升级方案 · 视觉审查</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: #2a2520;
+    color: #e8e0d4;
+    padding: 32px;
+    min-height: 100vh;
+  }
+  .header {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    padding: 20px 24px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 12px;
+    border: 1px solid rgba(139,115,85,0.3);
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #d4b896;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+  .header p {
+    font-size: 13px;
+    color: #a89a86;
+    line-height: 1.6;
+  }
+  .compare {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+  @media (max-width: 980px) {
+    .compare { grid-template-columns: 1fr; }
+    .collapsed-row { grid-template-columns: 1fr !important; }
+    .principles { grid-template-columns: repeat(2, 1fr) !important; }
+  }
+  .col {
+    background: rgba(255,255,255,0.03);
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid rgba(139,115,85,0.2);
+  }
+  .col-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #d4b896;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+  .col-sub {
+    font-size: 11px;
+    color: #8a7e6e;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .stage {
+    background:
+      radial-gradient(ellipse at 30% 20%, rgba(139,115,85,0.15) 0%, transparent 50%),
+      linear-gradient(135deg, #1a1612 0%, #2d2620 50%, #1f1a15 100%);
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+    min-height: 380px;
+    overflow: hidden;
+  }
+  .stage::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-linear-gradient(45deg, transparent 0 60px, rgba(255,255,255,0.01) 60px 61px);
+    pointer-events: none;
+  }
+  .badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(139,115,85,0.25);
+    color: #d4b896;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    z-index: 2;
+  }
+  .panel-anchor {
+    position: relative;
+    margin-left: auto;
+  }
+
+  /* ===== 现有 UI：280×168 ===== */
+  .panel-old {
+    width: 280px;
+    background: rgba(245,238,228,0.88);
+    border: 1px solid rgba(139,115,85,0.5);
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.06);
+    padding: 6px 10px 8px;
+    font-family: 'Inter', sans-serif;
+    color: #5a4a3a;
+  }
+  .panel-old .title-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 18px;
+  }
+  .panel-old .title-row svg { flex-shrink: 0; }
+  .panel-old .title {
+    font-size: 11px;
+    font-weight: 600;
+    color: #5a4a3a;
+    opacity: 0.9;
+  }
+  .panel-old .spacer { flex: 1; }
+  .panel-old .toggle {
+    width: 14px; height: 14px;
+    display: flex; align-items: center; justify-content: center;
+    color: #8a7e6e;
+    cursor: pointer;
+  }
+  .panel-old .chart {
+    height: 110px;
+    margin-top: 2px;
+  }
+  .panel-old .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 9px;
+    color: #8a7e6e;
+  }
+  .panel-old .footer .today { color: #5a4a3a; font-weight: 600; }
+
+  /* ===== 升级 UI：380×232 ===== */
+  .panel-new {
+    width: 380px;
+    background: rgba(245,238,228,0.88);
+    border: 1px solid rgba(139,115,85,0.5);
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.08);
+    padding: 8px 12px 10px;
+    font-family: 'Inter', sans-serif;
+    color: #5a4a3a;
+  }
+  .panel-new .title-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 22px;
+  }
+  .panel-new .title-row svg.title-icon { flex-shrink: 0; }
+  .panel-new .title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #5a4a3a;
+  }
+  .panel-new .seg {
+    display: flex;
+    gap: 0;
+    margin-left: auto;
+    border: 1px solid rgba(139,115,85,0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.3);
+  }
+  .panel-new .seg .seg-item {
+    font-size: 10px;
+    font-weight: 600;
+    color: #8a7e6e;
+    padding: 3px 8px;
+    letter-spacing: 0.3px;
+  }
+  .panel-new .seg .seg-item.active {
+    background: rgba(74,144,226,0.18);
+    color: #2a5a9a;
+  }
+  .panel-new .icon-btn {
+    width: 20px; height: 20px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid rgba(139,115,85,0.35);
+    border-radius: 4px;
+    background: rgba(255,255,255,0.5);
+    color: #5a4a3a;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  .panel-new .icon-btn.toggle { border-color: transparent; background: transparent; }
+  .panel-new .chart {
+    height: 158px;
+    margin-top: 4px;
+  }
+  .panel-new .divider {
+    height: 1px;
+    background: rgba(139,115,85,0.18);
+    margin: 6px 0 4px;
+  }
+  .panel-new .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 10px;
+    color: #8a7e6e;
+  }
+  .panel-new .footer .stats {
+    display: flex;
+    gap: 14px;
+  }
+  .panel-new .footer .stats .today { color: #5a4a3a; font-weight: 600; }
+  .panel-new .footer .detail {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #8a7e6e;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  /* ===== 收起态：原版 220×32 ===== */
+  .collapsed-old {
+    width: 220px; height: 32px;
+    background: rgba(245,238,228,0.88);
+    border: 1px solid rgba(139,115,85,0.5);
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.06);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Inter', sans-serif;
+  }
+  .collapsed-old .title {
+    font-size: 11px;
+    font-weight: 600;
+    color: #5a4a3a;
+  }
+  .collapsed-old .stats {
+    margin-left: auto;
+    font-size: 10px;
+    color: #8a7e6e;
+  }
+  .collapsed-old .arrow {
+    color: #8a7e6e;
+    margin-left: 4px;
+  }
+
+  /* ===== 收起态：升级 300×32 ===== */
+  .collapsed-new {
+    width: 300px; height: 32px;
+    background: rgba(245,238,228,0.88);
+    border: 1px solid rgba(139,115,85,0.5);
+    border-radius: 6px;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.06);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Inter', sans-serif;
+  }
+  .collapsed-new .title { font-size: 11px; font-weight: 600; color: #5a4a3a; }
+  .collapsed-new .stats { margin-left: auto; font-size: 10px; color: #8a7e6e; }
+  .collapsed-new .arrow { color: #8a7e6e; margin-left: 4px; }
+
+  /* ===== 尺寸标注 ===== */
+  .annotate {
+    margin-top: 16px;
+    padding: 12px 14px;
+    background: rgba(74,144,226,0.08);
+    border-left: 3px solid #4a90e2;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 1.7;
+    color: #c8b8a0;
+  }
+  .annotate .num { color: #d4b896; font-weight: 700; font-family: 'Consolas', monospace; }
+  .annotate .hl { color: #82c4ff; font-weight: 600; }
+
+  /* ===== 设计原则卡片 ===== */
+  .principles {
+    max-width: 1200px;
+    margin: 32px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+  @media (max-width: 720px) {
+    .principles { grid-template-columns: 1fr !important; }
+  }
+  .pr {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(139,115,85,0.25);
+    border-radius: 8px;
+    padding: 14px;
+  }
+  .pr .num {
+    width: 22px; height: 22px;
+    background: rgba(139,115,85,0.3);
+    color: #d4b896;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 8px;
+  }
+  .pr .t {
+    font-size: 12px;
+    font-weight: 600;
+    color: #d4b896;
+    margin-bottom: 4px;
+  }
+  .pr .d {
+    font-size: 10px;
+    color: #8a7e6e;
+    line-height: 1.5;
+  }
+
+  /* ===== 收起态分组 ===== */
+  .collapsed-row {
+    max-width: 1200px;
+    margin: 32px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  .collapsed-row .col { padding: 20px; }
+
+  .legend {
+    max-width: 1200px;
+    margin: 24px auto 0;
+    padding: 14px 18px;
+    background: rgba(74,144,226,0.06);
+    border-radius: 8px;
+    font-size: 11px;
+    color: #a89a86;
+    line-height: 1.6;
+  }
+  .legend code {
+    background: rgba(255,255,255,0.08);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-family: 'Consolas', monospace;
+    color: #d4b896;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 主页"近7日游玩折线统计表"升级方案 · 视觉审查</h1>
+  <p>本页面用 SVG 1:1 复刻现有 <code>play_stats_panel.dart</code> 的视觉，并在右侧展示升级态。左右对比所有像素均按方案文档精确还原。</p>
+</div>
+
+<!-- ===== 展开态对比 ===== -->
+<div class="compare">
+
+  <!-- 现有 UI -->
+  <div class="col">
+    <div class="col-title">A. 现有 UI（基线）</div>
+    <div class="col-sub">
+      容器 280×168 / 圆角 6 / fl_chart 折线<br>
+      仅展示近 7 日 / 不可切换时间窗口<br>
+      字号 8~11pt / 图标 14pt
+    </div>
+    <div class="stage">
+      <span class="badge">CURRENT · 280×168</span>
+      <div class="panel-anchor">
+        <div class="panel-old">
+          <div class="title-row">
+            <svg class="title-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5a4a3a" stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round">
+              <polyline points="3,17 9,11 13,15 21,7"/>
+              <polyline points="14,7 21,7 21,14"/>
+            </svg>
+            <span class="title">近7日总游玩</span>
+            <span class="spacer"></span>
+            <div class="toggle">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7,10L12,15L17,10H7Z"/></svg>
+            </div>
+          </div>
+          <div class="chart">
+            <svg viewBox="0 0 260 110" preserveAspectRatio="none" style="width:100%;height:100%;">
+              <!-- 网格 -->
+              <line x1="0" y1="27" x2="260" y2="27" stroke="#8B7355" stroke-opacity="0.15" stroke-width="0.5"/>
+              <line x1="0" y1="55" x2="260" y2="55" stroke="#8B7355" stroke-opacity="0.15" stroke-width="0.5"/>
+              <line x1="0" y1="83" x2="260" y2="83" stroke="#8B7355" stroke-opacity="0.15" stroke-width="0.5"/>
+              <!-- Y 轴标签 -->
+              <text x="-2" y="29" text-anchor="end" font-size="8" fill="#8a7e6e">4h</text>
+              <text x="-2" y="57" text-anchor="end" font-size="8" fill="#8a7e6e">3h</text>
+              <text x="-2" y="85" text-anchor="end" font-size="8" fill="#8a7e6e">2h</text>
+              <text x="-2" y="108" text-anchor="end" font-size="8" fill="#8a7e6e">1h</text>
+              <!-- 渐变填充 -->
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#8B7355" stop-opacity="0.25"/>
+                  <stop offset="100%" stop-color="#8B7355" stop-opacity="0.02"/>
+                </linearGradient>
+              </defs>
+              <path d="M 0,95 L 18,82 L 43,60 L 87,45 L 130,30 L 173,55 L 216,72 L 260,40 L 260,110 L 0,110 Z" fill="url(#g1)"/>
+              <!-- 折线 -->
+              <path d="M 0,95 L 18,82 L 43,60 L 87,45 L 130,30 L 173,55 L 216,72 L 260,40" fill="none" stroke="#8B7355" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- 数据点 -->
+              <circle cx="0" cy="95" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="18" cy="82" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="43" cy="60" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="87" cy="45" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="130" cy="30" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="173" cy="55" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="216" cy="72" r="2" fill="#f5eee4" stroke="#8B7355" stroke-width="1.2"/>
+              <circle cx="260" cy="40" r="2" fill="#f5eee4" stroke="#5a4a3a" stroke-width="1.2"/>
+              <!-- X 轴标签 -->
+              <text x="0" y="106" text-anchor="middle" font-size="8" fill="#8a7e6e">7/29</text>
+              <text x="43" y="106" text-anchor="middle" font-size="8" fill="#8a7e6e">7/30</text>
+              <text x="87" y="106" text-anchor="middle" font-size="8" fill="#8a7e6e">7/31</text>
+              <text x="130" y="106" text-anchor="middle" font-size="8" fill="#8a7e6e">8/1</text>
+              <text x="173" y="106" text-anchor="middle" font-size="8" fill="#8a7e6e">8/2</text>
+              <text x="216" y="106" text-anchor="middle" font-size="8" fill="#8a7e6e">8/3</text>
+              <text x="260" y="106" text-anchor="middle" font-size="8" fill="#5a4a3a" font-weight="600">8/4</text>
+            </svg>
+          </div>
+          <div class="footer">
+            <span>总计 7.2h</span>
+            <span>12次</span>
+            <span class="today">今日 1.8h·3次</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="annotate">
+        <div>📐 容器：<span class="num">280 × 168 px</span>，圆角 6</div>
+        <div>🎨 折线：<span class="num">#8B7355</span>，barWidth <span class="num">1.8</span>，点径 <span class="num">2</span></div>
+        <div>📝 字号：标题 <span class="num">11pt</span>，副文 <span class="num">9pt</span>，坐标 <span class="num">8pt</span></div>
+        <div>🔒 功能局限：<span class="hl">仅显示最近 7 天，不可查询历史</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 升级 UI -->
+  <div class="col">
+    <div class="col-title">B. 升级 UI（推荐）</div>
+    <div class="col-sub">
+      容器 380×232（<b>等比放大 1.36×</b>）/ 圆角 8<br>
+      顶部新增时段胶囊 + 自定义按钮<br>
+      字号 9~12pt / 图标 14~16pt
+    </div>
+    <div class="stage">
+      <span class="badge">UPGRADED · 380×232</span>
+      <div class="panel-anchor">
+        <div class="panel-new">
+          <div class="title-row">
+            <svg class="title-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5a4a3a" stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round">
+              <polyline points="3,17 9,11 13,15 21,7"/>
+              <polyline points="14,7 21,7 21,14"/>
+            </svg>
+            <span class="title">阅历</span>
+            <div class="seg">
+              <span class="seg-item active">7日</span>
+              <span class="seg-item">30日</span>
+              <span class="seg-item">90日</span>
+              <span class="seg-item">全部</span>
+            </div>
+            <div class="icon-btn" title="自定义时段">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <div class="icon-btn toggle" title="收起">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7,10L12,15L17,10H7Z"/></svg>
+            </div>
+          </div>
+          <div class="chart">
+            <svg viewBox="0 0 356 158" preserveAspectRatio="none" style="width:100%;height:100%;">
+              <!-- 网格 -->
+              <line x1="0" y1="40" x2="356" y2="40" stroke="#8B7355" stroke-opacity="0.15" stroke-width="0.5"/>
+              <line x1="0" y1="79" x2="356" y2="79" stroke="#8B7355" stroke-opacity="0.15" stroke-width="0.5"/>
+              <line x1="0" y1="118" x2="356" y2="118" stroke="#8B7355" stroke-opacity="0.15" stroke-width="0.5"/>
+              <!-- Y 轴 -->
+              <text x="-2" y="42" text-anchor="end" font-size="9" fill="#8a7e6e">4h</text>
+              <text x="-2" y="81" text-anchor="end" font-size="9" fill="#8a7e6e">3h</text>
+              <text x="-2" y="120" text-anchor="end" font-size="9" fill="#8a7e6e">2h</text>
+              <text x="-2" y="156" text-anchor="end" font-size="9" fill="#8a7e6e">1h</text>
+              <!-- 渐变 -->
+              <defs>
+                <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#8B7355" stop-opacity="0.25"/>
+                  <stop offset="100%" stop-color="#8B7355" stop-opacity="0.02"/>
+                </linearGradient>
+              </defs>
+              <path d="M 0,135 L 25,118 L 60,90 L 119,68 L 178,45 L 237,82 L 296,108 L 356,60 L 356,158 L 0,158 Z" fill="url(#g2)"/>
+              <path d="M 0,135 L 25,118 L 60,90 L 119,68 L 178,45 L 237,82 L 296,108 L 356,60" fill="none" stroke="#8B7355" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- 数据点 -->
+              <circle cx="0" cy="135" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="25" cy="118" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="60" cy="90" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="119" cy="68" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="178" cy="45" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="237" cy="82" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="296" cy="108" r="2.5" fill="#f5eee4" stroke="#8B7355" stroke-width="1.5"/>
+              <circle cx="356" cy="60" r="2.5" fill="#f5eee4" stroke="#5a4a3a" stroke-width="1.5"/>
+              <!-- X 轴 -->
+              <text x="0" y="154" text-anchor="middle" font-size="9" fill="#8a7e6e">7/29</text>
+              <text x="60" y="154" text-anchor="middle" font-size="9" fill="#8a7e6e">7/30</text>
+              <text x="119" y="154" text-anchor="middle" font-size="9" fill="#8a7e6e">7/31</text>
+              <text x="178" y="154" text-anchor="middle" font-size="9" fill="#8a7e6e">8/1</text>
+              <text x="237" y="154" text-anchor="middle" font-size="9" fill="#8a7e6e">8/2</text>
+              <text x="296" y="154" text-anchor="middle" font-size="9" fill="#8a7e6e">8/3</text>
+              <text x="356" y="154" text-anchor="middle" font-size="9" fill="#5a4a3a" font-weight="600">8/4</text>
+            </svg>
+          </div>
+          <div class="divider"></div>
+          <div class="footer">
+            <div class="stats">
+              <span>总计 7.2h</span>
+              <span>12次</span>
+              <span class="today">今日 1.8h·3次</span>
+            </div>
+            <div class="detail">
+              <span>详情</span>
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59,16.59L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.59Z"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="annotate">
+        <div>📐 容器：<span class="num">380 × 232 px</span>（<b>等比 ×1.36</b>），圆角 8</div>
+        <div>🎨 折线：barWidth <span class="num">2.2</span>，点径 <span class="num">2.5</span>，坐标字号 <span class="num">9pt</span></div>
+        <div>🆕 新增：<span class="hl">4 段时段胶囊 + 自定义按钮 + 详情入口</span></div>
+        <div>✨ 能力升级：<span class="hl">支持 7/30/90/全部/自定义 时段切换</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 收起态对比 ===== -->
+<div class="collapsed-row">
+  <div class="col">
+    <div class="col-title">C. 现有收起态</div>
+    <div class="col-sub">220×32 / 圆角 6 / 仅标题+统计+箭头</div>
+    <div class="stage" style="min-height:120px;">
+      <span class="badge">COLLAPSED · 220×32</span>
+      <div style="display:flex;justify-content:flex-end;">
+        <div class="collapsed-old">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5a4a3a" stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round">
+            <polyline points="3,17 9,11 13,15 21,7"/>
+            <polyline points="14,7 21,7 21,14"/>
+          </svg>
+          <span class="title">游玩统计</span>
+          <span class="stats">7.2h · 12次</span>
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7,14L12,9L17,14H7Z"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="col-title">D. 升级收起态</div>
+    <div class="col-sub">300×32（等比加宽）/ 与原版视觉一致</div>
+    <div class="stage" style="min-height:120px;">
+      <span class="badge">COLLAPSED · 300×32</span>
+      <div style="display:flex;justify-content:flex-end;">
+        <div class="collapsed-new">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5a4a3a" stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round">
+            <polyline points="3,17 9,11 13,15 21,7"/>
+            <polyline points="14,7 21,7 21,14"/>
+          </svg>
+          <span class="title">阅历</span>
+          <span class="stats">7.2h · 12次</span>
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7,14L12,9L17,14H7Z"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 设计原则 ===== -->
+<div class="principles">
+  <div class="pr">
+    <div class="num">1</div>
+    <div class="t">UI 框架不变</div>
+    <div class="d">沿用 <code>AppColors</code>、<code>fl_chart</code>、圆角、阴影、字体 token，零新增色值</div>
+  </div>
+  <div class="pr">
+    <div class="num">2</div>
+    <div class="t">折线等比放大</div>
+    <div class="d">容器 280×168 → 380×232（×1.36），所有元素同比例放大</div>
+  </div>
+  <div class="pr">
+    <div class="num">3</div>
+    <div class="t">按钮缩小协调</div>
+    <div class="d">新增按钮 20×20 / 字号 10pt，视觉重量 ≤ 副文，不抢折线焦点</div>
+  </div>
+  <div class="pr">
+    <div class="num">4</div>
+    <div class="t">不重构</div>
+    <div class="d">仅改 <code>play_stats_panel.dart</code> 单文件，<code>home_page.dart</code> 零改动</div>
+  </div>
+</div>
+
+<div class="legend">
+  📝 审查指引：<br>
+  • <b>展开态对比</b>：左侧 A（基线 280×168）vs 右侧 B（升级 380×232），重点看折线密度、字号、按钮融合度<br>
+  • <b>收起态对比</b>：左侧 C（基线 220×32）vs 右侧 D（升级 300×32），仅宽度等比放大，高度保持 32<br>
+  • <b>配色</b>：折线 <code>#8B7355</code>、背景 <code>rgba(245,238,228,0.88)</code>、边框 <code>rgba(139,115,85,0.5)</code>，与现有 <code>AppColors</code> 一致<br>
+  • <b>交互</b>：收起/展开 200ms 时长、tooltip、500ms 防抖实时刷新，<b>完全保留</b><br>
+  • <b>数据源</b>：复用现有 <code>daily_play_log</code>，<b>不写新数据库</b>，聚合仅前端内存完成
+</div>
+
+</body>
+</html>
